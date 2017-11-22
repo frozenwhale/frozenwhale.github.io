@@ -232,13 +232,6 @@ a:visited {
 	font-size: 10px;
 	line-height: 20px;
 }
-}
-@media screen and (orientation: portrait) {
-    .flipbook-viewport{
-		width:100%;
-		height:100vh;
-	}
-}
 @media screen and (max-width:576px){
     .flipbook-viewport{
 		display:none;
