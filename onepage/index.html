@@ -209,52 +209,54 @@ yepnope({
 	complete: loadApp
 });
 $(".index").click(function(){
-	$(".q1").show();
-	$(".index").hide();
+	$(".q1").fadeIn();
+	$(".index").fadeOut();
 })
 $("#y1").click(function(){
-	$(".q1").hide();
-	$(".q2").show();
+	$(".q1").fadeOut();
+	$(".q2").fadeIn();
 })
 $("#y2").click(function(){
-	$(".q2").hide();
-	$(".q3").show();
+	$(".q2").fadeOut();
+	$(".q3").fadeIn();
 })
 $("#y3").click(function(){
-	$(".q3").hide();
-	$(".intr").show();
+	$(".q3").fadeOut();
+	$(".intr").fadeIn();
 })
 $(".no").click(function(){
-	$(".q1").hide();
-	$(".bye").show();
+	$(".q1").fadeOut();
+	$(".q2").fadeOut();
+	$(".q3").fadeOut();
+	$(".bye").fadeIn();
 })
 $(".moll").click(function(){
-	$(".bye").hide();
-	$(".intr").show();
+	$(".bye").fadeOut();
+	$(".intr").fadeIn();
 })
 $("#gal1").click(function(){
-	$(".intr").hide();
-	$(".gal").show();
+	$(".intr").fadeOut();
+	$(".gal").fadeIn();
 })
 $("#gal2").click(function(){
-	$(".inf").hide();
-	$(".gal").show();
+	$(".inf").fadeOut();
+	$(".gal").fadeIn();
 })
 $("#inf1").click(function(){
-	$(".intr").hide();
-	$(".inf").show();
+	$(".intr").fadeOut();
+	$(".inf").fadeIn();
 })
 $("#inf2").click(function(){
-	$(".gal").hide(); 
-	$(".inf").show();
+	$(".gal").fadeOut(); 
+	$(".inf").fadeIn();
 })
 $("#intr1").click(function(){
-	$(".gal").hide();
-	$(".intr").show();
+	$(".gal").fadeOut();
+	$(".intr").fadeIn();
 })
 $("#intr2").click(function(){
-	$(".inf").hide();
-	$(".intr").show();
+	$(".inf").fadeOut();
+	$(".intr").fadeIn();
 })
 jQuery(document).ready(function($) {
             

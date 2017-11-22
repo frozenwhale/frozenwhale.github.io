@@ -9,7 +9,6 @@ body{
 h6{
 	margin:0px;
 	padding:13% 0 0 1%;
-	letter-spacing:5px;
 }
 .flipbook-viewport{
 	/* overflow:hidden; */
@@ -202,7 +201,6 @@ h6{
 .intr li{
 	padding:5%;
 	font-size:15px;
-	letter-spacing: 5px;
 }
 .btn{
 	font-size:18px;
@@ -219,7 +217,6 @@ h6{
 }
 .inf{
 	display: none;
-	letter-spacing:5px;
 }
 h3{
 	margin:7.5% auto;
