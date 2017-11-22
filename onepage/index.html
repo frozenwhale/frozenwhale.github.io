@@ -10,6 +10,50 @@
 <link rel="stylesheet" href="css/unslider.css">
 <link rel="stylesheet" href="css/unslider-dots.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.image{
+	    width:80%;
+		height:180px;
+	}
+	.img1{
+		background-image:url("imgs/door.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img2{
+		background-image:url("imgs/indoor.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img3{
+		background-image:url("imgs/reading.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img4{
+		background-image:url("imgs/teen.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img5{
+		background-image:url("imgs/child.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img1{
+		background-image:url("imgs/chair.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.unslider-wrap.unslider-carousel>li{
+		text-align: -webkit-center;
+	}
+	.my-slider{
+		margin: 10% auto;
+
+	}
+
+</style>
 </head>
 <body>
 <div class="pc">
@@ -201,7 +245,7 @@ $("#inf1").click(function(){
 	$(".inf").show();
 })
 $("#inf2").click(function(){
-	$(".gal").hide();
+	$(".gal").hide(); 
 	$(".inf").show();
 })
 $("#intr1").click(function(){
@@ -214,13 +258,13 @@ $("#intr2").click(function(){
 })
 jQuery(document).ready(function($) {
             
-            $('.my-slider').unslider({
+            $('.my-slider').unslider({ 
                 autoplay: true,
                 infinite:true, 
                 arrows: {
                     //  Unslider default behaviour
-                    prev: '<a class="unslider-arrow prev"><i class="fa fa-chevron-left fa-5x" aria-hidden="true"></i></a>',
-                    next: '<a class="unslider-arrow next"><i class="fa fa-chevron-right fa-5x" aria-hidden="true"></i></a>',
+                    // prev: '<a class="unslider-arrow prev"><i class="fa fa-chevron-left fa-5x" aria-hidden="true"></i></a>',
+                    // next: '<a class="unslider-arrow next"><i class="fa fa-chevron-right fa-5x" aria-hidden="true"></i></a>',
                 }
             });
         });
