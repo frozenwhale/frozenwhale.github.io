@@ -1,0 +1,249 @@
+/* Basic sample */
+
+body{
+	overflow:hidden;
+	background-color:#fcfcfc;
+	margin:0;
+	padding:0;
+}
+h6{
+	margin:0px;
+	padding:13% 0 0 1%;
+	letter-spacing:5px;
+}
+.flipbook-viewport{
+	/* overflow:hidden; */
+	width:100%;
+	height:100vh;
+	background-image:url("../pages/data.jpg");
+	background-size: cover;
+	background-position:center;
+}
+
+.flipbook-viewport .container{
+	position:absolute;
+	top:18%;
+	left:23.5%;
+	margin:auto;
+	width:100%;
+	height:100vh;
+	
+}
+
+.flipbook-viewport .flipbook{
+	width:53.38%;
+	height:65.46%;
+	/* left:-461px;
+	top:-300px; */
+}
+
+.flipbook-viewport .page{
+	width:26.69%;
+	height:65.46vh;
+	/* background-color:white; */
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+.mol{
+	position: fixed;
+	width: 16.77%;
+	height: 2.03vh;
+
+	top:53%;
+	left:55%;
+	z-index: 99;
+	display:none;
+}
+.mob{
+	display:none;
+	width: 100%;
+	height: 100vh;
+	background-color: #120f12;
+	background-image:url("../pages/data_m.jpg");
+	background-size: contain;
+	background-position:center;
+	background-repeat: no-repeat;
+	text-align: center;
+	color:#f0bc63;
+	position: relative;
+	min-width: 320px;
+	min-height: 568px;
+}
+.index{
+	font-family:Felix Titling;
+	font-size:80px;
+	position: relative;
+	top:38%;
+	cursor: pointer;
+} 
+.index p{
+	font-size:11px;
+	line-height: 20px;
+	
+}
+.q1{
+	display: none;
+	position: absolute;
+	top:18%;
+	left:37.75%;
+	line-height:100px;
+	font-size:32px;
+	font-family:微軟正黑體;
+	letter-spacing:20px;
+}
+.yes{
+	letter-spacing:5px;
+	font-size:41.5px;
+	position: fixed;
+	left:28%;
+	font-family:Haettenschweiler;
+	cursor: pointer;
+	top:60%;
+}
+.no{
+	letter-spacing:5px;
+	font-size:41.5px;
+	position: fixed;
+	right:28%;
+	top:60%;
+	font-family:Haettenschweiler;
+	-webkit-text-fill-color:#120f12;
+	-webkit-text-stroke: 2px  #f0bc63;
+	cursor: pointer;
+}
+.bye{
+	font-size:41.5px;
+	font-family:Haettenschweiler;
+	text-align: center;
+	display: none;
+	padding:25% 0 0 3%;
+	line-height: 61px;
+	letter-spacing:15px;
+	color: #a39e97;
+}
+.moll{
+	cursor: pointer;
+	border:2px solid #f0bc63;
+	width:40%;
+	font-size:52px;
+	font-family:Felix Titling;
+	letter-spacing:6px;
+	color: #f0bc63;
+	position:fixed;
+	left:30%;
+}
+.q2{
+	display: none;
+	position: absolute;
+	top:18.75%;
+	left:19.25%;
+	line-height:90px;
+	font-size:32px;
+	font-family:微軟正黑體;
+	letter-spacing:20px;
+}
+.q3{
+	display: none;
+	position: absolute;
+	top:18.75%;
+	left:33%;
+	line-height:90px;
+	font-size:32px;
+	font-family:微軟正黑體;
+	letter-spacing:20px;
+}
+.intr{
+	display: none;
+	font-size:15px;
+}
+.intr h1{
+	font-family:Felix Titling;
+	font-size:50px;
+	margin:0px;
+	padding:8%;
+}
+.intr ul{
+	list-style-type: none;
+	margin:3%;
+	padding: 0;
+
+}
+.intr li{
+	padding:5%;
+	font-size:15px;
+	letter-spacing: 5px;
+}
+.btn{
+	font-size:18px;
+	border:2px solid #f0bc63;
+	padding:1px;
+	width:20%;
+	cursor: pointer;
+	margin:15%;
+	padding:2%;
+	display: inline;
+}
+.gal{
+	display: none;
+}
+.inf{
+	display: none;
+	letter-spacing:5px;
+}
+h3{
+	margin:7.5% auto;
+}
+a{
+	font-size: 10px;
+	text-decoration:none;
+}
+a:link {
+	color:  #9b9482
+	}
+a:visited {
+	color:  #9b9482
+}
+.inf p{
+	color:  #9b9482;
+	font-size: 10px;
+	line-height: 20px;
+}
+@media screen and (max-width:576px){
+    .flipbook-viewport{
+		display:none;
+	}
+	.mob{
+		display:block;
+	}
+}
