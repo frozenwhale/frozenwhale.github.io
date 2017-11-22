@@ -115,15 +115,16 @@ h6{
 .q1{
 	display: none;
 	position: absolute;
+	width: 156px;
 	top:18%;
-	left:37.75%;
-	line-height:100px;
-	font-size:32px;
+	left:50%;
+	margin-left:-78px;
+	line-height:50px;
+	font-size:28px;
 	font-family:微軟正黑體;
-	letter-spacing:20px;
+	text-align: center;
 }
 .yes{
-	letter-spacing:5px;
 	font-size:41.5px;
 	position: fixed;
 	left:28%;
@@ -132,7 +133,6 @@ h6{
 	top:60%;
 }
 .no{
-	letter-spacing:5px;
 	font-size:41.5px;
 	position: fixed;
 	right:28%;
@@ -149,16 +149,14 @@ h6{
 	display: none;
 	padding:25% 0 0 3%;
 	line-height: 61px;
-	letter-spacing:15px;
 	color: #a39e97;
 }
 .moll{
 	cursor: pointer;
 	border:2px solid #f0bc63;
-	width:40%;
+	width:230px;
 	font-size:52px;
 	font-family:Felix Titling;
-	letter-spacing:6px;
 	color: #f0bc63;
 	position:fixed;
 	left:30%;
@@ -166,22 +164,24 @@ h6{
 .q2{
 	display: none;
 	position: absolute;
-	top:18.75%;
-	left:19.25%;
-	line-height:90px;
-	font-size:32px;
+    width:224px;
+	top:18%;
+	left:50%;
+	line-height:50px;
+	font-size:28px;
 	font-family:微軟正黑體;
-	letter-spacing:20px;
+	margin-left:-112px;
 }
 .q3{
 	display: none;
 	position: absolute;
-	top:18.75%;
-	left:33%;
-	line-height:90px;
-	font-size:32px;
+    width:224px;
+	top:18%;
+	left:50%;
+	line-height:50px;
+	font-size:28px;
 	font-family:微軟正黑體;
-	letter-spacing:20px;
+	margin-left:-112px;
 }
 .intr{
 	display: none;
