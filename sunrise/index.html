@@ -106,12 +106,13 @@
     }
     .left{
         position:absolute;
-        left:0;
+        top:0;
+        left:-1px;
         background-image:url("imgs/left.png");
         background-size:cover;
         width: 20%;
-        height: 100vh;
-        z-index:0;
+        height: 1000px;
+        z-index:-1;
         margin: 0;
     }
     </style>
@@ -263,6 +264,11 @@
             loop: true,
             freeMode: true,
         });
+    </script>
+    <script>
+        var body_height = $("body").height();
+        console.log(body_height);
+        $(".left").height(body_height);
     </script>
 </body>
 </html>

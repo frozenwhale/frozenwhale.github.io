@@ -5,7 +5,7 @@
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<meta name="viewport" content="width = device-width, user-scalable = no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/basic.css">
 <link rel="stylesheet" href="css/unslider.css">
 <link rel="stylesheet" href="css/unslider-dots.css">
@@ -40,7 +40,7 @@
 		background-size: cover;
 		background-position: center;
 	}
-	.img1{
+	.img6{
 		background-image:url("imgs/chair.jpg"); 
 		background-size: cover;
 		background-position: center;
@@ -49,7 +49,7 @@
 		text-align: -webkit-center;
 	}
 	.my-slider{
-		margin: 10% auto;
+		margin: 13% auto;
 
 	}
 
@@ -75,19 +75,19 @@
 </div>
 <div class="mob">
 	<div class="index">MOLLIE<p>used<br>bookstore</p></div>
-	<div class="q1">你<br>喜&nbsp;歡<br>閱&nbsp;&nbsp;讀&nbsp;&nbsp;嗎<div class="yes"id="y1">Y&nbsp;E&nbsp;S</div><div class="no">NO</div></div>
-	<div class="q2">你<br>想要<br>舒適的閱讀環境<br>嗎<div class="yes"id="y2">Y&nbsp;E&nbsp;S</div><div class="no" >NO</div></div>
-	<div class="q3">你<br>想要<br>拯救地球<br>嗎<div class="yes"id="y3">Y&nbsp;E&nbsp;S</div><div class="no" >NO</div></div>
+	<div class="q1">你<br>喜&nbsp;歡<br>閱&nbsp;&nbsp;讀&nbsp;&nbsp;嗎<div class="yes"id="y1">Y&nbsp;E&nbsp;S</div><div class="no">N&nbsp;O</div></div>
+	<div class="q2">你<br>想要<br>舒適的閱讀環境<br>嗎<div class="yes"id="y2">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
+	<div class="q3">你<br>想要<br>拯救地球<br>嗎<div class="yes"id="y3">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
 	<div class="intr">
-		<h6>介紹</h6>
+		<h6>介&nbsp;紹</h6>
 		<h1>MOLLIE</h1>
 		<ul>
 			<li>1.提供五萬冊以上藏書供你挑選 </li>
 			<li>2.提供愛閱讀的你時尚舒適的閱讀環境 </li>
 			<li>3.買二手書節能減碳救地球</li>
 		</ul>
-		<div class="btn"id="gal1">相簿</div>
-		<div class="btn" id="inf1">資訊</div>
+		<div class="btn"id="gal1">相&nbsp;簿</div>
+		<div class="btn" id="inf1">資&nbsp;訊</div>
     </div>
 	<div class="gal">
 			<h6>相簿</h6>
@@ -117,11 +117,11 @@
 			<h3>想了解更多茉莉相關資訊</h3>
 			<a href="http://www.mollie.com.tw/">http://www.mollie.com.tw/</a>
 			<h3>想連絡我們</h3>
-			<p>(04)2305-0288</p>
+			<p><a href="tel:0423050288">(04)2305-0288</a></p>
 			<div class="btn"id="intr2">介紹</div>
 			<div class="btn" id="gal2">相簿</div>
 	</div>
-	<div class="bye">SEE<br>YOU<br>NEXT&nbsp;TIME<br>or<div class="moll">MOLLIE</TIMEdiv></div>
+	<div class="bye">SEE<br>YOU<br>NEXTTIME<br>or<div class="moll">MOLLIE</TIMEdiv></div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -209,54 +209,61 @@ yepnope({
 	complete: loadApp
 });
 $(".index").click(function(){
-	$(".q1").show();
-	$(".index").hide();
+	$(".q1").fadeIn();
+	$(".index").fadeOut();
 })
 $("#y1").click(function(){
-	$(".q1").hide();
-	$(".q2").show();
+	$(".q1").fadeOut();
+	$(".q2").fadeIn();
 })
 $("#y2").click(function(){
-	$(".q2").hide();
-	$(".q3").show();
+	$(".q2").fadeOut();
+	$(".q3").fadeIn();
 })
 $("#y3").click(function(){
-	$(".q3").hide();
-	$(".intr").show();
+	$(".q3").fadeOut();
+	$(".intr").fadeIn();
 })
 $(".no").click(function(){
+<<<<<<< HEAD
 	$(".q1").hide();
 	$(".q3").hide();
 	$(".q2").hide();
 	$(".bye").show();
+=======
+	$(".q1").fadeOut();
+	$(".q2").fadeOut();
+	$(".q3").fadeOut();
+	$(".bye").fadeIn();
+>>>>>>> ee129624b9960f64d6c75a156b8290e636fee24b
 })
 $(".moll").click(function(){
-	$(".bye").hide();
-	$(".intr").show();
+	$(".bye").fadeOut();
+	$(".intr").fadeIn();
 })
 $("#gal1").click(function(){
-	$(".intr").hide();
-	$(".gal").show();
+	$(".intr").fadeOut();
+	$(".gal").fadeIn();
 })
 $("#gal2").click(function(){
-	$(".inf").hide();
-	$(".gal").show();
+	$(".inf").fadeOut();
+	$(".gal").fadeIn();
 })
 $("#inf1").click(function(){
-	$(".intr").hide();
-	$(".inf").show();
+	$(".intr").fadeOut();
+	$(".inf").fadeIn();
 })
 $("#inf2").click(function(){
-	$(".gal").hide(); 
-	$(".inf").show();
+	$(".gal").fadeOut(); 
+	$(".inf").fadeIn();
 })
 $("#intr1").click(function(){
-	$(".gal").hide();
-	$(".intr").show();
+	$(".gal").fadeOut();
+	$(".intr").fadeIn();
 })
 $("#intr2").click(function(){
-	$(".inf").hide();
-	$(".intr").show();
+	$(".inf").fadeOut();
+	$(".intr").fadeIn();
 })
 jQuery(document).ready(function($) {
             
