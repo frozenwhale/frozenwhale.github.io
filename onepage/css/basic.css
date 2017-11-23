@@ -1,5 +1,7 @@
 /* Basic sample */
-
+*{
+	box-sizing:border-box;
+}
 body{
 	overflow:hidden;
 	background-color:#fcfcfc;
@@ -8,8 +10,7 @@ body{
 }
 h6{
 	margin:0px;
-	padding:13% 0 0 1%;
-	letter-spacing:5px;
+	padding:15% 0 0 0 ;
 }
 .flipbook-viewport{
 	/* overflow:hidden; */
@@ -79,7 +80,6 @@ h6{
 	position: fixed;
 	width: 16.77%;
 	height: 2.03vh;
-
 	top:53%;
 	left:55%;
 	z-index: 99;
@@ -97,14 +97,12 @@ h6{
 	text-align: center;
 	color:#f0bc63;
 	position: relative;
-	min-width: 320px;
-	min-height: 568px;
 }
 .index{
 	font-family:Felix Titling;
 	font-size:80px;
 	position: relative;
-	top:38%;
+	top:30%;
 	cursor: pointer;
 } 
 .index p{
@@ -127,7 +125,7 @@ h6{
 .yes{
 	font-size:41.5px;
 	position: fixed;
-	left:28%;
+	left:18%;
 	font-family:Haettenschweiler;
 	cursor: pointer;
 	top:60%;
@@ -135,7 +133,7 @@ h6{
 .no{
 	font-size:41.5px;
 	position: fixed;
-	right:28%;
+	right:18%;
 	top:60%;
 	font-family:Haettenschweiler;
 	-webkit-text-fill-color:#120f12;
@@ -147,19 +145,16 @@ h6{
 	font-family:Haettenschweiler;
 	text-align: center;
 	display: none;
-	padding:25% 0 0 3%;
+	padding:25%;
 	line-height: 61px;
 	color: #a39e97;
 }
 .moll{
 	cursor: pointer;
 	border:2px solid #f0bc63;
-	width:230px;
-	font-size:52px;
+	font-size:42px;
 	font-family:Felix Titling;
 	color: #f0bc63;
-	position:fixed;
-	left:30%;
 }
 .q2{
 	display: none;
@@ -195,14 +190,13 @@ h6{
 }
 .intr ul{
 	list-style-type: none;
-	margin:3%;
+	margin:0 0 5% 0;
 	padding: 0;
 
 }
 .intr li{
 	padding:5%;
 	font-size:15px;
-	letter-spacing: 5px;
 }
 .btn{
 	font-size:18px;
@@ -219,10 +213,9 @@ h6{
 }
 .inf{
 	display: none;
-	letter-spacing:5px;
 }
 h3{
-	margin:7.5% auto;
+	margin:10% 0 0 0;
 }
 a{
 	font-size: 10px;
