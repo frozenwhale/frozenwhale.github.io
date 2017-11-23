@@ -11,6 +11,12 @@
     *{
         font-family:微軟正黑體;
     }
+    a:link{
+        color:#eee;
+    }
+    a:visited{
+        color:#eee;
+    }
     .container{
         background-color:  #232427;
         z-index:99;
@@ -30,10 +36,11 @@
     .nav_col{
         border-right:1px solid white;
         text-align: center;
+        font-size: 32px;
     }
     .swiper-container {
       width: 100%;
-      height: calc(100vh - 137px);
+      height: 83vh;
       margin-left: auto;
       margin-right: auto;
     }
@@ -115,6 +122,17 @@
         z-index:-1;
         margin: 0;
     }
+    .right{
+        position:absolute;
+        top:0;
+        right:-1px;
+        background-image:url("imgs/right.png");
+        background-size:cover;
+        width: 22%;
+        height: 1000px;
+        z-index:-1;
+        margin: 0;
+    }
     </style>
 </head>
 <body>
@@ -126,11 +144,12 @@
     </div>
     <div class="container" style="background-color:#232427">
         <div class="left"></div>
+        <div class="right"></div>
         <div class="row justify-content-center logo_b">
-            <div class="col-3 nav_col text-white">首頁</div>
-            <div class="col-3 nav_col text-white">電影介紹</div>
-            <div class="col-3 nav_col text-white" >影城介紹</div>
-            <div class="col-3 text-white" style="text-align:center">業務專區</div>
+            <div class="col-3 nav_col text-white"><a href="index.html">首頁</a></div>
+            <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
+            <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
+            <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html">業務專區</a></div>
         </div>
         <div class="row">
             <div class="swiper-container" id="a">
@@ -212,10 +231,16 @@
                         <img src="imgs/no video.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="imgs/no food.jpg" alt="">
+                        <img src="imgs/no food.png" alt="">
                     </div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">
+                        <img src="imgs/all.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://www.police.taichung.gov.tw/TCPBWeb/wSite/mp?mp=sub01">
+                             <img src="imgs/police.jpg" alt="">
+                        </a>
+                    </div>
                 </div>    
                 
             </div>   
@@ -267,8 +292,8 @@
     </script>
     <script>
         var body_height = $("body").height();
-        console.log(body_height);
         $(".left").height(body_height);
+        $(".right").height(body_height);
     </script>
 </body>
 </html>
