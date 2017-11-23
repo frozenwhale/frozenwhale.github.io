@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sunriseindex</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+    *{
+        font-family:微軟正黑體;
+    }
+    .container{
+        background-color:  #232427;
+        z-index:99;
+    }
+    .logo_b{
+        background-color:#0c0303;
+        border-bottom:3px solid #c21916;    
+    }
+    .logo{
+        width:100px;
+        height:104px;
+    }
+    .logo_t{
+        color:#eee;
+        padding-top:14%;
+    }
+    .nav_col{
+        border-right:1px solid white;
+        text-align: center;
+    }
+    .swiper-container {
+      width: 100%;
+      height: calc(100vh - 137px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .img1{
+        background-image: url("imgs/jl.png");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    .img2{
+        background-image: url("imgs/lastjedi.jpg");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    .img3{
+        background-image: url("imgs/coco.jpg");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    .announcement{
+        color:white;
+        background-color:#c21916;
+        text-align: center;
+        font-size: 26px;
+    }
+    .img4{
+        background-image: url("imgs/species.png");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+    .form-group {
+       margin-bottom:0;
+    }
+    .mt3{
+        margin-top:3px;
+    }
+    .swiper-slide img{
+        width:100%;
+    }
+    .footer{
+        border-top:#c21916 3px solid;
+        border-bottom:#c21916 3px solid;
+        background-color:#0c0303;
+        padding:1%;
+    }
+    .footer_t{
+        color:white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .left{
+        position:absolute;
+        left:0;
+        background-image:url("imgs/left.png");
+        background-size:cover;
+        width: 20%;
+        height: 100vh;
+        z-index:0;
+        margin: 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center logo_b"> 
+            <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
+            <div class="col-auto"><h1 class="logo_t">日新大戲院</h1></div>
+        </div>
+    </div>
+    <div class="container" style="background-color:#232427">
+        <div class="left"></div>
+        <div class="row justify-content-center logo_b">
+            <div class="col-3 nav_col text-white">首頁</div>
+            <div class="col-3 nav_col text-white">電影介紹</div>
+            <div class="col-3 nav_col text-white" >影城介紹</div>
+            <div class="col-3 text-white" style="text-align:center">業務專區</div>
+        </div>
+        <div class="row">
+            <div class="swiper-container" id="a">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide img1"></div>
+                    <div class="swiper-slide img2"></div>
+                    <div class="swiper-slide img3"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-2 announcement">
+                    時刻查詢
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8" style="background-color:#0c0303">
+                <div class="row justify-content-center" style="margin-top:3%">
+                    <div class="col-1 mt3"><img src="imgs/species.png" alt="" ></div>
+                    <div class="col-5"> 
+                        <div class="form-group">
+                             <select class="form-control" id="exampleFormControlSelect1">
+                              <option selected disabled>請選擇影片</option>
+                              <option>正義聯盟 Justice League</option>
+                              <option>星際大戰:最後絕地武士 Star War:Last Jadi</option>
+                              <option>可可夜總會 COCO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" style="margin-top:3%">
+                    <div class="col-1 mt3"><img src="imgs/day.png" alt=""></div>
+                        <div class="col-5">  
+                            <div class="form-group">
+                             <select class="form-control" id="exampleFormControlSelect1">
+                              <option selected disabled>請選擇日期</option>
+                              <option>11/12</option>
+                              <option>11/13</option>
+                              <option>11/14</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" style="margin-top:3% ;margin-bottom:3%  ">
+                    <div class="col-1 mt3"><img src="imgs/time.png" alt=""></div>
+                    <div class="col-5">
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option selected disabled>請選擇時間</option>
+                            <option>10:00</option>
+                            <option>12:00</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div style="margin-top:3%">
+                <div class="row justify-content-center">
+                        <div class="col-2 announcement">
+                            公告
+                        </div>
+                </div>
+            <div class="swiper-container" id="b">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/rating.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide a">
+                        <img src="imgs/no video.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/no food.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                </div>    
+                
+            </div>   
+        </div>
+    </div>
+    <div class="container-fluid footer footer_t">
+            <div style="margin-top:3%">
+                    <div class="row justify-content-center">
+                    <div class="col" style="font-size:48px">日新大戲院</div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12">電話:04-22230757</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">地址:台中市中區中華路一段58號</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12" style="font-size:12px">Copyright©日新大戲院</div>
+                        </div>
+                    </div>
+                    <div class="col"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
+                    </div> 
+                </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('#a', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        var swiper= new Swiper('#b', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            freeMode: true,
+        });
+    </script>
+</body>
+</html>
