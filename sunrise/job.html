@@ -55,8 +55,7 @@
         left:0px;
         background-image:url("imgs/left.png");
         background-size:cover;
-        width: 20%;
-        height: 1000px;
+        width: 25%;
         z-index:-1;
         margin: 0;
     }
@@ -66,10 +65,15 @@
         right:0px;
         background-image:url("imgs/right.png");
         background-size:cover;
-        width: 22%;
-        height: 1000px;
+        width: 25%;
         z-index:-1;
         margin: 0;
+    }
+    .announcement{
+        color:white;
+        background-color:#c21916;
+        text-align: center;
+        font-size: 26px;
     }
     </style>
 </head>
@@ -88,6 +92,73 @@
             <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
             <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
             <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html">業務專區</a></div>
+        </div>
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-2 announcement">
+                          票價說明
+                 </div>
+            </div>
+        </div>
+        <table class="table table-striped table-dark table-bordered mt-3 table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">票種廳院</th>
+                    <th scope="col">全票</th>
+                    <th scope="col">學生票</th>
+                    <th scope="col">早場優惠<br>特優廠商<br>國泰世華</th>
+                    <th scope="col">VIP會員卡</th>
+                    <th scope="col">兒童票</th>
+                    <th scope="col">愛心票</th>
+                    <th scope="col">優惠團體票<br>(需補差價)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2D數位票價</th>
+                    <td>220元</td>
+                    <td>210元</td>
+                    <td>200元</td>
+                    <td>190元</td>
+                    <td>180元</td>
+                    <td>110元</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3D數位票價</th>
+                    <td>310元</td>
+                    <td>290元</td>
+                    <td>280元</td>
+                    <td>280元</td>
+                    <td>260元</td>
+                    <td>150元</td>
+                    <td>80元</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">星光廳</th>
+                    <td>240元</td>
+                    <td>230元</td>
+                    <td>220元</td>
+                    <td>210元</td>
+                    <td>180元</td>
+                    <td>120元</td>
+                    <td>20元</td>
+                  </tr>
+                </tbody>
+        </table>
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-2 announcement">
+                     業務公告
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 pb-3">
+            <div class="col">
+                <img src="imgs/job.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="imgs/refund.jpg" alt="">
+            </div>
         </div>
     </div>    
     <div class="container-fluid footer footer_t">
@@ -113,13 +184,13 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-     var body_height = $("body").height();
-            $(".left").height(body_height);
-            $(".right").height(body_height);
+         var body_height = $("body").height();
+        $(".left").height(body_height);
+        $(".right").height(body_height);
         $(window).resize(function() {
-            var body_height = $("body").height();
-            $(".left").height(body_height);
-            $(".right").height(body_height);
+            var b_h = $("body").height();
+            $(".left").height(b_h);
+            $(".right").height(b_h);
         });
     </script>
 </body>

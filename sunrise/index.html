@@ -117,8 +117,8 @@
         left:0 ;
         background-image:url("imgs/left.png");
         background-size:cover;
-        width: 20%;
-        height: 1000px;
+        width: 25%;
+  
         z-index:-1;
         margin: 0;
     }
@@ -128,31 +128,31 @@
         right:0;
         background-image:url("imgs/right.png");
         background-size:cover;
-        width: 22%;
-        height: 1000px;
+        width: 25%;
+       
         z-index:-1;
         margin: 0;
     }
     </style>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid"> <!--header-->
         <div class="row justify-content-center logo_b"> 
             <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
             <div class="col-auto"><h1 class="logo_t">日新大戲院</h1></div>
         </div>
-    </div>
+     </div> 
 
-    <div class="container" style="background-color:#232427">
-        <div class="left"></div>
+    <div class="container" style="background-color:#232427"><!--navbar+content-->
+        <div class="left"></div><!--左右布廉-->
         <div class="right"></div>
-        <div class="row justify-content-center logo_b">
+        <div class="row justify-content-center logo_b"><!--NAVBAR-->
             <div class="col-3 nav_col text-white"><a href="index.html">首頁</a></div>
             <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
             <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
             <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html">業務專區</a></div>
         </div>
-        <div class="row">
+        <div class="row"><!--海報輪波圖-->
             <div class="swiper-container" id="a">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide img1"></div>
@@ -166,14 +166,14 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div style="margin-top:3%">
+        <div style="margin-top:3%"><!--時刻查詢表-->
             <div class="row justify-content-center">
                 <div class="col-2 announcement">
                     時刻查詢
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center"><!--時刻查詢表-->
             <div class="col-8" style="background-color:#0c0303">
                 <div class="row justify-content-center" style="margin-top:3%">
                     <div class="col-1 mt3"><img src="imgs/species.png" alt="" ></div>
@@ -217,7 +217,7 @@
                 </div>
             </div>
         </div>    
-        <div style="margin-top:3%">
+        <div style="margin-top:3%"><!--公告輪播圖-->
                 <div class="row justify-content-center mb-1">
                         <div class="col-2 announcement">
                             公告
@@ -247,7 +247,7 @@
         </div>
     </div>
 
-    <div class="container-fluid footer footer_t">
+    <div class="container-fluid footer footer_t"><!--footer-->
         <div style="margin-top:3%">
             <div class="row justify-content-center">
             <div class="col" style="font-size:48px">日新大戲院</div>
@@ -273,6 +273,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script>
+        //輪播圖
         var swiper = new Swiper('#a', {
             slidesPerView: 1,
             spaceBetween: 30,
@@ -294,6 +295,7 @@
         });
     </script>
     <script>
+        //布廉高度自動生成
         var body_height = $("body").height();
             $(".left").height(body_height);
             $(".right").height(body_height);

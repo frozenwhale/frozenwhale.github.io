@@ -52,7 +52,7 @@
     .left{
         position:absolute;
         top:0;
-        left:-1px;
+        left:0px;
         background-image:url("imgs/left.png");
         background-size:cover;
         width: 20%;
@@ -63,13 +63,22 @@
     .right{
         position:absolute;
         top:0;
-        right:-1px;
+        right:0px;
         background-image:url("imgs/right.png");
         background-size:cover;
         width: 22%;
         height: 1000px;
         z-index:-1;
         margin: 0;
+    }
+    .announcement{
+        color:white;
+        background-color:#c21916;
+        text-align: center;
+        font-size: 26px;
+    }
+    .text_w{
+        color:#eee;
     }
     </style>
 </head>
@@ -88,6 +97,53 @@
             <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
             <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
             <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html">業務專區</a></div>
+        </div>
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-2 announcement">
+                    廳院設備
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col"><img src="imgs/master.jpg" alt=""></div>
+            <div class="col"><img src="imgs/star.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col text_w" style="font-size:30px;text-align:center">至尊廳</div>
+            <div class="col text_w" style="font-size:30px;text-align:center">星光廳</div>
+        </div>
+        <div class="row">
+            <div class="col text_w" style="font-size:20px">
+                    位於九樓，整層樓打通，為日新最大一廳超大銀幕。全場700座位 barco 4k數位放映加上QSC旗艦級三音路設備讓你有更佳觀影享受
+            </div>
+            <div class="col text_w" style="font-size:20px">
+                    位於六樓A廳，座位150位，全新加大加寬的座椅。barco 4k數位放映和杜比環繞音響不管你在哪個位置都能獲得相同的音效饗宴
+            </div>
+        </div>
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+               <div class="col-2 announcement">
+                        廳院歷史
+                </div>
+            </div>
+        </div>
+        <div class="text_w mt-3">
+                日新大戲院為於著名的中華夜市的精華地段，民族路與中華路路口，附近即是中華夜市，非常熱鬧。雖在夜市之中，但交通便利，且附設地下千坪停車場，停車非常便利。
+                日新大戲院是全省唯一領取合法建築執照超高的電影大樓，所以電梯是以三十人座西德製快速電梯兩部，可以快速到達需要的樓層。且自備大型發電機，不怕因停電而導致，客人的不便。
+             
+        </div>
+        <div class="row text_w mt-5 pb-3">
+            <div class="col">
+                <ul>
+                    <li>民國四十七年創立 中華戲院主要上演布袋戲</li>
+                    <li>民國四十九年更名 新舞台戲院 二輪片 歌仔戲 電台歌唱節目</li>
+                    <li>民國五十六年更名 日日新戲院 國片、西片</li>
+                    <li>民國七十八年改建 六層大樓並一廳擴充至五廳</li>
+                    <li>民國八十七年七月 重建成十層大樓</li>
+                </ul>
+            </div>
+            <div class="col"><img src="imgs/sunrise.png" alt=""></div>
         </div>
     </div>    
     <div class="container-fluid footer footer_t">
@@ -112,5 +168,15 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+     var body_height = $("body").height();
+            $(".left").height(body_height);
+            $(".right").height(body_height);
+        $(window).resize(function() {
+            var body_height = $("body").height();
+            $(".left").height(body_height);
+            $(".right").height(body_height);
+        });
+    </script>
 </body>
 </html>
