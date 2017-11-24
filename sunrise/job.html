@@ -52,7 +52,7 @@
     .left{
         position:absolute;
         top:0;
-        left:-1px;
+        left:0px;
         background-image:url("imgs/left.png");
         background-size:cover;
         width: 20%;
@@ -63,7 +63,7 @@
     .right{
         position:absolute;
         top:0;
-        right:-1px;
+        right:0px;
         background-image:url("imgs/right.png");
         background-size:cover;
         width: 22%;
@@ -112,5 +112,15 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+     var body_height = $("body").height();
+            $(".left").height(body_height);
+            $(".right").height(body_height);
+        $(window).resize(function() {
+            var body_height = $("body").height();
+            $(".left").height(body_height);
+            $(".right").height(body_height);
+        });
+    </script>
 </body>
 </html>
