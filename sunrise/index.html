@@ -146,7 +146,7 @@
     <div class="container" style="background-color:#232427"><!--navbar+content-->
         <div class="left"></div><!--左右布廉-->
         <div class="right"></div>
-        <div class="row justify-content-center logo_b"><!--NAVBAR-->
+        <div class="row justify-content-center logo_b sticky-top"><!--NAVBAR-->
             <div class="col-3 nav_col text-white"><a href="index.html">首頁</a></div>
             <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
             <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
@@ -155,9 +155,18 @@
         <div class="row"><!--海報輪波圖-->
             <div class="swiper-container" id="a">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide img1"></div>
-                    <div class="swiper-slide img2"></div>
-                    <div class="swiper-slide img3"></div>
+                    <div class="swiper-slide">
+                        
+                            <img src="imgs/jl.png" alt="" style="width:100%;height:100%">
+                                             
+                    </div>
+                 
+                         <div class="swiper-slide"><img src="imgs/lastjedi.jpg" alt="" style="width:100%;height:100%">
+                    
+                    </div>
+                   
+                        <div class="swiper-slide"><img src="imgs/coco.jpg" alt="" style="width:100%;height:100%"></div>
+                 
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -223,7 +232,7 @@
                             公告
                         </div>
                 </div>
-            <div class="swiper-container"  style="height:auto"id="b">
+            <div class="swiper-container pb-5"  style="height:auto"id="b">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="imgs/rating.jpg" alt="">
@@ -238,7 +247,7 @@
                         <img src="imgs/all.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <a href="http://www.police.taichung.gov.tw/TCPBWeb/wSite/mp?mp=sub01">
+                        <a href="http://www.police.taichung.gov.tw/TCPBWeb/wSite/mp?mp=sub01"target="_blank">
                              <img src="imgs/police.jpg" alt="">
                         </a>
                     </div>
@@ -275,19 +284,41 @@
     <script>
         //輪播圖
         var swiper = new Swiper('#a', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+              shadow: true,
+              slideShadows: true,
+              shadowOffset: 20,
+              shadowScale: 0.94,
             },
+            loop: true,
+            freeMode: true,
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
         });
         var swiper= new Swiper('#b', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
             slidesPerView: 3,
             spaceBetween: 30,
             loop: true,
