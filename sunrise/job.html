@@ -78,9 +78,17 @@
     .text_grey{
         color:#898989;
     }
+    .bg{
+        background-image: url("imgs/background.png");
+        background-size:cover;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+
+    }
     </style>
 </head>
 <body>
+    <div class="bg">
     <div class="container-fluid">
         <div class="row justify-content-center logo_b"> 
             <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
@@ -88,8 +96,7 @@
         </div>
     </div>    
     <div class="container" style="background-color:#232427">
-        <div class="left"></div>
-        <div class="right"></div>
+        
         <div class="row justify-content-center logo_b sticky-top">
            <div class="col-3 nav_col text-white"><a href="index.html">首頁</a></div>
             <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
@@ -191,18 +198,12 @@
             </div> 
         </div>
     </div>
+    </div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-         var body_height = $("body").height();
-        $(".left").height(body_height);
-        $(".right").height(body_height);
-        $(window).resize(function() {
-            var b_h = $("body").height();
-            $(".left").height(b_h);
-            $(".right").height(b_h);
-        });
+    
     </script>
 </body>
 </html>
