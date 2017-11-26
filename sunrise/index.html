@@ -33,6 +33,13 @@
     .logo_t{
         color:#eee;
         padding-top:14%;
+        font-size:32px;
+        opacity:1;
+    }
+    .logo_ts{
+        color:#eee;
+        padding-left:2%;
+        font-size:18px;
     }
     .nav_col{
         border-right:1px solid white;
@@ -113,44 +120,57 @@
         font-size: 20px;
     }
     .bg{
-        background-image: url("imgs/background.png");
+        background-image: url("imgs/maxresdefault.jpg");
         background-size:cover;
         background-attachment:fixed;
         background-repeat: no-repeat;
 
     }
     .opcity_5{
-        opacity:0.5;  
-    }
-    .opcity{
         opacity:0.8;  
     }
-    .opcity_1{
-        opacity:1.0!important;  
+    .opacity{
+        opacity:0.8;  
     }
-    a:hover{
-          color:black;
-          background: #eee;
+  
+    #index:hover{
+        opacity:1.0
     }
-    
+    .icon{
+        
+        margin-right:10%;
+        margin-bottom:3%
+    }
+    .cur{
+        cursor: pointer;
+    }
+    body{
+    background-color: #f1f1f1;
+}
+
+   
     </style>
 </head>
 <body>
-
     <div class="bg">
     <div class="container "> <!--header-->
-        <div class="row justify-content-center logo_b "> 
+        <div class="row justify-content-center logo_b opacity"> 
             <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
-            <div class="col-auto"><h1 class="logo_t">日新大戲院</h1></div>
+            <div class="col-auto">
+                <div class="logo_t">日新大戲院</div>
+                <div class="logo_ts">SUNRISE CINEMA</div>
+            </div>
         </div>
-     </div> 
-
+    </div>
     <div class="container"  ><!--navbar+content-->
         <div class="row justify-content-center logo_b sticky-top opcity_5 "><!--NAVBAR-->
-            <div class="col-3 nav_col text-white"><a href="index.html">首頁</a></div>
-            <div class="col-3 nav_col text-white"><a href="introduction.html">電影介紹</a></div>
-            <div class="col-3 nav_col text-white" ><a href="theater.html">影城介紹</a></div>
-            <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html">業務專區</a></div>
+            <div class="col-3 nav_col text-white"id="index">
+                
+                <a href="index.html"><img src="imgs/home.png" alt="" class="icon">首頁</a> 
+            </div>      
+            <div class="col-3 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
+            <div class="col-3 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
+            <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
         </div>
         <div class="row "><!--海報輪波圖-->
             <div class="swiper-container " id="a">
@@ -183,7 +203,7 @@
             </div>
         </div>
         <div class="row justify-content-center"><!--時刻查詢表-->
-            <div class="col-8" style="background-color:#0c0303">
+            <div class="col-8" style="background-color:#0c0303;border:2px solid #c21916">
                 <div class="row justify-content-center" style="margin-top:3%">
                     <div class="col-1 mt3"><img src="imgs/species.png" alt="" ></div>
                     <div class="col-5"> 
@@ -224,15 +244,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <a href="introduction_justice.html">
+                    <button type="button" class="btn btn-outline-danger cur mb-2">影片介紹</button>
+                    </a>
+                </div>
+                
             </div>
         </div>    
-        <div style="margin-top:3%"><!--公告輪播圖-->
-                <div class="row justify-content-center mb-1">
+        <div class="" style="margin-top:3% "><!--公告輪播圖-->
+                <div class="row justify-content-center ">
                         <div class="col-2 announcement">
                             公告
                         </div>
                 </div>
-            <div class="swiper-container pb-5"  style="height:auto"id="b">
+            <div class="swiper-container pb-5"  style="height:auto; "id="b">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="imgs/rating.jpg" alt="">
