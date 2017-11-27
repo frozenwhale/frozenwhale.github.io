@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="shortcut icon" href="favicon.ico">    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style>
     *{
         font-family:微軟正黑體;
@@ -19,7 +20,7 @@
         color:#eee;
     }
     .container{
-        background-color:  #232427;
+        /* background-color:  #232427; */
         z-index:99;
     }
     .logo_b{
@@ -68,6 +69,7 @@
         background-size:cover;
         background-attachment:fixed;
         background-repeat: no-repeat;
+        
 
     }
     .logo_ts{
@@ -84,27 +86,66 @@
     .opacity{
         opacity: 0.8;
     }
+    .bar{
+        color: #eee;
+        position:fixed;
+        top:37.5px;
+        right:10px;
+        display:none;
+        z-index: 999999999;
+    }
+    @media screen and (max-width:768px){
+        .bar{
+            display:flex;
+        }
+        #navbar{
+            display:none;
+            height:100vh;
+        }
+        .fb_nv{
+            display:flex;
+            justify-content: center;
+        }
+        .announcement{
+            font-size: 15px;
+        }
+        .fb_footer{
+           display:none;
+        }
+    }
+    @media screen and (min-width:768px){
+        .bar{
+            display:none;
+        }
+        #navbar{
+            display:flex !important;
+        }
+    }
+    </style>
     </style>
 </head>
 <body>
     <div class="bg">
     <div class="container">
-            <div class="row justify-content-center logo_b opacity"> 
-                    <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
-                    <div class="col-auto">
-                        <div class="logo_t">日新大戲院</div>
-                        <div class="logo_ts">SUNRISE &nbsp;CINEMA</div>
-                    </div>
-                </div>
-    </div>    
-    <div class="container" style="background-color:#232427">
-            <div class="row justify-content-center logo_b sticky-top opcity_5 "><!--NAVBAR-->
-                <div class="col-3 nav_col text-white"id="index">
-                    <a href="index.html"><img src="imgs/home.png" alt="" class="icon">首頁</a> 
+        <div class="row justify-content-center logo_b opacity"> 
+            <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
+                <div class="col-auto">
+                    <div class="logo_t">日新大戲院</div>
+                    <div class="logo_ts">SUNRISE &nbsp;CINEMA</div>
+                 </div>
+            </div>
+        </div>    
+    <div>
+        <i class="fa fa-bars fa-2x bar"  aria-hidden="true"></i>
+    </div>
+    <div class="container" style="background-color:rgba(35,36,39,0.8)">
+            <div class="row justify-content-center logo_b sticky-top opacity" id="navbar"><!--NAVBAR-->
+                <div class="col-md-3 col-sm-12 nav_col text-white"id="index">
+                    <a href="index.html"><img src="imgs/home.png" alt="" class="icon">&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</a> 
                 </div>      
-                <div class="col-3 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
-                <div class="col-3 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
-                <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
+                <div class="col-md-3 col-sm-12 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
+                <div class="col-md-3 col-sm-12 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
+                <div class="col-md-3 col-sm-12 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
             </div>
         <div style="margin-top:3%">
             <div class="row justify-content-center">
@@ -269,7 +310,7 @@
                 </div>
             </div>
     </div>    
-    <div class="container-fluid footer footer_t">
+    <div class="container-fluid footer footer_t opacity">
         <div style="margin-top:3%">
             <div class="row justify-content-center">
                 <div class="col" style="font-size:48px">日新大戲院</div>
@@ -293,6 +334,9 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+        $('.bar').click(function(){
+            $('#navbar').fadeToggle();
+        })
     </script>
 </body>
 </html>
