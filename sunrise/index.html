@@ -168,7 +168,9 @@
     .fb_nv{
         display:none;
     }
-    
+    .over{
+        overflow:hidden;
+    }
     @media screen and (max-width:768px){
         .bar{
             display:flex;
@@ -446,7 +448,8 @@
     <script>
         $('.bar').click(function(){
             $('#navbar').fadeToggle();
-            document.documentElement.style.overflow='hidden';
+            $("body").toggleClass("over");
+       
         })
       
     </script>
