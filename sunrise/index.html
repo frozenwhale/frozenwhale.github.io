@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="shortcut icon" href="favicon.ico">    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style>
     *{
         font-family:微軟正黑體;
@@ -40,6 +41,7 @@
         color:#eee;
         padding-left:2%;
         font-size:18px;
+        margin-top:-6%;
     }
     .nav_col{
         border-right:1px solid white;
@@ -146,34 +148,67 @@
     }
     body{
     background-color: #f1f1f1;
-}
-
-   
+    
+    }
+    .bar{
+        color: #eee;
+        position:fixed;
+        top:37.5px;
+        right:10px;
+        display:none;
+    }
+    @media screen and (max-width:768px){
+        .bar{
+            display: block;
+        }
+        #navbar{
+            display:none;
+        }
+    }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110231422-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-110231422-1');
+</script>
+
 </head>
 <body>
     <div class="bg">
     <div class="container "> <!--header-->
         <div class="row justify-content-center logo_b opacity"> 
-            <div class="col-2-auto"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
+            <div class="col-2-auto "><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
             <div class="col-auto">
                 <div class="logo_t">日新大戲院</div>
-                <div class="logo_ts">SUNRISE CINEMA</div>
+                <div class="logo_ts ">SUNRISE &nbsp;CINEMA</div>
             </div>
+            <div class="col-autp"></div>
         </div>
     </div>
+    <div>
+        <i class="fa fa-bars fa-2x bar"  aria-hidden="true"></i>
+    </div>
     <div class="container"  ><!--navbar+content-->
-        <div class="row justify-content-center logo_b sticky-top opcity_5 "><!--NAVBAR-->
-            <div class="col-3 nav_col text-white"id="index">
-                <a href="index.html"><img src="imgs/home.png" alt="" class="icon">首頁</a> 
+        <div class="row justify-content-center logo_b sticky-top opcity_5 " id="navbar"><!--NAVBAR-->
+            <div class="col-md-3 nav_col text-white col-sm-12"id="index">
+                <a href="index.html"><img src="imgs/home.png" alt="" class="icon">&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</a> 
             </div>      
-            <div class="col-3 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
-            <div class="col-3 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
-            <div class="col-3 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
+            <div class="col-md-3 nav_col text-white  col-sm-12"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
+            <div class="col-md-3 nav_col text-white  col-sm-12" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
+            <div class="col-md-3 text-white  col-sm-12" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
         </div>
         <div class="row "><!--海報輪波圖-->
             <div class="swiper-container " id="a">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/swiper1.jpg" alt="" style="width:100%;height:100%">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/swiper2.jpg" alt="" style="width:100%;height:100%">
+                    </div>
                     <div class="swiper-slide">
                         
                             <img src="imgs/jl.png" alt="" style="width:100%;height:100%">
@@ -351,15 +386,11 @@
         });
     </script>
     <script>
-        //布廉高度自動生成
-        var body_height = $("body").height();
-            $(".left").height(body_height);
-            $(".right").height(body_height);
-        $(window).resize(function() {
-            var body_height = $("body").height();
-            $(".left").height(body_height);
-            $(".right").height(body_height);
-        });
+        $('.bar').click(function(){
+            $('#navbar').toggle(
+                1000,
+            );
+        })
       
     </script>
 </body>
