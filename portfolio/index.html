@@ -13,8 +13,9 @@
     }
     .bg{
       background-color: #fed!important;
-      padding:10%;
-      height:100vh;
+      padding:6%;
+  
+      margin:5% auto;
       /* border-radius: 12px; */
       box-shadow: 0 0 15px 5px rgba(0,0,0,0.9);
     }
@@ -28,30 +29,14 @@
       font-family: Monotype Corsiva;
       color:#fed ;
       background-color:rgba(0,0,0,0.8); 
+      
     }
     </style>
 </head>
 <body>
     <div class="container bg"style="">
         <div class="text">Portfolio</div>
-        <div class="row mt-5">
-            <div class="col">
-                <a href="https://frozenwhale.github.io/epbooks/" target="_blank">
-                  <img src="imgs/web-3.jpg" alt="" class="img_w">
-                </a>
-            </div>
-            <div class="col">
-              <a href="https://frozenwhale.github.io/onepage/" target="_blank">
-                <img src="imgs/web-2.jpg" alt="" class="img_w">
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://frozenwhale.github.io/sunrise/" target="_blank">
-                <img src="imgs/web-1.jpg" alt="" class="img_w">
-              </a>
-            </div>
-        </div> 
-        <div class="row mt-5 pb-5"> 
+        <div class="row mt-5 "> 
             <div class="col">
                 <a class="example-image-link" href="imgs/bussiness card.jpg" data-lightbox="example-set" >
                 <img src="imgs/bussiness-card_s.jpg" alt="" class="img_w">
@@ -66,8 +51,42 @@
               <a class="example-image-link" href="imgs/moto.jpg" data-lightbox="example-set" >
                 <img src="imgs/moto_s.jpg" alt="" class="img_w">
               </a>
-            </div>
+            </div>    
         </div>    
+        <div class="row mt-5 pb-5"> 
+            <div class="col">
+                <a class="example-image-link" href="imgs/box.jpg" data-lightbox="example-set" >
+                <img src="imgs/box_s.jpg" alt="" class="img_w">
+                </a>
+            </div>
+            <div class="col">
+                <a class="example-image-link" href="imgs/open.jpg" data-lightbox="example-set" >
+                <img src="imgs/open_s.jpg" alt="" class="img_w">
+                </a>
+            </div>
+            <div class="col">
+                <a class="example-image-link" href="imgs/bag.jpg" data-lightbox="example-set" >
+                <img src="imgs/bag_s.jpg" alt="" class="img_w">
+                </a>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <a class="example-image-link" href="imgs/epbook.png" data-lightbox="example-set" >
+                      <img src="imgs/web-3.jpg" alt="" class="img_w">
+                    </a>
+                </div>
+                <div class="col">
+                  <a href="https://frozenwhale.github.io/onepage/" target="_blank">
+                    <img src="imgs/web-2.jpg" alt="" class="img_w">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://frozenwhale.github.io/sunrise/" target="_blank">
+                    <img src="imgs/web-1.jpg" alt="" class="img_w">
+                  </a>
+                </div>
+            </div> 
+         
     </div>
       <!-- Swiper JS -->
       <script src="js/jquery-3.2.1.min.js"></script>
@@ -78,7 +97,8 @@
       <script>
         lightbox.option({
         'resizeDuration': 200,
-        'wrapAround': true
+        'wrapAround': true,
+        "alwaysShowNavOnTouchDevices":true
       })
       </script>
 
