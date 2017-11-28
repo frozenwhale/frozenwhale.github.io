@@ -170,6 +170,13 @@
     .over{
         overflow:hidden;
     }
+    .swiper-button-prev{
+        background-image: url("imgs/arrow_l.svg");
+        opacity: 0.8;
+    }
+    .swiper-button-next{
+        background-image: url("imgs/arrow_r.svg");
+    }
     @media screen and (max-width:1200px){
         .bar{
             display:flex;
@@ -195,7 +202,7 @@
             justify-content: center;
         }
         .announcement{
-            font-size: 15px;
+            font-size: 20px;
         }
         .fb_footer{
            display:none;
@@ -353,8 +360,8 @@
             <div class="swiper-container pb-5 swiper2"id="b">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="http://www.police.taichung.gov.tw/TCPBWeb/wSite/mp?mp=sub01"target="_blank">
-                            <img src="imgs/police.jpg" alt="">
+                        <a href="http://www.police.taichung.gov.tw/TCPBWeb/wSite/mp?mp=sub01"target="_blank" style="width:100%">
+                            <img src="imgs/police.jpg" alt="" >
                         </a>
                     </div>
                     <div class="swiper-slide">
@@ -377,7 +384,7 @@
     <div class="container  footer footer_t opacity"><!--footer-->
         <div style="margin-top:3%">
             <div class="row justify-content-center">
-            <div class="col-md-4 col-sm-12" style="font-size:48px">日新大戲院</div>
+            <div class="col-lg-4 col-sm-12" style="font-size:48px">日新大戲院</div>
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-12">電話:04-22230757</div>
