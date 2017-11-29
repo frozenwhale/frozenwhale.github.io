@@ -1,0 +1,278 @@
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/basic.css">
+<link rel="stylesheet" href="css/unslider.css">
+<link rel="stylesheet" href="css/unslider-dots.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.image{
+	    width:80%;
+		height:180px;
+	}
+	.img1{
+		background-image:url("imgs/door.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img2{
+		background-image:url("imgs/indoor.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img3{
+		background-image:url("imgs/reading.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img4{
+		background-image:url("imgs/teen.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img5{
+		background-image:url("imgs/child.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.img6{
+		background-image:url("imgs/chair.jpg"); 
+		background-size: cover;
+		background-position: center;
+	}
+	.unslider-wrap.unslider-carousel>li{
+		text-align: -webkit-center;
+	}
+	.my-slider{
+		margin: 13% auto;
+	}
+
+</style>
+</head>
+<body>
+<div class="pc">
+	<div class="flipbook-viewport">
+		<div class="container">
+			<div class="flipbook">
+				<div style="background-image:url(pages/1.jpg)"></div>
+				<div style="background-image:url(pages/2.png)"></div>
+				<div style="background-image:url(pages/3.png)"></div>
+				<div style="background-image:url(pages/4.png)"></div>
+				<div style="background-image:url(pages/5.png)"></div>
+				<div style="background-image:url(pages/6.png)"></div>
+				<div style="background-image:url(pages/7.png)"></div>
+				<div style="background-image:url(pages/8.png)"></div>
+			</div>
+		</div>
+	</div>
+	<a href="http://www.mollie.com.tw/" target="_blank"><div class="mol"></div></a>
+	<div class="arrow">
+		<img src="" alt="">
+	</div>
+</div>
+<div class="mob">
+	<div class="index">MOLLIE<p>used<br>bookstore</p></div>
+	<div class="q1">你<br>喜&nbsp;歡<br>閱&nbsp;&nbsp;讀&nbsp;&nbsp;嗎<div class="yes"id="y1">Y&nbsp;E&nbsp;S</div><div class="no">N&nbsp;O</div></div>
+	<div class="q2">你<br>想要<br>舒適的閱讀環境<br>嗎<div class="yes"id="y2">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
+	<div class="q3">你<br>想要<br>拯救地球<br>嗎<div class="yes"id="y3">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
+	<div class="intr">
+		<h6>介&nbsp;紹</h6>
+		<h1>MOLLIE</h1>
+		<ul>
+			<li>1.提供五萬冊以上藏書供你挑選 </li>
+			<li>2.提供愛閱讀的你時尚舒適的閱讀環境 </li>
+			<li>3.買二手書節能減碳救地球</li>
+		</ul>
+		<div class="btn"id="gal1">相&nbsp;簿</div>
+		<div class="btn" id="inf1">資&nbsp;訊</div>
+    </div>
+	<div class="gal">
+			<h6>相簿</h6>
+			<body><div class="my-slider">				
+				<ul>
+					<li><div class="image img1"></div>
+					</li>
+					<li><div class="image img2"></div>
+					</li>
+					<li><div class="image img3"></div>
+					</li>
+					<li><div class="image img4"></div>
+					</li>
+					<li><div class="image img5"></div>
+					</li>
+					<li><div class="image img6"></div>
+					</li>
+					</ul>
+			   </div>
+			<div class="btn"id="inf2">資訊</div>
+			<div class="btn" id="intr1">介紹</div>
+	</div>
+	<div class="inf">
+			<h6>資訊</h6>
+			<h3>想來店裡看看</h3>
+			<p>AM12:00~PM22:00<br>台中市西區公益路161號</p>
+			<h3>想了解更多茉莉相關資訊</h3>
+			<a href="http://www.mollie.com.tw/">http://www.mollie.com.tw/</a>
+			<h3>想連絡我們</h3>
+			<p><a href="tel:0423050288">(04)2305-0288</a></p>
+			<div class="btn"id="intr2">介紹</div>
+			<div class="btn" id="gal2">相簿</div>
+	</div>
+	<div class="bye">SEE<br>YOU<br>NEXTTIME<br>or<div class="moll">MOLLIE</TIMEdiv></div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="js/basic.js"></script>
+<script src="js/unslider-min.js"></script> 
+<script>
+
+$(window).resize(function() {
+	
+	var w=$( window ).width();
+	var h=$( window ).height();
+	// console.log(w);
+	$(".flipbook").turn("size", w*0.5338, h*0.6546);
+	
+});
+
+	$(".flipbook").bind("turning", function(event, page, view) {
+ 		if (page==6 || page==7) {
+			$(".mol").show();
+  		}else{
+            $(".mol").hide();
+		}
+		});
+function loadApp() {
+	// Create the flipbook
+	var w=$( window ).width();
+	var h=$( window ).height();
+    if(w>576){
+		$('.flipbook').turn({
+				// Width
+				width:w*0.5338,
+				
+				// Height
+
+				height:h*0.6546,
+
+				// Elevation
+
+				elevation: 50,
+				
+				// Enable gradients
+
+				gradients: true,
+				
+				// Auto center this flipbook
+
+				autoCenter: true,
+				
+
+		})
+    }else{
+		$('.flipbook').turn({
+				// Width
+				width:w,
+				
+				// Height
+
+				height:h,
+
+				// Elevation
+
+				elevation: 50,
+				
+				// Enable gradients
+
+				gradients: true,
+				
+				// Auto center this flipbook
+
+				autoCenter: true,
+				
+
+		})
+	}
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['js/turn.js'],
+	nope: ['js/turn.html4.min.js'],
+	both: ['css/basic.css'],
+	complete: loadApp
+});
+$(".index").click(function(){
+	$(".q1").fadeIn();
+	$(".index").fadeOut();
+})
+$("#y1").click(function(){
+	$(".q1").fadeOut();
+	$(".q2").fadeIn();
+})
+$("#y2").click(function(){
+	$(".q2").fadeOut();
+	$(".q3").fadeIn();
+})
+$("#y3").click(function(){
+	$(".q3").fadeOut();
+	$(".intr").fadeIn();
+})
+$(".no").click(function(){
+	$(".q1").fadeOut();
+	$(".q2").fadeOut();
+	$(".q3").fadeOut();
+	$(".bye").fadeIn();
+})
+$(".moll").click(function(){
+	$(".bye").fadeOut();
+	$(".intr").fadeIn();
+})
+$("#gal1").click(function(){
+	$(".intr").fadeOut();
+	$(".gal").fadeIn();
+})
+$("#gal2").click(function(){
+	$(".inf").fadeOut();
+	$(".gal").fadeIn();
+})
+$("#inf1").click(function(){
+	$(".intr").fadeOut();
+	$(".inf").fadeIn();
+})
+$("#inf2").click(function(){
+	$(".gal").fadeOut(); 
+	$(".inf").fadeIn();
+})
+$("#intr1").click(function(){
+	$(".gal").fadeOut();
+	$(".intr").fadeIn();
+})
+$("#intr2").click(function(){
+	$(".inf").fadeOut();
+	$(".intr").fadeIn();
+})
+jQuery(document).ready(function($) {
+            
+            $('.my-slider').unslider({ 
+                autoplay: true,
+                infinite:true, 
+                arrows: {
+                    //  Unslider default behaviour
+                    // prev: '<a class="unslider-arrow prev"><i class="fa fa-chevron-left fa-5x" aria-hidden="true"></i></a>',
+                    // next: '<a class="unslider-arrow next"><i class="fa fa-chevron-right fa-5x" aria-hidden="true"></i></a>',
+                }
+            });
+        });
+</script>
+
+</body>
+</html>
