@@ -7,6 +7,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/ep.css">
   <style>
     *{
       font-family:微軟正黑體;
@@ -42,11 +43,33 @@
     p{
       font-size:20px;
     }
+    .logo{
+      font-size:35px;
+      font-family: Monotype Corsiva;
+    }
+    .container{
+      position: relative;
+    }
     </style>
 </head>
 <body>
     <div class="container bg"style="">
+        <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
+        <div class="phonemenu">
+
+            <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt=""></div>
+            <div class="logo mt-2">Portfolio</div>
+            <div id="what" style="cursor: pointer">個人介紹</div>
+            <div id="think" style="cursor: pointer">專題</div>
+            <div id="species" style="cursor: pointer">個人onepage</div>
+            <div id="mess" style="cursor: pointer">第一次手切</div>
+            <div id="gallery" style="cursor: pointer">名片</div>
+            <div id="map" style="cursor: pointer">其他</div>
+        </div>
         <div class="text">Portfolio</div>
+        <div class="mt-5"style="font-size:50px" id="what_1">
+          個人介紹
+        </div>
         <div class="row mt-5">
             <div class="col-3">
                 <div>
@@ -75,7 +98,7 @@
         <div class="mt-5"style="font-size:50px">
           作品
         </div>
-        <div style="font-size:30px">
+        <div style="font-size:30px" id="think_1">
             專題-日新大戲院
             <p>
                 這是現在在做的專題
@@ -123,7 +146,7 @@
               </div>
             </div>       
         </div>   
-        <div class="mt-5"style="font-size:30px">
+        <div class="mt-5"style="font-size:30px" id="species_1">
              個人ONEPAGE-茉莉二手書店
               <p>
                   做一份關於茉莉二手書店的形象網站，網頁版以電子書方式呈現。而手機板則是以問答來讓使用者了解茉莉優點
@@ -161,7 +184,7 @@
                   </div>
                 </div>       
             </div>    
-            <div class="mt-5"style="font-size:30px">
+            <div class="mt-5"style="font-size:30px" id="mess_1">
                 個人手切網頁-EPBOOKS
                  <p>
                      第一次手切的onepage
@@ -187,7 +210,7 @@
                      </div>
                   </div>       
               </div>
-          <div class="mt-5"style="font-size:30px">
+          <div class="mt-5"style="font-size:30px" id="gallery_1">
                   個人設計名片-補習班名片以婚紗名片
                    <p>
                        左邊那張是補習班的名片
@@ -219,6 +242,75 @@
         'wrapAround': true,
         "alwaysShowNavOnTouchDevices":true
       })
+      var scrollTrigger = $('.header').height();
+        if ($('#back-to-top').length) {
+            backToTop = function () {
+                var scrollTop = $(window).scrollTop();
+                if (scrollTop > scrollTrigger) {
+                    $('#back-to-top').addClass('show');
+                } else {
+                    $('#back-to-top').removeClass('show');
+                }
+            };
+            backToTop();
+            $(window).on('scroll', function () {
+                backToTop();
+            });
+            $('#back-to-top').on('click', function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 700);
+            });
+        }
+        if ($('#logo').length) {
+            backToTop();
+            $(window).on('scroll', function () {
+                backToTop();
+            });
+            $('#logo').on('click', function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 700);
+            });
+        }
+        $("#menu").click(function(){
+            $(".phonemenu").addClass("active");
+        });
+        $("#false").click(function(){
+            $(".phonemenu").removeClass("active");
+        });
+        $("#what").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#what_1").offset().top  
+            }, 700);  
+        });  
+        $("#think").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#think_1").offset().top  
+            }, 700);  
+        });  
+        $("#species").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#species_1").offset().top  
+            }, 700);  
+        });  
+        $("#mess").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#mess_1").offset().top  
+            }, 700);  
+        });  
+        $("#gallery").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#gallery_1").offset().top  
+            }, 700);  
+        });  
+        $("#map").click(function (){  
+            $('html, body').animate({  
+                scrollTop: $("#map_1").offset().top  
+            }, 700);  
+        });  
       </script>
 
 </body>
