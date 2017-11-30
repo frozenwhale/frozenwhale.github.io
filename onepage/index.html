@@ -76,24 +76,31 @@
 	</div>
 </div>
 <div class="mob">
-	<div class="index"></div>
-	<div class="q1">你<br>喜&nbsp;歡<br>閱&nbsp;&nbsp;讀&nbsp;&nbsp;嗎<div class="yes"id="y1">Y&nbsp;E&nbsp;S</div><div class="no">N&nbsp;O</div></div>
-	<div class="q2">你<br>想要<br>舒適的閱讀環境<br>嗎<div class="yes"id="y2">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
-	<div class="q3">你<br>想要<br>拯救地球<br>嗎<div class="yes"id="y3">Y&nbsp;E&nbsp;S</div><div class="no" >N&nbsp;O</div></div>
+	<div class="index"><img src="pages/data_m1.jpg" alt="" style="width:100%;height:100vh"></div>
+	<div class="q1">
+		<img src="pages/data_m2.jpg" alt="" style="width:100%;height:100vh">
+		<div class="yes"id="y1"></div>
+		<div class="no"id="no"></div>
+	</div>
+	<div class="q2">
+		<img src="pages/data_m3.jpg" alt="" style="width:100%;height:100vh">
+		<div class="yes"id="y2"></div>
+		<div class="no"id="n1"></div>
+	</div>
+	<div class="q3">
+		<img src="pages/data_m4.jpg" alt="" style="width:100%;height:100vh">
+		<div class="yes"id="y3"></div>
+		<div class="no" id="n2"></div>
+	</div>
 	<div class="intr">
-		<h6>介&nbsp;紹</h6>
-		<h1>MOLLIE</h1>
-		<ul>
-			<li>1.提供五萬冊以上藏書供你挑選 </li>
-			<li>2.提供愛閱讀的你時尚舒適的閱讀環境 </li>
-			<li>3.買二手書節能減碳救地球</li>
-		</ul>
-		<div class="btn"id="gal1">相&nbsp;簿</div>
-		<div class="btn" id="inf1">資&nbsp;訊</div>
+		<img src="pages/data_m6.jpg" alt="" style="width:100%;height:100vh">
+		<div class="yes"id="gal1"></div>
+		<div class="no" id="inf1"></div>
     </div>
 	<div class="gal">
-			<h6>相簿</h6>
-			<body><div class="my-slider">				
+			 <img src="pages/data_m7.jpg" alt="" style="width:100%;height:100vh;">
+			<div class="z_index">
+			 <div class="my-slider ">				
 				<ul>
 					<li><div class="image img1"></div>
 					</li>
@@ -108,22 +115,21 @@
 					<li><div class="image img6"></div>
 					</li>
 					</ul>
-			   </div>
-			<div class="btn"id="inf2">資訊</div>
-			<div class="btn" id="intr1">介紹</div>
+			</div>
+		</div>
+			<div class="yes"id="inf2"></div>
+			<div class="no" id="intr1"></div>
 	</div>
 	<div class="inf">
-			<h6>資訊</h6>
-			<h3>想來店裡看看</h3>
-			<p>AM12:00~PM22:00<br>台中市西區公益路161號</p>
-			<h3>想了解更多茉莉相關資訊</h3>
+			<img src="pages/data_m8.jpg" alt="" style="width:100%;height:100vh">
 			<a href="http://www.mollie.com.tw/">http://www.mollie.com.tw/</a>
-			<h3>想連絡我們</h3>
-			<p><a href="tel:0423050288">(04)2305-0288</a></p>
-			<div class="btn"id="intr2">介紹</div>
-			<div class="btn" id="gal2">相簿</div>
+			<p></p><a href="tel:0423050288">(04)2305-0288</a></p>
+			<div class="yes"id="intr2"></div>
+			<div class="no" id="gal2"></div>
 	</div>
-	<div class="bye">SEE<br>YOU<br>NEXTTIME<br>or<div class="moll">MOLLIE</TIMEdiv></div>
+	<div class="bye">
+		<img src="pages/data_m5.jpg" alt="" style="width:100%;height:100vh">
+	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -226,7 +232,19 @@ $("#y3").click(function(){
 	$(".q3").fadeOut();
 	$(".intr").fadeIn();
 })
-$(".no").click(function(){
+$("#no").click(function(){
+	$(".q1").fadeOut();
+	$(".q2").fadeOut();
+	$(".q3").fadeOut();
+	$(".bye").fadeIn();
+})
+$("#n1").click(function(){
+	$(".q1").fadeOut();
+	$(".q2").fadeOut();
+	$(".q3").fadeOut();
+	$(".bye").fadeIn();
+})
+$("#n2").click(function(){
 	$(".q1").fadeOut();
 	$(".q2").fadeOut();
 	$(".q3").fadeOut();
