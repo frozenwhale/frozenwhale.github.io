@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>introduction</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="shortcut icon" href="favicon.ico">    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style>
+    *{
+        font-family:微軟正黑體;
+    }
+    a:link{
+        color:#eee;
+    }
+    a:visited{
+        color:#eee;
+    }
+    .container{
+        /* background-color:  #232427; */
+        z-index:99;
+    }
+    .logo_b{
+        background-color:rgba(12,3,3,0.8);
+        border-bottom:3px solid #c21916;    
+    }
+    .logo{
+        width:62%;
+        text-align: center;
+     
+    }
+    .logo_t{
+        color:#eee;
+        padding-top:14%;
+        font-size:32px;
+        opacity:1;
+    }
+    .nav_col{
+        border-right:1px solid white;
+        text-align: center;
+        font-size: 32px;
+    }
+    .footer{
+        border-top:#c21916 3px solid;
+        border-bottom:#c21916 3px solid;
+        background-color:#0c0303;
+        
+    }
+    .footer_t{
+        color:white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .announcement{
+        color:white;
+        background-color:#c21916;
+        text-align: center;
+        font-size: 26px;
+    }
+    .sm_t{
+        color:#eee;
+        font-size:20px;
+        text-align: center;
+    }
+    .fb_nv{
+        display:none;
+    }
+    .bg{
+        background-image: url("imgs/background_1.jpg");
+        background-size:cover;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+    }
+    .logo_ts{
+        color:#eee;
+        padding-left:2%;
+        font-size:18px;
+        margin-top:-6%;
+    }
+    .icon{
+        
+        margin-right:10%;
+        margin-bottom:3%
+    }
+    .opacity{
+        opacity: 0.8;
+    }
+    .bar{
+        color: #eee;
+        position:fixed;
+        top:37.5px;
+        right:10px;
+        display:none;
+        z-index: 999999999;
+        background-color:#c21916;
+        padding:1%;
+        opacity: 0.8;
+    }
+    body{
+        /* overflow-x: hidden; */
+    }
+    .over{
+        overflow:hidden;
+    }
+    @media screen and (max-width:1200px){
+        .bar{
+            display:flex;
+        }
+        .nav_col{
+            border-right:0;
+            text-align: center;
+            font-size: 32px;
+        }
+        #navbar{
+            display:none;
+            height:100vh;
+            position: fixed;
+            width:100%;
+            
+            padding:10%;
+            
+        }
+        .fb_nv{
+            display:flex;
+            justify-content: center;
+        }
+        .announcement{
+            font-size: 20px;
+        }
+        .fb_footer{
+           display:none;
+        }
+        .mt0{
+            margin-top:0!important;
+        }
+        .logo{
+            width:100%;
+        }
+    }
+    @media screen and (min-width:1200px){
+        .bar{
+            display:none;
+        }
+        #navbar{
+            display:flex !important;
+        }
+    }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="bg">
+    <div class="container">
+        <div class="row justify-content-center logo_b"> 
+            <div class="col-6 " style="text-align:center">
+                <img src="imgs/fefe.png" alt="LOGO" class="logo">
+            </div> 
+        </div>  
+    </div>      
+    <div>
+        <i class="fa fa-bars fa-2x bar"  aria-hidden="true"></i>
+    </div>
+    <div class="container" style="background-color:rgba(35,36,39,0.8)">
+            <div class="row justify-content-center logo_b sticky-top opacity" id="navbar"><!--NAVBAR-->
+                <div class="col-xl-3 col-sm-12 nav_col text-white"id="index">
+                    <a href="index.html"><img src="imgs/home.png" alt="" class="icon">&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</a> 
+                </div>      
+                <div class="col-xl-3 col-sm-12 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
+                <div class="col-xl-3 col-sm-12 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
+                <div class="col-xl-3 col-sm-12 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
+                <div class="col-sm-12 fb_nv"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
+            </div>
+        <div class="mt0"style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-sm-12 announcement">
+                    熱映電影
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:3%;text-align:center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row ">   
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                <img src="imgs/hot-01.jpg" alt="jl-sm">
+                                <div class="sm_t mt-2"> 正義聯盟<br>Justice League
+                            </a>        
+                            </div>
+                        </div>    
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row ">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                <img src="imgs/hot-02.jpg" alt="jl-sm">
+                                <div class="sm_t mt-2"> 真劍亂舞祭<br>TOUKEN RANBU 2017
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row ">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                <img src="imgs/hot-03.jpg" alt="jl-sm">
+                                <div class=" sm_t mt-2"> 羅密歐與茱麗葉 <br>ROMEO AND JULIET SHAKESPEARE
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row ">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                <img src="imgs/hot-04.jpg" alt="jl-sm">
+                                <div class=" sm_t mt-2"> 冬天的故事 <br>THE WINTERS TALE SHAKESPEARE
+                                </div> 
+                            </a>   
+                        </div>
+                     </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-12 mt-2">
+                    <div class="row ">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                <img src="imgs/hot-05.jpg" alt="jl-sm">
+                                <div class=" sm_t mt-2"> 血觀音<br>THE BOLD 
+                                </div>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-12 mt-2">
+                    <div class="row ">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">
+                                    <img src="imgs/hot-06.jpg" alt="jl-sm">
+                                    <div class=" sm_t mt-2">可可夜總會<br>CoCo
+                                    </div>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">     
+                                <img src="imgs/hot-07.jpg" alt="jl-sm">
+                                <div class="sm_t mt-2"> 追捕<br>MANHUNT</div>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <a href="introduction_justice.html">    
+                                <img src="imgs/hot-08.jpg" alt="jl-sm">
+                                <div class="sm_t mt-2"> 隱藏大明星<br>SECRET SUPERSTAR
+                                </div>     
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:3%">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-sm-12 announcement">
+                        即將上映
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:3%;padding-bottom:5%;text-align:center">
+                <div class="row ">
+                    <div class="col-lg-3  col-md-6 col-sm-12 mt-2">
+                        <div class="row">
+                            <div class="col-12 ">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-01.jpg" alt="jl-sm">
+                                    <div class="sm_t mt-2">完美社區謀殺案<br>Suburbicon
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-02.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 踏響人生<br>TAP The Last Show
+                                </div>      
+                                </a>
+                            </div>>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-03.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 柏靈頓熊出任務<br>Paddington 2
+                                    </div>
+                                 </a>
+                            </div>     
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-04.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 亂世傷痕-末代總督的秘密<br>VICEROYS HOUSE
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-05.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 真實遊戲<br>Based on a True Story
+                                    </div>
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-06.jpg" alt="jl-sm">
+                                <div class="col-12 sm_t mt-2"> 菜鳥警校生<br>Midnight Runners</div>
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-12 mt-2">
+                        <div class="row ">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-07.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 帶我去月球<br>Take Me To The Moon
+                                    </div>
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="introduction_justice.html">
+                                    <img src="imgs/new-08.jpg" alt="jl-sm">
+                                    <div class="col-12 sm_t mt-2"> 家有兩個爸X2<br>DADDYS HOME 2
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>    
+    <div class="container footer footer_t opacity">
+        <div style="margin-top:3%">
+            <div class="row justify-content-center">
+                <div class="col-xl-auto col-sm-12" style="font-size:48px">日新大戲院</div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-12">電話:04-22230757</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">地址:台中市中區中華路一段58號</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="font-size:12px">Copyright©日新大戲院</div>
+                    </div>
+                </div>
+                <div class="col fb_footer"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
+            </div> 
+        </div>
+    </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.bar').click(function(){
+            $('#navbar').fadeToggle();
+            $("body").toggleClass("over");
+        })
+    </script>
+</body>
+</html>
