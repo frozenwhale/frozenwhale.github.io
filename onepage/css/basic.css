@@ -173,15 +173,15 @@ a:visited {
 	position: absolute;
     width: 57%;
     height: 5vh;
-    top: 43%;
+    top: 40%;
     left: 21%;
     border: none;
 }
 .phone{
-	position: absolute;
+    position: absolute;
     width: 45%;
     height: 5vh;
-    top: 54%;
+    top: 51%;
     left: 28%;
     border: none;
 }
