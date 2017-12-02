@@ -356,7 +356,7 @@
                 
             </div>
         </div>    
-        <div class="" style="margin-top:3% "><!--公告輪播圖-->
+        <div class="" style="margin-top:6% "><!--公告輪播圖-->
                 <div class="row justify-content-center ">
                         <div class="col-md-2  col-sm-4 announcement">
                             公告
@@ -381,8 +381,9 @@
                     <div class="swiper-slide">
                         <img src="imgs/all.jpg" alt="">
                     </div>
-                    
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>   
         </div>
     </div>
@@ -449,6 +450,10 @@
                 depth: 100,
                 modifier: 1,
                 slideShadows : true,
+            },
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
             },
             
             slidesPerView: 3,
