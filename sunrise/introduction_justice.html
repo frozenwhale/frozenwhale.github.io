@@ -159,13 +159,22 @@
     }
     .pl_10{
         padding-left:10%;
+        padding-top:5%;
     }
     .pl_16{
-        padding-left:16%;
+        text-align: left;
+        padding-left:0;
     }
     .pl_13{
         padding-left:13%
     }
+    .px_5{
+            padding:0 5%;
+        }
+    .mr_1{
+        margin-left: -1.5%;
+    }
+    
     @media screen and (max-width:1200px){
         .bar{
             display:flex;
@@ -216,6 +225,18 @@
         .logo{
             width:100%;
         }
+        .pl_16{
+        text-align: center;
+        padding-left:0;
+        }
+        .pl_10{
+       margin-top:3%;
+        
+        }
+        .mr_1{
+        margin-left:-3%;
+        }
+        
     }
     @media screen and (min-width:1200px){
         .bar{
@@ -294,8 +315,8 @@
             </div>
         </div>
         <div class="row " style="margin:0"> 
-            <div class="col">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <div class="col px_5">
+                <ul class="nav nav-pills mb-3 mr_1" id="pills-tab" role="tablist">
                     <li class="nav-item border border-primary">
                         <a class="nav-link active radius_0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">11/12</a>
                     </li>
@@ -306,7 +327,7 @@
                         <a class="nav-link radius_0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">11/14</a>
                     </li>
                 </ul>                
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content " id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                         <div class="row">
                             <div class="col-3 bg_b text">1廳</div>
@@ -414,7 +435,7 @@
                 <div class="col-12 text mt-5" style="font-size:32px;">
                         電影簡介
                     </div>
-                    <div class="col-12 text left_t mt-3 " >
+                    <div class="col-12 text left_t mt-3 px_5" >
                         由班艾佛列克飾演的布魯斯韋恩，因為被超人的犧牲所啟發，再次選擇相信人性，他要與新盟友神力女超人遍訪世界各地，尋找戰士，建立一支超人類團隊來捍衛地球安全，一起對抗新覺醒的威脅，但儘管有著這個史無前例的英雄聯盟，卻可能還是太遲去拯救地球即將面臨的災難性的攻擊...。    
                     </div>
         </div>
@@ -439,22 +460,22 @@
         </div>
         </div>
     </div>    
-    <div class="container footer footer_t opacity">
+    <div class="container  footer footer_t opacity"><!--footer-->
         <div style="margin-top:3%">
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-sm-12" style="font-size:48px">日新大戲院</div>
-                <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-12">電話:04-22230757</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">地址:台中市中區中華路一段58號</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12" style="font-size:12px">Copyright©日新大戲院</div>
-                    </div>
+            <div class="col-lg-4 col-sm-12" style="font-size:48px">日新大戲院</div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-12"><a href="tel:0422230757">電話:04-22230757</a></div>
                 </div>
-                <div class="col-md-4 fb_footer"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
+                <div class="row">
+                    <div class="col-12"><a href="https://goo.gl/nQUaw7" target=_blank>地址:台中市中區中華路一段58號</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-12" style="font-size:12px">Copyright©日新大戲院</div>
+                </div>
+            </div>
+            <div class="col-md-4 fb_footer"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
             </div> 
         </div>
     </div>
