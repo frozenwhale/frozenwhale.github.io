@@ -161,7 +161,30 @@ a:visited {
 	width: 100%;
 	top:8%;
 }
-
+.moll{
+    position: absolute;
+    width: 60%;
+    height: 13vh;
+    top: 48%;
+	left: 21%;
+	border:none;
+}
+.web{
+	position: absolute;
+    width: 57%;
+    height: 5vh;
+    top: 43%;
+    left: 21%;
+    border: none;
+}
+.phone{
+	position: absolute;
+    width: 45%;
+    height: 5vh;
+    top: 54%;
+    left: 28%;
+    border: none;
+}
 @media screen and (max-width:1000px){
     .flipbook-viewport{
 		display:none;
