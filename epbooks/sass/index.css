@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: grey;
+}
+
+.blue {
+  background-color: black;
+}
+
+.bg, .head, .r1, .dai, .species, .mess {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+body {
+  background-color: #eee !important;
+  font-family: 微軟正黑體;
+}
+
+.head {
+  background-image: url("../img/LOGO.jpg");
+  height: 100vh;
+}
+
+.r1 {
+  background-image: url("../img/street view.jpg");
+  height: 50vh;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5%;
+}
+
+.t1, .r_text {
+  font-size: 80px;
+  text-align: right;
+}
+
+.t2 {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 2%;
+}
+
+.dai {
+  background-image: url("../img/Dai Shengyi.jpg");
+  height: 50vh;
+}
+
+.species {
+  background-image: url("../img/door.jpg");
+  height: 50vh;
+}
+
+.r_text {
+  text-align: left;
+}
+
+.mess {
+  background-image: url("../img/indoor.jpg");
+  height: 50vh;
+}
+
+.menu {
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  z-index: 98;
+}
+
+.icon, .menu, .back_top {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.phonemenu {
+  position: fixed;
+  z-index: 99;
+  padding: 50px;
+  text-align: center;
+  top: 10px;
+  left: 42px;
+  background-color: #B8A4A5;
+  line-height: 30px;
+  display: none;
+}
+
+.phonemenu.active {
+  display: block;
+}
+
+.back_top {
+  position: fixed;
+  right: 10px;
+  bottom: 3%;
+}
+ 
+
+ /*# sourceMappingURL= index.css.map */
