@@ -42,11 +42,11 @@ body{
 }
 .t1{
     font-size: 80px;
-    text-align: right;
+    
 }
 .t2{
     text-align: left;
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 2%;
 }
 .dai{
@@ -80,6 +80,16 @@ body{
     width:30px;
     cursor: pointer;
 }
+.icon_f{
+    height:15px;
+    width: 15px;
+}
+.text_vr{
+    writing-mode: vertical-rl;
+}
+.text_vl{
+    writing-mode: vertical-lr;
+}
 .phonemenu{
     position:fixed;
     z-index:99;
@@ -99,4 +109,14 @@ body{
     position: fixed;
     right:10px;
     bottom:3%;
+}
+@media screen and (max-width:576px){
+    .text_vr{
+        writing-mode:initial;
+        text-align: center;
+    }
+    .text_vl{
+        writing-mode:initial;
+        text-align: center;
+    }
 }
