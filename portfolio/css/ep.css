@@ -14,12 +14,12 @@
 .phonemenu{
     position:fixed;
     z-index:99;
-    padding:50px;
+    padding:30px;
     text-align: center;
     top:10px;
-    left:-250px;
+    left:-300px;
     background-color:#B8A4A5;
-    line-height: 30px;
+    line-height: 40px;
 }
 .phonemenu.active{
     left:60px;
