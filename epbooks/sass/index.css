@@ -11,6 +11,10 @@
   background-color: black;
 }
 
+* {
+  font-family: 微軟正黑體;
+}
+
 .bg, .head, .r1, .dai, .species, .mess {
   background-position: center;
   background-size: cover;
@@ -20,7 +24,6 @@
 
 body {
   background-color: #eee !important;
-  font-family: 微軟正黑體;
 }
 
 .head {
@@ -36,7 +39,7 @@ body {
 .text {
   text-align: center;
   font-size: 18px;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 .t1, .r_text {
@@ -46,7 +49,7 @@ body {
 .t2 {
   text-align: left;
   font-size: 14px;
-  padding-top: 2%;
+  padding: 5%;
 }
 
 .dai {
@@ -110,6 +113,10 @@ body {
   display: block;
 }
 
+.text_e {
+  font-family: Montserrat;
+}
+
 .back_top {
   position: fixed;
   right: 10px;
@@ -124,6 +131,22 @@ body {
   .text_vl {
     writing-mode: initial;
     text-align: center;
+  }
+  .head {
+    height: 40vh;
+  }
+  .menu {
+    left: 0;
+    top: 10px;
+  }
+  .phonemenu {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  .false {
+    width: 50px;
   }
 }
  

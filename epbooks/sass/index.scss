@@ -13,6 +13,9 @@ $r:red;
 .blue{
     @include bc(black);
 }
+*{
+    font-family:微軟正黑體;
+}
 .bg{
     background-position:center;
     background-size:cover;
@@ -21,7 +24,7 @@ $r:red;
 }
 body{
     background-color: #eee!important;
-    font-family:微軟正黑體;
+    
    
 }
 .head{
@@ -38,7 +41,7 @@ body{
 .text{
     text-align: center;
     font-size:18px;
-    padding-top:5%;
+    padding-top:8%;
 }
 .t1{
     font-size: 80px;
@@ -47,7 +50,7 @@ body{
 .t2{
     text-align: left;
     font-size: 14px;
-    padding-top: 2%;
+    padding: 5%;
 }
 .dai{
     background-image: url("../img/Dai Shengyi.jpg");
@@ -104,6 +107,9 @@ body{
 .phonemenu.active{
     display: block;
 }
+.text_e{
+    font-family: Montserrat;
+}
 .back_top{
     @extend .icon;
     position: fixed;
@@ -118,5 +124,22 @@ body{
     .text_vl{
         writing-mode:initial;
         text-align: center;
+    }
+    .head{
+        height:40vh;
+    }
+    .menu{
+        left:0;
+        top:10px;
+    }
+    .phonemenu{
+        padding-top:128px;
+        width: 100%;
+        height:100vh;
+        top:0;
+        left:0;
+    }
+    .false{
+        widows: 50px;px;
     }
 }
