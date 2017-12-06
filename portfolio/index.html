@@ -100,6 +100,18 @@
         .mg{
             margin-top: 3%;
         }
+        .phonemenu{
+            width:100%;
+            left:-500px;
+            height:100vh;
+            top:-10px;
+        }
+        .phonemenu.active{
+            left:0px;
+        }
+        .fal{
+            width:40%;
+        }
     }
     </style>
 </head>
@@ -111,7 +123,7 @@
         <div class="sticky-top">
             <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
             <div class="phonemenu ani">
-                <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt=""></div>
+                <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt="" class="fal"></div>
                 <div class="logo mt-2">Portfolio</div>
                 <div id="what" style="cursor: pointer">個人介紹</div>
                 <div id="think" style="cursor: pointer">日新戲院</div>
