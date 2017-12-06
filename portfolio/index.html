@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/ep.css">
-  <link rel="shortcut icon" href="/favicon.ico"/>
-  <link rel="bookmark" href="/favicon.ico"/>
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="bookmark" href="favicon.ico">
   <style>
     *{
       font-family:微軟正黑體;
@@ -39,7 +40,8 @@
       
     }
     .text_title{
-      font-size:18px;
+      font-size:20px;
+      text-align: left；
     }
    
     p{
@@ -52,63 +54,89 @@
     .container{
       position: relative;
     }
+    .ani{
+        transition-timing-function: ease-in-out;
+        transition-duration: .2s;
+    }
+    .title{
+        font-size:50px;
+        font-weight:bolder
+    }
+    .boder_b{
+        border-bottom:2px solid black;
+    }
+    .sub{
+        background-color:rgba(0,0,0,0.8); 
+        color:#fed ;
+    }
+    .text_center{
+        text-align: center;
+    }
+    .block{
+        height:58px;
+    }
     </style>
 </head>
 <body>
+    <div class="container-fluid ">
+        
+    </div>
     <div class="container bg"style="">
-        <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
-        <div class="phonemenu">
-
-            <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt=""></div>
-            <div class="logo mt-2">Portfolio</div>
-            <div id="what" style="cursor: pointer">個人介紹</div>
-            <div id="think" style="cursor: pointer">專題</div>
-            <div id="species" style="cursor: pointer">個人onepage</div>
-            <div id="mess" style="cursor: pointer">第一次手切</div>
-            <div id="gallery" style="cursor: pointer">名片</div>
-            <div id="map" style="cursor: pointer">其他</div>
+        <div class="sticky-top">
+            <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
+            <div class="phonemenu ani">
+                <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt=""></div>
+                <div class="logo mt-2">Portfolio</div>
+                <div id="what" style="cursor: pointer">個人介紹</div>
+                <div id="think" style="cursor: pointer">日新戲院</div>
+                <div id="species" style="cursor: pointer">茉莉二手</div>
+                <div id="mess" style="cursor: pointer">EPBOOKS</div>
+                <div id="gallery" style="cursor: pointer">名片</div>
+                <div id="map" style="cursor: pointer">其他</div>
+                
+            </div>
+            <div class="text">
+                Portfolio
+            </div>
         </div>
-        <div class="text">Portfolio</div>
-        <div class="mt-5"style="font-size:50px" id="what_1">
+        <div class="mt-5 title boder_b text_center" id="what_1">
+            <img src="imgs/user-silhouette.png" alt="">
           個人介紹
         </div>
         <div class="row mt-5">
-            <div class="col-3">
-                <div>
+            <div class="col-3 pt-3">
+                <div style="margin-bottom:20%">
                     <img src="imgs/img1.jpg" alt="" style="width:100%">
                   </div>
-                  <div class=" text_title mt-2"><span>姓名 蔡柏威</span></div>
-                  <div class=" text_title mt-3"><span>學歷 國立暨南大學資管系</span></div>
-                  <div class=" text_title "><span>興趣 閱讀看電影</span></div>
+                  <div class=" text_title mt-2"><span>姓名：<b>蔡柏威</b></span></div>
+                  <div class=" text_title "><span>學歷：<b>暨南大學資管系</b></span></div>
+                  <div class=" text_title "><span>興趣：<b>閱讀、看電影</b></span></div>
             </div>
             <div class="col-9">
-                <div style="font-size:50px">自傳</div>
+                <div class="title ">自傳</div>
                 <p>
-                    我畢業於國立暨南國際大學資訊管理學系，大學時期雖然沒有加入社團，不過在課外方面有參加一些公益活動，例如去玄奘寺當導覽或去小學介紹校樹之類的。
-                    
-                    我喜歡嘗試新鮮、不一樣的事物。在當兵中，體驗到與之前不一樣的生活，因為擔任駕駛，能去各營區間體驗不同的營區文化。也在軍中認識了許多來自各地、不同類型的人，與他們的交流，更加豐富了我的想法與觀點。
-                    
-                    在軍中退伍後，因為家人受傷需要24小時的照顧，而耗了一年的時間，不過在這期間，反而讓我在照顧中學會到忍耐及體諒家人。
-                    
-                    之後在開原報關工作了兩年，在這兩年中，秉持著客人至上的精神，盡心盡力的把重要的文件送達到客人手中，也在這之中了解答了些客人的問題。與同事及上司之間相處融洽。
-                    
-                    如果貴公司能賦予我一個機會，讓我擔負起等業務的責任，我必當全力以赴、竭盡所能地為公司創造最高效益。 
+                    　　我畢業於國立暨南國際大學資訊管理學系，在課外方面有參加一些公益活動，去玄奘寺當導覽以及去小學介紹埔里環境<br>
+                    　　我喜歡嘗試新鮮、不一樣的事物。在當兵中，體會到紀律的重要性。在那一年中擔任駕駛，能去各營區間體驗不同的營區文化。也在軍中認識了許多來自各地、不同類型的人，與他們的交流，更加豐富了我的想法與觀點。<br>            
+                    　　軍中退伍後，因為母親受傷需要24小時的照顧，而待在家照顧母親在這期間，反而讓我在照顧中學會到忍耐及體諒家人<br>     
+                    　　之後在開原報關工作了兩年，在這兩年中，秉持著客人至上的精神，盡心盡力的把重要的文件送達到客人手中，也在這之中了解答了些客人的問題。與同事及上司之間相處融洽。<br>
+                    　　因為想去做關於網設的工作，而到職訓局參加了RWD網頁360小時的課程，在裡面學習到PS、AI、HTML、CSS、JS及JQ，也製作了一些網站及名片<br>
                 </p>
                 
             </div>            
         </div>
-        <div class="mt-5"style="font-size:50px">
+        <div class="title boder_b text_center">
+        <img src="imgs/computer-screen.png" alt="">
           作品
         </div>
-        <div style="font-size:30px" id="think_1">
-            專題-日新大戲院
+        <div class="block"id="think_1"></div>
+        <div style="font-size:30px"  class="mt-3 sub text_center" >
+            日新戲院
             <p>
-                這是現在在做的專題
-                關於把日新官網改良更新更簡單易懂的網頁  
+            設計目的-翻新舊有的日新官網，原本舊的日新網站雖然有豐富的資訊，不過整理得不夠精簡，且有許多重複的資訊。所以把這舊有的架構重新組合成4大部分。分別為首頁、電影介紹、影城介紹及業務專區
             </p>
           </div>
-        <div class="row "> 
-            <div class="col-6">
+        <div class="row mt-3"> 
+            <div class="col-6 ">
                 <a href="https://frozenwhale.github.io/sunrise/" target="_blank">
                   <img src="imgs/web-1.jpg" alt="" class="img_w">
                 </a>
@@ -145,14 +173,18 @@
                     <img src="imgs/img-10.jpg" alt="" class="img_w">
                   </a>
               </div>
+              <div>
+                  <img src="imgs/Search Magnifier.ico" alt=""style="width:32px">
+                  點擊圖片可放大顯示
+              </div>
               </div>
             </div>       
         </div>   
-        <div class="mt-5"style="font-size:30px" id="species_1">
-             個人ONEPAGE-茉莉二手書店
+        <div class="block"id="species_1"></div>
+        <div class="mt-5 sub text_center"style="font-size:30px" >
+             一頁式網頁-茉莉二手書店
               <p>
-                  做一份關於茉莉二手書店的形象網站，網頁版以電子書方式呈現
-                  <br>而手機版本則是以問答來讓使用者了解茉莉優點
+            設計目的-做一個茉莉的形象網站。電腦版是以電子書方式呈現，而手機板則用3道問題來點出茉莉的優點
               </p>
             </div>
             <div class="row "> 
@@ -183,18 +215,18 @@
                         <img src="imgs/img-13.jpg" alt="" class="img_w">
                       </a>
                   </div>
-                  
                   </div>
                 </div>       
             </div>    
-            <div class="mt-5"style="font-size:30px" id="mess_1">
-                個人手切網頁-EPBOOKS
+            <div class="block"id="mess_1"></div>
+            <div class="mt-5 sub text_center"style="font-size:30px">
+                 EPBOOKS
                  <p>
-                     第一次手切的onepage
+                設計目的-推廣EPBOOKS的特色
                  </p>
-               </div>
-               <div class="row "> 
-                  <div class="col-6">
+            </div>
+            <div class="row "> 
+                <div class="col-6">
                       <a class="example-image-link" href="imgs/epbook.jpg" data-lightbox="example-set" >
                         <img src="imgs/web-3.jpg" alt="" class="img_w">
                       </a>
@@ -206,30 +238,41 @@
                             <img src="imgs/sitemap3.jpg" alt="" class="img_w">
                           </a>
                       </div>
-                
-                  </div>       
+                      <div class="col-4">
+                            <a class="example-image-link" href="imgs/epbook-wireframe.jpg" data-lightbox="example-set" >
+                              <img src="imgs/epbook-wireframe_s.jpg" alt="" class="img_w">
+                            </a>
+                        </div>
+                     </div>      
+
               </div>
-          <div class="mt-5"style="font-size:30px" id="gallery_1">
-                  個人設計名片-補習班名片和婚紗名片
-                   <p>
-                       左邊那張是補習班的名片<br>
-                       右邊為以女性產業當題目，選擇以婚紗業當自己的題目
-                   </p>
-          </div>
-          <div class="row "> 
-              <div class="col-4">
-                  <a class="example-image-link" href="imgs/bussiness card.jpg" data-lightbox="example-set" >
-                    <img src="imgs/bussiness-card_s.jpg" alt="" class="img_w">
-                  </a>
               </div>
-              <div class="col-4">
-                  <a class="example-image-link" href="imgs/female.jpg" data-lightbox="example-set" >
-                    <img src="imgs/female_s.jpg" alt="" class="img_w">
-                  </a>
+           
+              <div class="mt-5 sub text_center"style="font-size:30px" >
+                   名片
+                     <p>
+                   設計目的-
+                     </p>
+                   </div>
+            <div class="row mt-3"> 
+                <div class="col-4">
+                    <a class="example-image-link" href="imgs/bussiness card.jpg" data-lightbox="example-set" >
+                        <img src="imgs/bussiness-card_s.jpg" alt="" class="img_w">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a class="example-image-link" href="imgs/female.jpg" data-lightbox="example-set" >
+                        <img src="imgs/female_s.jpg" alt="" class="img_w">
+                    </a>
                 </div>
             </div>
-            <div class="mt-5"style="font-size:30px" id="map_1">
-                其他
+            <div class="mt-5"style="font-size:30px">
+                    <div class="block"id="map_1"></div>
+                <div class="sub text_center">
+                        其他
+                        <p>使用工具AI、PS</p>
+                </div>
+                
                 <div class="row "> 
                     <div class="col-3">
                         <a class="example-image-link" href="imgs/bag.jpg" data-lightbox="example-set" >
@@ -250,8 +293,20 @@
                             <a class="example-image-link" href="imgs/moto.jpg" data-lightbox="example-set" >
                               <img src="imgs/moto_s.jpg" alt="" class="img_w">
                             </a>
-                          </div>
-                  </div>
+                        </div>
+                    </div>
+                        <div class=row>
+                                <div class="col-3 mt-3">
+                                        <a class="example-image-link" href="imgs/lip.jpg" data-lightbox="example-set" >
+                                          <img src="imgs/lip_s.jpg" alt="" class="img_w">
+                                        </a>
+                                </div>
+                                <div class="col-3 mt-3">
+                                        <a class="example-image-link" href="imgs/butterfly.jpg" data-lightbox="example-set" >
+                                          <img src="imgs/butterfly_s.jpg" alt="" class="img_w">
+                                    </a>
+                                </div>
+                        </div>
         </div>
     </div>
       <!-- Swiper JS -->
@@ -259,6 +314,7 @@
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/lightbox.min.js"></script>
+      <script src="js/aos.js"></script>
      
       <script>
         lightbox.option({
@@ -266,27 +322,10 @@
         'wrapAround': true,
         "alwaysShowNavOnTouchDevices":true
       })
+ 
+      AOS.init();
+
       var scrollTrigger = $('.header').height();
-        if ($('#back-to-top').length) {
-            backToTop = function () {
-                var scrollTop = $(window).scrollTop();
-                if (scrollTop > scrollTrigger) {
-                    $('#back-to-top').addClass('show');
-                } else {
-                    $('#back-to-top').removeClass('show');
-                }
-            };
-            backToTop();
-            $(window).on('scroll', function () {
-                backToTop();
-            });
-            $('#back-to-top').on('click', function (e) {
-                e.preventDefault();
-                $('html,body').animate({
-                    scrollTop: 0
-                }, 700);
-            });
-        }
         if ($('#logo').length) {
             backToTop();
             $(window).on('scroll', function () {
@@ -300,7 +339,7 @@
             });
         }
         $("#menu").click(function(){
-            $(".phonemenu").addClass("active");
+            $(".phonemenu").toggleClass("active");
         });
         $("#false").click(function(){
             $(".phonemenu").removeClass("active");
