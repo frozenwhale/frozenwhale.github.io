@@ -15,8 +15,12 @@
     *{
       font-family:微軟正黑體;
     }
-      body{
-      background-color: rgba(0,0,0,0.8);
+    .web{
+        width:100%;
+        background-image:url("imgs/bg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     .bg{
       background-color: #fed!important;
@@ -29,6 +33,7 @@
     .img_w{
       width:100%;
       box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.5);
+      filter: grayscale(2);
     }
     .text{
       text-align:center;
@@ -90,6 +95,11 @@
     .img_p{
             width:100%;
     }
+    .img_w:hover{
+        filter: grayscale(0);
+        transform:scale(1.1,1.1);
+        transition: 0.2s ease-in-out;
+    }
     @media screen and (max-width:576px){
         .img_p{
             width:60%;
@@ -103,7 +113,7 @@
         .phonemenu{
             width:100%;
             left:-500px;
-            height:100vh;
+            height:105vh;
             top:-10px;
         }
         .phonemenu.active{
@@ -112,14 +122,20 @@
         .fal{
             width:40%;
         }
+        .img_w{
+            filter: grayscale(0);
+        }
+        .img_w:hover{
+        
+        transform:scale(1,1);
+        transition: 0.2s ease-in-out;
+    }
     }
     </style>
 </head>
 <body>
-    <div class="container-fluid ">
-        
-    </div>
-    <div class="container bg"style="">
+    <div class="container-fluid web">
+    <div class="container bg"style="margin:0 auto">
         <div class="sticky-top">
             <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
             <div class="phonemenu ani">
@@ -139,6 +155,7 @@
         </div>
         <div class="mt-5 title boder_b text_center" id="what_1">
             <img src="imgs/user-silhouette.png" alt="">
+            
           個人介紹
         </div>
         <div class="row mt-5">
@@ -178,7 +195,7 @@
         <div class="row mt-3"> 
             <div class="col-md-6  col-12">
                 <a href="https://frozenwhale.github.io/sunrise/" target="_blank">
-                  <img src="imgs/web-1.jpg" alt="" class="img_w">
+                  <img src="imgs/web-1.jpg" alt="" class="img_w img_ho">
                 </a>
             </div>
             <div class="col-md-6 col-12 mt-3">
@@ -267,7 +284,7 @@
             </div>
             <div class="row "> 
                 <div class="col-md-6 col-12">
-                      <a class="example-image-link" href="imgs/epbook.jpg" data-lightbox="example-set" >
+                      <a href="https://frozenwhale.github.io/epbooks/" target="_blank">
                         <img src="imgs/web-3.jpg" alt="" class="img_w">
                       </a>
                   </div>
@@ -290,9 +307,6 @@
               <div class="block_4"id="gallery_1"></div>
               <div class="mt-5 sub text_center"style="font-size:30px" >   
                    名片
-                     <p>
-                   設計目的<br>左邊民眾技藝為標題作的名片<br>右邊是以婚紗業為題目
-                     </p>
                    </div>
             <div class="row mt-3"> 
                 <div class="col-md-4 col-6">
@@ -350,6 +364,7 @@
                         </div>
         </div>
     </div>
+</div>
       <!-- Swiper JS -->
       <script src="js/jquery-3.2.1.min.js"></script>
       <script src="js/popper.min.js"></script>
