@@ -72,8 +72,34 @@
     .text_center{
         text-align: center;
     }
-    .block{
-        height:58px;
+    .block_1{
+        height:59px;
+    }
+    .block_2{
+        height:27px;
+    }
+    .block_3{
+        height:27px;
+    }
+    .block_4{
+        height:27px;
+    }
+    .block_5{
+        height:27px;
+    }
+    .img_p{
+            width:100%;
+    }
+    @media screen and (max-width:576px){
+        .img_p{
+            width:60%;
+        }
+        .img_pd{
+            text-align: center;
+        }
+        .mg{
+            margin-top: 3%;
+        }
     }
     </style>
 </head>
@@ -89,7 +115,7 @@
                 <div class="logo mt-2">Portfolio</div>
                 <div id="what" style="cursor: pointer">個人介紹</div>
                 <div id="think" style="cursor: pointer">日新戲院</div>
-                <div id="species" style="cursor: pointer">茉莉二手</div>
+                <div id="species" style="cursor: pointer">茉莉二手書店</div>
                 <div id="mess" style="cursor: pointer">EPBOOKS</div>
                 <div id="gallery" style="cursor: pointer">名片</div>
                 <div id="map" style="cursor: pointer">其他</div>
@@ -104,16 +130,18 @@
           個人介紹
         </div>
         <div class="row mt-5">
-            <div class="col-3 pt-3">
-                <div style="margin-bottom:20%">
-                    <img src="imgs/img1.jpg" alt="" style="width:100%">
+            <div class="col-md-3 pt-3 col-12">
+                <div class="img_pd"style="margin-bottom:20%">
+                    <img src="imgs/img1.jpg" alt="" class="img_p">
                   </div>
-                  <div class=" text_title mt-2"><span>姓名：<b>蔡柏威</b></span></div>
-                  <div class=" text_title "><span>學歷：<b>暨南大學資管系</b></span></div>
-                  <div class=" text_title "><span>興趣：<b>閱讀、看電影</b></span></div>
+                  <div class="img_pd">
+                    <div class=" text_title mt-2"><span>姓名：<b>蔡柏威</b></span></div>
+                    <div class=" text_title "><span>學歷：<b>暨南大學資管系</b></span></div>
+                    <div class=" text_title "><span>興趣：<b>閱讀、看電影</b></span></div>
+                  </div>
             </div>
-            <div class="col-9">
-                <div class="title ">自傳</div>
+            <div class="col-md-9 col-12">
+                <div class="title img_pd">自傳</div>
                 <p>
                     　　我畢業於國立暨南國際大學資訊管理學系，在課外方面有參加一些公益活動，去玄奘寺當導覽以及去小學介紹埔里環境<br>
                     　　我喜歡嘗試新鮮、不一樣的事物。在當兵中，體會到紀律的重要性。在那一年中擔任駕駛，能去各營區間體驗不同的營區文化。也在軍中認識了許多來自各地、不同類型的人，與他們的交流，更加豐富了我的想法與觀點。<br>            
@@ -128,7 +156,7 @@
         <img src="imgs/computer-screen.png" alt="">
           作品
         </div>
-        <div class="block"id="think_1"></div>
+        <div class="block_1"id="think_1"></div>
         <div style="font-size:30px"  class="mt-3 sub text_center" >
             日新戲院
             <p>
@@ -136,12 +164,12 @@
             </p>
           </div>
         <div class="row mt-3"> 
-            <div class="col-6 ">
+            <div class="col-md-6  col-12">
                 <a href="https://frozenwhale.github.io/sunrise/" target="_blank">
                   <img src="imgs/web-1.jpg" alt="" class="img_w">
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-12 mt-3">
                 <div class="row">
                   <div class="col-4 mb-5">
                     <a class="example-image-link" href="imgs/sitemap2.jpg" data-lightbox="example-set" >
@@ -180,7 +208,7 @@
               </div>
             </div>       
         </div>   
-        <div class="block"id="species_1"></div>
+        <div class="block_2"id="species_1"></div>
         <div class="mt-5 sub text_center"style="font-size:30px" >
              一頁式網頁-茉莉二手書店
               <p>
@@ -188,12 +216,12 @@
               </p>
             </div>
             <div class="row "> 
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <a href="https://frozenwhale.github.io/onepage/" target="_blank">
                       <img src="imgs/web-2.jpg" alt="" class="img_w">
                     </a>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12 mt-3">
                     <div class="row">
                       <div class="col-4 mb-5">
                         <a class="example-image-link" href="imgs/sitemap1.jpg" data-lightbox="example-set" >
@@ -218,7 +246,7 @@
                   </div>
                 </div>       
             </div>    
-            <div class="block"id="mess_1"></div>
+            <div class="block_3"id="mess_1"></div>
             <div class="mt-5 sub text_center"style="font-size:30px">
                  EPBOOKS
                  <p>
@@ -226,12 +254,12 @@
                  </p>
             </div>
             <div class="row "> 
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                       <a class="example-image-link" href="imgs/epbook.jpg" data-lightbox="example-set" >
                         <img src="imgs/web-3.jpg" alt="" class="img_w">
                       </a>
                   </div>
-                  <div class="col-6">
+                  <div class="col-md-6 col-12 mt-3">
                       <div class="row">
                         <div class="col-4 mb-5">
                           <a class="example-image-link" href="imgs/sitemap3.jpg" data-lightbox="example-set" >
@@ -247,61 +275,62 @@
 
               </div>
               </div>
-           
-              <div class="mt-5 sub text_center"style="font-size:30px" >
+              <div class="block_4"id="gallery_1"></div>
+              <div class="mt-5 sub text_center"style="font-size:30px" >   
                    名片
                      <p>
-                   設計目的-
+                   設計目的<br>左邊民眾技藝為標題作的名片<br>右邊是以婚紗業為題目
                      </p>
                    </div>
             <div class="row mt-3"> 
-                <div class="col-4">
+                <div class="col-md-4 col-6">
                     <a class="example-image-link" href="imgs/bussiness card.jpg" data-lightbox="example-set" >
                         <img src="imgs/bussiness-card_s.jpg" alt="" class="img_w">
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-6">
                     <a class="example-image-link" href="imgs/female.jpg" data-lightbox="example-set" >
                         <img src="imgs/female_s.jpg" alt="" class="img_w">
                     </a>
                 </div>
             </div>
+            <div class="block_5"id="map_1"></div>
             <div class="mt-5"style="font-size:30px">
-                    <div class="block"id="map_1"></div>
+                    
                 <div class="sub text_center">
                         其他
                         <p>使用工具AI、PS</p>
                 </div>
                 
                 <div class="row "> 
-                    <div class="col-3">
+                    <div class="col-md-3 col-6">
                         <a class="example-image-link" href="imgs/bag.jpg" data-lightbox="example-set" >
                           <img src="imgs/bag_s.jpg" alt="" class="img_w">
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-6">
                         <a class="example-image-link" href="imgs/box.jpg" data-lightbox="example-set" >
                           <img src="imgs/box_s.jpg" alt="" class="img_w">
                         </a>
                       </div>
-                      <div class="col-3">
-                          <a class="example-image-link" href="imgs/open.jpg" data-lightbox="example-set" >
-                            <img src="imgs/open_s.jpg" alt="" class="img_w">
-                          </a>
+                        <div class="col-md-3 col-6 mg">
+                            <a class="example-image-link" href="imgs/open.jpg" data-lightbox="example-set" >
+                                <img src="imgs/open_s.jpg" alt="" class="img_w">
+                            </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-6 mg">
                             <a class="example-image-link" href="imgs/moto.jpg" data-lightbox="example-set" >
                               <img src="imgs/moto_s.jpg" alt="" class="img_w">
                             </a>
-                        </div>
+                        </div> 
                     </div>
                         <div class=row>
-                                <div class="col-3 mt-3">
+                                <div class="col-md-3 col-6 mt-3">
                                         <a class="example-image-link" href="imgs/lip.jpg" data-lightbox="example-set" >
                                           <img src="imgs/lip_s.jpg" alt="" class="img_w">
                                         </a>
                                 </div>
-                                <div class="col-3 mt-3">
+                                <div class="col-md-3 col-6 mt-3">
                                         <a class="example-image-link" href="imgs/butterfly.jpg" data-lightbox="example-set" >
                                           <img src="imgs/butterfly_s.jpg" alt="" class="img_w">
                                     </a>
