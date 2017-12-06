@@ -100,6 +100,10 @@
         transform:scale(1.1,1.1);
         transition: 0.2s ease-in-out;
     }
+    .img_bold{
+        font-weight:800;
+        cursor: pointer
+    }
     @media screen and (max-width:1280px){
         .img_w{
             filter: grayscale(0);
@@ -109,6 +113,7 @@
          transform:scale(1,1);
          transition: 0.2s ease-in-out;
     }
+ }
     @media screen and (max-width:576px){
         .img_p{
             width:60%;
@@ -150,12 +155,12 @@
             <div class="phonemenu ani">
                 <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt="" class="fal"></div>
                 <div class="logo mt-2">Portfolio</div>
-                <div id="what" style="cursor: pointer">個人介紹</div>
-                <div id="think" style="cursor: pointer">日新戲院</div>
-                <div id="species" style="cursor: pointer">茉莉二手書店</div>
-                <div id="mess" style="cursor: pointer">EPBOOKS</div>
-                <div id="gallery" style="cursor: pointer">名片</div>
-                <div id="map" style="cursor: pointer">其他</div>
+                <div id="what" class="img_bold" >個人介紹</div>
+                <div id="think"class="img_bold"  >日新戲院</div>
+                <div id="species" class="img_bold" >茉莉二手書店</div>
+                <div id="mess"class="img_bold"  >EPBOOKS</div>
+                <div id="gallery" class="img_bold" >名片</div>
+                <div id="map" class="img_bold" >其他</div>
                 
             </div>
             <div class="text">
@@ -164,7 +169,6 @@
         </div>
         <div class="mt-5 title boder_b text_center" id="what_1">
             <img src="imgs/user-silhouette.png" alt="">
-            
           個人介紹
         </div>
         <div class="row mt-5">
