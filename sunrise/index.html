@@ -173,10 +173,10 @@
         overflow:hidden;
     }
     .swiper-button-prev{
-        background-image: url("imgs/arrow_l.svg");
+        background-image: url("imgs/arrow_l.png");
     }
     .swiper-button-next{
-        background-image: url("imgs/arrow_r.svg");
+        background-image: url("imgs/arrow_r.png")!important;
     }
     .dlc{
         background-color:rgba(12,3,3,0.8);
@@ -503,7 +503,8 @@
        
         })
         $(".dlc").fadeOut();
-        var w=$(window).width();
+
+            var w=$(window).width();
         if(w>1200){
             $("#navbar").hover(function(){
                 $(".dlc").fadeIn();
@@ -512,6 +513,8 @@
                 $(".dlc").fadeOut();
             })
         }
+     
+        
       
     </script>
 </body>
