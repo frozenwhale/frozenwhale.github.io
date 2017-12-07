@@ -174,7 +174,11 @@
     .mr_1{
         margin-left: -1.5%;
     }
-    
+    .dlc{
+        background-color:rgba(12,3,3,0.8);
+        color: #eee;
+       text-align: center;   
+    }
     @media screen and (max-width:1200px){
         .bar{
             display:flex;
@@ -236,6 +240,7 @@
         .mr_1{
         margin-left:-3%;
         }
+    
         
     }
     @media screen and (min-width:1200px){
@@ -264,15 +269,33 @@
     <div class="container" style="background-color:rgba(35,36,39,0.9)">
         <div class="left"></div>
         <div class="right"></div>
-        <div class="row justify-content-center logo_b sticky-top opacity " id="navbar"><!--NAVBAR-->
-            <div class="col-xl-3 col-sm-12 nav_col text-white"id="index">
-                <a href="index.html"><img src="imgs/home.png" alt="" class="icon">&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</a> 
-            </div>      
-            <div class="col-xl-3 col-sm-12 nav_col text-white"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
-            <div class="col-xl-3 col-sm-12 nav_col text-white" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
-            <div class="col-xl-3 col-sm-12 text-white" style="text-align:center;font-size:32px"><a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">業務專區</a></div>
-            <div class="col-xl-12 fb_nv"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
-        </div>
+        <div class="sticky-top">
+            <div class="row justify-content-center logo_b  opcity_5 " id="navbar"><!--NAVBAR-->
+                <div class="col-xl-3 nav_col text-white col-sm-12"id="index">
+                    <a href="index.html"><img src="imgs/home.png" alt="" class="icon">&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</a> 
+                </div>      
+                <div class="col-xl-3 nav_col text-white  col-sm-12"><a href="introduction.html"><img src="imgs/video-player-sign.png" alt=""class="icon">電影介紹</a></div>
+                <div class="col-xl-3 nav_col text-white  col-sm-12" ><a href="theater.html"><img src="imgs/theater-curtains.png" alt=""class="icon">影城介紹</a></div>
+                <div class="col-xl-3 text-white  col-sm-12 nav_col" style="border:none;">
+                    <a href="job.html"><img src="imgs/theater-ticket.png" alt=""class="icon">
+                        業務專區
+                    </a>
+                </div>
+                <div class="col-xl-12 fb_nv"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
+            </div>
+            <div class="dlc row">
+                    <div class="col-3">時刻查詢</div>
+                    <div class="col-3 ">熱映電影</div>
+                    <div class="col-3">廳院設備</div>
+                    <div class="col-3 ">票價查詢</div>
+                </div>
+                <div class="dlc row">
+                        <div class="col-3">一般公告</div>
+                        <div class="col-3 border_dash">即將上映</div>
+                        <div class="col-3">廳院歷史</div>
+                        <div class="col-3 ">徵人公告</div>
+                </div>
+            </div>
         <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb opacity">
                 <li class="breadcrumb-item"><a href="introduction.html">電影介紹</a></li>
@@ -488,6 +511,15 @@
             $('#navbar').fadeToggle();
             $("body").toggleClass("over");
         })
+        var w=$(window).width();
+        if(w>1200){
+            $("#navbar").hover(function(){
+                $(".dlc").fadeIn();
+            
+            },function(){
+                $(".dlc").fadeOut();
+            })
+        }
     </script>
 </body>
 </html>
