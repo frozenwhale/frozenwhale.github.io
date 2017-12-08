@@ -183,6 +183,9 @@
         color: #eee;
        text-align: center;   
     }
+    .p_6{
+        padding-left:6.5%;
+    }
    
     @media screen and (max-width:1200px){
         .bar{
@@ -226,6 +229,10 @@
         .form-control{
             font-size:12px;
         }
+        #b img{
+            width:70%;
+            padding:50px;
+        }
     }
     @media screen and (min-width:1200px){
         .bar{
@@ -250,8 +257,11 @@
     <div class="bg">
     <div class="container "> <!--header-->
         <div class="row justify-content-center logo_b"> 
-            <div class="col-6 " style="text-align:center"><img src="imgs/fefe.png" alt="LOGO" class="logo"></div>
-           
+            <div class="col-6 " style="text-align:center">
+                <a href="index.html">
+                    <img src="imgs/fefe.png" alt="LOGO" class="logo">
+                </a>
+            </div>
         </div>
     </div>
     <div>
@@ -272,17 +282,17 @@
             </div>
             <div class="col-xl-12 fb_nv"><a href="https://zh-tw.facebook.com/pg/TSSCMT/" target="_blank"><img src="imgs/facebook.png" alt="facebook"></a></div>
         </div>
-        <div class="dlc row">
-                <div class="col-3">時刻查詢</div>
-                <div class="col-3 ">熱映電影</div>
-                <div class="col-3">廳院設備</div>
-                <div class="col-3 ">票價查詢</div>
+        <div class="dlc row pt-3">
+                <div class="col-3 p_6">時刻查詢</div>
+                <div class="col-3  p_6">熱映電影</div>
+                <div class="col-3 p_6" >廳院設備</div>
+                <div class="col-3 p_6 ">票價查詢</div>
             </div>
-            <div class="dlc row">
-                    <div class="col-3">一般公告</div>
-                    <div class="col-3 border_dash">即將上映</div>
-                    <div class="col-3">廳院歷史</div>
-                    <div class="col-3 ">徵人公告</div>
+            <div class="dlc row pb-3">
+                    <div class="col-3 p_6">一般公告</div>
+                    <div class="col-3 p_6">即將上映</div>
+                    <div class="col-3 p_6">廳院歷史</div>
+                    <div class="col-3  p_6">徵人公告</div>
             </div>
         </div>
         <div class="row "><!--海報輪波圖-->
@@ -311,11 +321,12 @@
                   
                     </div>
                     <div class="swiper-slide">
-    
-                            <img src="imgs/coco.jpg" alt="" style="width:100%">
-                        
-                    </div>      
+                            <img src="imgs/coco.jpg" alt="" style="width:100%">   
+                    </div>  
+
                 </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
             </div>
         </div>
         <div style="margin-top:3%"><!--時刻查詢表-->
@@ -440,31 +451,14 @@
     <script>
         //輪播圖
         console.log("為楓");
-        var swiper = new Swiper('#a', {
-            effect: 'cube',
-            grabCursor: true,
-            cubeEffect: {
-              shadow: true,
-              slideShadows: true,
-              shadowOffset: 20,
-              shadowScale: 0.94,
-            },
-            
-            loop: true,
-            // freeMode: true,
-            // pagination: {
-            //     el: '.swiper-pagination',
-            //     clickable: true,
-            // },
-            navigation: {
+            var swiper = new Swiper('#a', {
+              navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-            },
-        });
+              },
+              loop:true,
+            });
+        
         var swiper= new Swiper('#b', {
             effect: 'coverflow',
             grabCursor: true,
