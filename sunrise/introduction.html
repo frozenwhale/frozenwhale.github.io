@@ -25,11 +25,6 @@
     .logo{
         width:62%;
         text-align: center;
-     
-    }
-    .container{
-        /* background-color:  #232427; */
-        z-index:99;
     }
     .logo_b{
         background-color:rgba(12,3,3,0.8);
@@ -71,17 +66,6 @@
         background-attachment:fixed;
         background-repeat: no-repeat;
     }
-    .logo_ts{
-        color:#eee;
-        padding-left:2%;
-        font-size:18px;
-        margin-top:-6%;
-    }
-    .icon{
-        
-        margin-right:10%;
-        margin-bottom:3%
-    }
     .opacity{
         opacity: 0.8;
     }
@@ -104,11 +88,6 @@
     .over{
         overflow:hidden;
     }      
-    .dlc{
-        background-color:rgba(12,3,3,0.8);
-        color: #eee;
-       text-align: center;   
-    }
     @media screen and (max-width:1200px){
         .bar{
             display:flex;
@@ -161,9 +140,9 @@
     <div class="container">
         <div class="row justify-content-center logo_b"> 
             <div class="col-6 " style="text-align:center">
-                    <a href="index.html">
-                            <img src="imgs/fefe.png" alt="LOGO" class="logo">
-                        </a>
+                <a href="index.html">
+                    <img src="imgs/fefe.png" alt="LOGO" class="logo">
+                </a>
             </div> 
         </div>  
     </div>      
@@ -202,45 +181,44 @@
                                 <img src="imgs/hot-01.jpg" alt="jl-sm">
                                 <div class="sm_t mt-2"> 正義聯盟<br>Justice League
                             </a>        
-                            </div>
-                        </div>    
-                        
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
+                <div class="row ">
+                    <div class="col-12">
+                        <a href="introduction_justice.html">
+                            <img src="imgs/hot-02.jpg" alt="jl-sm">
+                            <div class="sm_t mt-2"> 真劍亂舞祭<br>TOUKEN RANBU 2017
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
-                    <div class="row ">
-                        <div class="col-12">
-                            <a href="introduction_justice.html">
-                                <img src="imgs/hot-02.jpg" alt="jl-sm">
-                                <div class="sm_t mt-2"> 真劍亂舞祭<br>TOUKEN RANBU 2017
-                            </a>
-                            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
+            <div class="row ">
+                <div class="col-12">
+                    <a href="introduction_justice.html">
+                        <img src="imgs/hot-03.jpg" alt="jl-sm">
+                        <div class=" sm_t mt-2"> 羅密歐與茱麗葉 <br>ROMEO AND JULIET SHAKESPEARE
                         </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
+                <div class="row ">
+                    <div class="col-12">
+                        <a href="introduction_justice.html">
+                            <img src="imgs/hot-04.jpg" alt="jl-sm">
+                            <div class=" sm_t mt-2"> 冬天的故事 <br>THE WINTERS TALE SHAKESPEARE
+                            </div> 
+                        </a>   
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
-                    <div class="row ">
-                        <div class="col-12">
-                            <a href="introduction_justice.html">
-                                <img src="imgs/hot-03.jpg" alt="jl-sm">
-                                <div class=" sm_t mt-2"> 羅密歐與茱麗葉 <br>ROMEO AND JULIET SHAKESPEARE
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-2 mb-2">
-                    <div class="row ">
-                        <div class="col-12">
-                            <a href="introduction_justice.html">
-                                <img src="imgs/hot-04.jpg" alt="jl-sm">
-                                <div class=" sm_t mt-2"> 冬天的故事 <br>THE WINTERS TALE SHAKESPEARE
-                                </div> 
-                            </a>   
-                        </div>
-                     </div>
-                </div>
-                </div>
+            </div>
+        </div>
                 <div class="row">
                 <div class="col-lg-3  col-md-6 col-sm-12 mt-2 mb-2">
                     <div class="row ">
@@ -388,7 +366,7 @@
                 </div>
             </div>
     </div>   
-    <<div class="container  footer footer_t opacity"><!--footer-->
+    <div class="container  footer footer_t opacity"><!--footer-->
         <div style="margin-top:3%;padding-bottom:3%">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-12" style="font-size:2em;padding-top:1%">日新大戲院</div>
@@ -421,15 +399,6 @@
             $("body").toggleClass("over");
         })
         var w=$(window).width();
-        $(".dlc").fadeOut();
-        if(w>1200){
-            $("#navbar").hover(function(){
-                $(".dlc").fadeIn();
-            
-            },function(){
-                $(".dlc").fadeOut();
-            })
-        }
     </script>
 </body>
 </html>
