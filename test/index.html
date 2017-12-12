@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NTU</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="sass/index.css">
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="header-content">
+    <a href="">
+        <div class="logo_box">
+            <div class="logo"></div>
+            <div class="logo_text">國立臺灣大學 國際事務處<br>
+                                    <h3>office of international Affairs,National Taiwan University</h3>
+            </div>
+            
+        </div>
+    </a> 
+    <div class="header_line">
+        <ul>
+            <li>NTU</li>
+            <li>English</li>
+                <li>聯絡我們</li>
+                <li>網站導覽</li>
+                <li>舊版網站</li>
+           
+            </ul>
+            
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search OIA NTU" aria-label="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+            </div>
+        </div>   
+    </div>  
+</div>
+<div class="containter-fluid nav_a">
+    <ul>
+        <li>關於本處</li>
+        <li>臺大學生</li>
+        <li>國際學生</li>
+        <li>國際短期課程</li>
+        <li>國際訪賓與學人</li>
+        <li>校際交流合作</li>
+        <li>臺大教職員</li>
+        <li>紀念品</li>
+        <li>OIA 10週年系列活動</li>
+    </ul>
+</div>
+<div class="container cont">
+    <div class="swiper-container"  style="height:360px;"id="slider_a">
+        <div class="swiper-wrapper" >
+                <div class="swiper-slide box" style="height:330px;">Slide 1</div>
+                  <div class="swiper-slide box"style="height:330px;">Slide 2</div>
+                  <div class="swiper-slide box"style="height:330px;">Slide 3</div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+    </div>
+    <div class="news_box">
+        <p>公告</p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
+    </div>
+    <div class="activity">
+        <p>近期活動</p>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="sqr">
+            <div class="row">
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="icon"></div>
+                        <div class="box_a"></div>
+                    </div>
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="box_a"></div>
+                    </div>
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="box_a"></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom:100px">
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="box_a"></div>
+                    </div>
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="box_a"></div>
+                    </div>
+                    <div class="col">
+                        <p>臺大學生</p>
+                        <div class="box_a"></div>
+                    </div>
+                </div>
+    </div>
+    
+</div>
+<div class="container-fluid footer">
+
+</div>
+<div class="container-fluid footer_a">
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+<script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+</script>
+<script>
+    $("#slider_a").hover(function(){
+        $(".swiper-button-next").fadeIn();
+        $(".swiper-button-prev").fadeIn();
+    },function(){
+        $(".swiper-button-next").fadeOut();
+        $(".swiper-button-prev").fadeOut();
+    })
+</script>
+</body>
+</html>
