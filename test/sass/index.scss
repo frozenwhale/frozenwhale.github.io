@@ -1,5 +1,5 @@
-$main-color:#632A30;
 $subject-color:#E5C779;
+$main-color:#9E1604;
 $main-text-color:white;
 $title-text-size:32px;
 $subject-text-size:15px;
@@ -14,12 +14,9 @@ $subject-text-size:15px;
         position: relative;
         margin:0 auto;
         .logo_box{  
-           
             .logo{
-                background-color:$subject-color;
                 height:109px;
                 width:109px;
-                border-radius: 50%;
                 position: absolute;
                 left:0;
                 top:15px;
@@ -40,7 +37,6 @@ $subject-text-size:15px;
         .header_line{
             position: absolute;
             right:0;
-            
             ul{
                 padding-top:37px;
                 li{
@@ -83,17 +79,16 @@ $subject-text-size:15px;
     position: relative;
     ul{
         font-size:$subject-text-size;
-        position: absolute;
         left:145px;
         width:1150px;
-        margin:0;
+        margin-left: 479px;
         padding:10px 0;
         li{
             display:inline-block;
             border-left:1px solid white;
             padding:0 10px;
         }
-        li:nth-child(9){
+        li:nth-child(8){
             border-right:1px solid white;
         }
         
@@ -205,8 +200,26 @@ $subject-text-size:15px;
 .footer{
     height:235px;
     background-color:$main-color;
+    .row{
+        
+       .col{
+           float:left;
+           margin-left: 300px;
+           color:$main-text-color;
+       }
+       .col::nth-child(3){
+            margin-right: 300px;
+            margin-left:0;
+       }
+
+    }
 }
 .footer_a{
     height:50px;
-    background-color:#2b3b3b;
+    background-color:#3D0400;
+    p{
+        text-align: center;
+        line-height: 50px;
+        color:#757575;
+    }
 }
