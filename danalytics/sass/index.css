@@ -1,7 +1,18 @@
-.a_navbar {
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+.anavbar {
   height: 13vh;
   background-color: #003CE1;
   width: 100%;
+}
+
+.anavbar ul li {
+  display: inline-block;
+  border-right: 2px solid white;
+  color: white;
 }
  
 
