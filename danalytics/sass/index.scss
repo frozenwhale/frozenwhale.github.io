@@ -1,7 +1,17 @@
 $main-color:#003CE1;
-.a_navbar{
+$main-font-color:white;
+*{
+    font-family:微軟正黑體;
+}
+.anavbar{
     height:13vh;
     background-color: $main-color;
     width:100%;
-
+    ul{
+        li{
+            display: inline-block;
+            border-right:2px solid white;
+            color:$main-font-color;
+        }
+    }
 }
