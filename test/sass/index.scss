@@ -81,8 +81,8 @@ $subject-text-size:15px;
         font-size:$subject-text-size;
         left:145px;
         width:1150px;
-        margin-left: 479px;
-        padding:10px 0;
+        padding-left:15%;
+        padding-top:10px;
         li{
             display:inline-block;
             border-left:1px solid white;
@@ -201,10 +201,9 @@ $subject-text-size:15px;
     height:235px;
     background-color:$main-color;
     .row{
-        
        .col{
            float:left;
-           margin-left: 300px;
+           margin-left:10%;
            color:$main-text-color;
        }
        .col::nth-child(3){

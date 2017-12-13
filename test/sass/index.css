@@ -81,8 +81,8 @@
   font-size: 15px;
   left: 145px;
   width: 1150px;
-  margin-left: 479px;
-  padding: 10px 0;
+  padding-left: 15%;
+  padding-top: 10px;
 }
 
 .nav_a ul li {
@@ -216,7 +216,7 @@
 
 .footer .row .col {
   float: left;
-  margin-left: 300px;
+  margin-left: 10%;
   color: white;
 }
 
