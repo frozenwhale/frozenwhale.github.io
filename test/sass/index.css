@@ -112,14 +112,14 @@
 .cont .news_box {
   position: relative;
   height: 330px;
-  width: 700px;
-  background-color: white;
+  width: 100%;
   margin-top: 70px;
 }
 
 .cont .news_box p {
   font-size: 26px;
   font-weight: bolder;
+  color: #E8B248;
 }
 
 .cont .news_box p::after {
@@ -133,9 +133,21 @@
 }
 
 .cont .news_box .nav-tabs {
-  top: 13px;
-  left: 82px;
+  top: -1%;
+  left: 15%;
   position: absolute;
+}
+
+.cont .news_box th, .cont .news_box td {
+  text-align: center;
+}
+
+.cont .news_box tbody tr:nth-child(odd) {
+  background: #FFF0D2;
+}
+
+.cont .news_box .text_left {
+  text-align: left;
 }
 
 .cont .activity {
@@ -170,40 +182,38 @@
   margin-bottom: 10px;
 }
 
-.cont .sqr .row .col {
+.cont .sqr .row .col-4 {
   position: relative;
   width: 340px;
   height: 307px;
-  float: left;
-  margin-right: 50px;
 }
 
-.cont .sqr .row .col p {
+.cont .sqr .row .col-4 p {
   font-size: 26px;
   font-weight: bolder;
   margin-bottom: 18px;
 }
 
-.cont .sqr .row .col p::after {
-  width: 20px;
+.cont .sqr .row .col-4 p::after {
+  width: 22px;
   content: "";
   position: absolute;
   z-index: 10;
   top: 35px;
-  left: 0;
+  left: 16px;
   border-bottom: 2px solid #E5C779;
 }
 
-.cont .sqr .row .col .icon {
+.cont .sqr .row .col-4 .icon {
   width: 42px;
   height: 42px;
   position: absolute;
   background-color: red;
   top: 0;
-  right: 0;
+  right: 6%;
 }
 
-.cont .sqr .row .col .box_a {
+.cont .sqr .row .col-4 .box_a {
   width: 340px;
   height: 250px;
   background-color: blue;
@@ -215,14 +225,7 @@
 }
 
 .footer .row .col {
-  float: left;
-  margin-left: 10%;
   color: white;
-}
-
-.footer .row .col::nth-child(3) {
-  margin-right: 300px;
-  margin-left: 0;
 }
 
 .footer_a {

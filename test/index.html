@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0;">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NTU</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -54,9 +54,9 @@
 <div class="container cont">
     <div class="swiper-container"  style="height:360px;"id="slider_a">
         <div class="swiper-wrapper" >
-                <div class="swiper-slide box" style="height:330px;">Slide 1</div>
-                  <div class="swiper-slide box"style="height:330px;">Slide 2</div>
-                  <div class="swiper-slide box"style="height:330px;">Slide 3</div>
+                <div class="swiper-slide box" style="height:330px;"><img src="imgs/box/slider/1.jpg" alt=""></div>
+                  <div class="swiper-slide box"style="height:330px;"><img src="imgs/box/slider/2.jpg" alt=""></div>
+                  <div class="swiper-slide box"style="height:330px;"><img src="imgs/box/slider/3.jpg" alt=""></div>
                 </div>
                 <!-- Add Arrows -->
                 <div class="swiper-button-next"></div>
@@ -64,60 +64,142 @@
                 <div class="swiper-pagination"></div>
     </div>
     <div class="news_box">
-        <p>公告</p>
+        <p>最新消息</p>
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-                  </div>
-    </div>
-    <div class="activity">
-        <p>近期活動</p>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">全部</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">分類1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">分類2</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col"style="width:15%">公告日期</th>
+                                <th scope="col" style="text-align:left">標題</th>
+                                <th scope="col" style="width:10%">瀏覽人次</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Mark</td>
+                                <td >11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left"> Jacob</td>
+                                <td s>12</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Larry</td>
+                                <td >13</td>
+                              
+                              </tr>
+                            </tbody>
+                    </table>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col"style="width:15%">公告日期</th>
+                                <th scope="col" style="text-align:left">標題</th>
+                                <th scope="col" style="width:10%">瀏覽人次</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Mark</td>
+                                <td >11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left"> Jacob</td>
+                                <td s>12</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Larry</td>
+                                <td >13</td>
+                              
+                              </tr>
+                            </tbody>
+                    </table>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col"style="width:15%">公告日期</th>
+                                <th scope="col" style="text-align:left">標題</th>
+                                <th scope="col" style="width:10%">瀏覽人次</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Mark</td>
+                                <td >11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left"> Jacob</td>
+                                <td s>12</td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">2017/11/13</th>
+                                <td style="text-align:left">Larry</td>
+                                <td >13</td>
+                              
+                              </tr>
+                            </tbody>
+                    </table>
+            </div>
+        </div>
+        <div style="text-align:right"><img src="imgs/icon/more.jpg" alt=""></div>
     </div>
     <div class="sqr">
             <div class="row"style="margin-bottom:60px">
-                    <div class="col">
+                    <div class="col-4">
                         <p>組織介紹</p>
                         <button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button>
                         <img src="imgs/box/1.jpg" alt="" class="box_a">
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <p>國際交流合作</p>
                         <button class="icon"><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button></button>
                         <img src="imgs/box/2.jpg" alt="" class="box_a">
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <p>教職員專區</p>
                         <button class="icon"><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button></button>
                         <img src="imgs/box/3.jpg" alt="" class="box_a">
                     </div>
                 </div>
                 <div class="row" style="margin-bottom:100px">
-                    <div class="col">
+                    <div class="col-4">
                         <p>學生出國研修專區</p>
                         <button class="icon"><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button></button>
                         <img src="imgs/box/4.jpg" alt="" class="box_a">
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <p>境外學生專區</p>
                         <button class="icon"><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button></button>
                         <img src="imgs/box/5.jpg" alt="" class="box_a">
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <p>其他專區</p>
                         <button class="icon"><button class="icon"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></i></button></button>
                         <img src="imgs/box/6.jpg" alt="" class="box_a">
@@ -128,14 +210,14 @@
 </div>
 <div class="container-fluid footer">
     <div class="row">
-        <div class="col"><img src="imgs/icon/feng.png" alt=""></div>
-        <div class="col">
+        <div class="col ml-5 mt-3"><img src="imgs/icon/feng.png" alt=""></div>
+        <div class="col ml-2 mt-3">
             <h3>服務時間</h3>
-            <p>周一至周五<br>9:00~18:00</p>
+            <p>周一至周五9:00~18:00</p>
         </div>
-        <div class="col">
+        <div class="col mr-5 mt-3">
             <h3>聯絡我們</h3>
-            <p>辦公室位置：台中市 40724 西屯區文華路100號 行政二館3樓<br>
+            <p>辦公室位置：台中市 40724 西屯區文華路100號<br>行政二館3樓<br>
                 電話：(04)24517250 #2501<br>傳真：(04)24511577<br>E-Mail：oia@fcu.edu.tw</p>
         </div>
     </div>
@@ -161,6 +243,10 @@
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+        autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       });
 </script>
 <script>
