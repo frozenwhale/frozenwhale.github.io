@@ -1,0 +1,30 @@
+$main-font-color:#1A78FF;
+$subject-font-color:#7C7C7C;
+.b_b{
+    border-bottom: 1px solid black;
+}
+.cont{
+    width:75%;
+    height:69vh;
+    margin-left:15%;
+    margin-top:7%;
+    .title{
+        border-bottom:2px solid red;
+        color:$main-font-color;
+        font-weight: bolder;
+        letter-spacing:10px;
+        font-size:18px;
+        img{
+            margin-right:10px;
+        }
+        span{
+            padding-left:10px;
+        }
+    }
+    .cont_c{
+       
+    }
+}
+.footer{
+    background-color:blue;
+}

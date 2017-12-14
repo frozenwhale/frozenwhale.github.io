@@ -22,9 +22,34 @@
 
 .container-fluid .anavbar .anavbarlist {
   position: absolute;
+<<<<<<< HEAD
   top: 40%;
   right: 100px;
   margin: 0px;
+=======
+  top: 56px;
+  left: 510px;
+}
+
+.container-fluid .anavbar ul li {
+  display: inline-block;
+  border-right: 2px solid white;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.container-fluid .anavbar ul li a:visited {
+  color: white;
+}
+
+.container-fluid .anavbar ul li a:link {
+  color: white;
+}
+
+.container-fluid .anavbar ul li .row {
+>>>>>>> 877960d275029aa610eea680bbf861dd9959a31a
   padding: 0px;
   width: 1300px;
 }
@@ -37,6 +62,8 @@
 .footer {
   color: white;
   text-align: right;
+  height: 4vh;
+  width: 100%;
 }
 
 .footer h6 {
