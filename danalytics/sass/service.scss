@@ -3,9 +3,6 @@ $subject-font-color:#7C7C7C;
 .b_b{
     border-bottom: 1px solid black;
 }
-body{
-    height: 180vh;
-}
 .anavbar{
 	background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 50, 222, 1) 0%,rgba(0, 59, 227, 1) 2.09%,rgba(0, 79, 240, 1) 8.22%,rgba(0, 93, 248, 1) 15.2%,rgba(0, 101, 253, 1) 23.67%,rgba(0, 104, 255, 1) 37.84%,rgba(0, 158, 255, 1) 79.81%,rgba(0, 185, 255, 1) 100%);
 	background : -webkit-linear-gradient(0deg, rgba(0, 50, 222, 1) 0%, rgba(0, 59, 227, 1) 2.09%, rgba(0, 79, 240, 1) 8.22%, rgba(0, 93, 248, 1) 15.2%, rgba(0, 101, 253, 1) 23.67%, rgba(0, 104, 255, 1) 37.84%, rgba(0, 158, 255, 1) 79.81%, rgba(0, 185, 255, 1) 100%);
@@ -20,8 +17,8 @@ body{
     width:75%;
     margin-left:15%;
     margin-top:7%;
+    margin-bottom: 105px;
     .title{ 
-        border-bottom:2px solid rgba(0, 50, 222, 1);
         color:$main-font-color;
         font-weight: bolder;
         letter-spacing:10px;
@@ -33,25 +30,34 @@ body{
             padding-left:10px;
         }
     }
+    .line{
+        height:3px;
+        background: black;
+        margin-top:18px;
+        box-shadow: 0px 1px 13px 3px white;
+    }
+    .cont_c{
+        padding-left:42px;
+        padding-right:42px;
+        .servicsimg{
+            margin-top: 87px;
+        
+            height: 200px;
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .serciveword{
+            position:absolute;
+            left:  10%;
+            top:82px;
+            line-height: 40px;
+        }
+    }
     
 }
-
-.servicsimg{
-    margin-top: 87px;
-
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.serciveword{
-    position:absolute;
-    left:  10%;
-    top:82px;
-    line-height: 50px;
-}
 .footer{
-    position: fixed;
+    position: static;
     bottom: 0px;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 50, 222, 1) 0%,rgba(0, 59, 227, 1) 2.09%,rgba(0, 79, 240, 1) 8.22%,rgba(0, 93, 248, 1) 15.2%,rgba(0, 101, 253, 1) 23.67%,rgba(0, 104, 255, 1) 37.84%,rgba(0, 158, 255, 1) 79.81%,rgba(0, 185, 255, 1) 100%);
 	background : -webkit-linear-gradient(0deg, rgba(0, 50, 222, 1) 0%, rgba(0, 59, 227, 1) 2.09%, rgba(0, 79, 240, 1) 8.22%, rgba(0, 93, 248, 1) 15.2%, rgba(0, 101, 253, 1) 23.67%, rgba(0, 104, 255, 1) 37.84%, rgba(0, 158, 255, 1) 79.81%, rgba(0, 185, 255, 1) 100%);

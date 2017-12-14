@@ -2,10 +2,6 @@
   border-bottom: 1px solid black;
 }
 
-body {
-  height: 180vh;
-}
-
 .anavbar {
   background: -moz-linear-gradient(0% 50% 0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
   background: -webkit-linear-gradient(0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
@@ -21,10 +17,10 @@ body {
   width: 75%;
   margin-left: 15%;
   margin-top: 7%;
+  margin-bottom: 105px;
 }
 
 .cont .title {
-  border-bottom: 2px solid #0032de;
   color: #1A78FF;
   font-weight: bolder;
   letter-spacing: 10px;
@@ -39,7 +35,19 @@ body {
   padding-left: 10px;
 }
 
-.servicsimg {
+.cont .line {
+  height: 3px;
+  background: black;
+  margin-top: 18px;
+  box-shadow: 0px 1px 13px 3px white;
+}
+
+.cont .cont_c {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.cont .cont_c .servicsimg {
   margin-top: 87px;
   height: 200px;
   width: 200px;
@@ -47,15 +55,15 @@ body {
   background-size: contain;
 }
 
-.serciveword {
+.cont .cont_c .serciveword {
   position: absolute;
   left: 10%;
   top: 82px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .footer {
-  position: fixed;
+  position: static;
   bottom: 0px;
   background: -moz-linear-gradient(0% 50% 0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
   background: -webkit-linear-gradient(0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
