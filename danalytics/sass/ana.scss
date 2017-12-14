@@ -18,35 +18,53 @@ body{
 .login{
     position: absolute;
     width: 516px;
-    height: 877px;
+    height: 854px;
     background-color:#444;
     right:32px;
     font-size:36px;
     color:$main-font-color;
     padding-top:180px;
     .title{
-        margin-left:180px;
+        margin-left:calc(50% - 118px)
     }
     .text{
         font-size:20px;
-        text-align: center;
+        margin-left:calc(50% - 161px);
+        
         margin-bottom:13px;
         input{
+            text-align: center;
             width: 350px;
             height: 60px;
             border-radius: 10px;
             border:2px solid white;
             background-color: transparent;
+           
+        }   
+    }
+    .btn{
+        margin-left:calc(50% - 175px);
+        margin-bottom:17px;
+        button{
+            color:$main-font-color;
+            text-align: left;
+            width: 350px;
+            height: 60px;
+            border-radius: 10px;
+            border:2px solid white;
+            background-color: transparent;
+            font-size:20px;
+
         }
     }
 }
 .cont{
     width:75%;
     margin-left:15%;
-    margin-top:147px;
+    margin-top:40px;
     img{
         margin-top:32px;
-        margin-bottom:100px;
+        
     }
     .title{
         color:$main-font-color;
