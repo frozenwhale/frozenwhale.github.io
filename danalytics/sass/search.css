@@ -1,5 +1,12 @@
 body {
-  background: red;
+  background: -moz-linear-gradient(-276.4% -252.45% 0deg, #1a2e91 0%, #1a3293 0.27%, #1c52a2 2.53%, #1e6daf 5.06%, #2083b9 7.94%, #2194c1 11.32%, #219fc7 15.49%, #22a6ca 21.33%, #22a8cb 37.57%, #1a2e91 100%);
+  background: -webkit-linear-gradient(0deg, #1a2e91 0%, #1a3293 0.27%, #1c52a2 2.53%, #1e6daf 5.06%, #2083b9 7.94%, #2194c1 11.32%, #219fc7 15.49%, #22a6ca 21.33%, #22a8cb 37.57%, #1a2e91 100%);
+  background: -webkit-gradient(linear, -276.4% -252.45%, -216.11% -252.45%, color-stop(0, #1a2e91), color-stop(0.0027, #1a3293), color-stop(0.0253, #1c52a2), color-stop(0.0506, #1e6daf), color-stop(0.0794, #2083b9), color-stop(0.1132, #2194c1), color-stop(0.1549, #219fc7), color-stop(0.2133, #22a6ca), color-stop(0.3757, #22a8cb), color-stop(1, #1a2e91));
+  background: -o-linear-gradient(0deg, #1a2e91 0%, #1a3293 0.27%, #1c52a2 2.53%, #1e6daf 5.06%, #2083b9 7.94%, #2194c1 11.32%, #219fc7 15.49%, #22a6ca 21.33%, #22a8cb 37.57%, #1a2e91 100%);
+  background: -ms-linear-gradient(0deg, #1a2e91 0%, #1a3293 0.27%, #1c52a2 2.53%, #1e6daf 5.06%, #2083b9 7.94%, #2194c1 11.32%, #219fc7 15.49%, #22a6ca 21.33%, #22a8cb 37.57%, #1a2e91 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A2E91', endColorstr='#1A2E91' ,GradientType=0)";
+  background: linear-gradient(90deg, #1a2e91 0%, #1a3293 0.27%, #1c52a2 2.53%, #1e6daf 5.06%, #2083b9 7.94%, #2194c1 11.32%, #219fc7 15.49%, #22a6ca 21.33%, #22a8cb 37.57%, #1a2e91 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A2E91',endColorstr='#1A2E91' , GradientType=1);
 }
 
 .anavbar {

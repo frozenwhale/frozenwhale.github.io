@@ -33,7 +33,7 @@
   color: white;
   text-align: left;
   font-size: 18px;
-  padding: 0 5px;
+  padding: 0 3px;
   line-height: 21px;
 }
 
@@ -60,7 +60,6 @@
 
 .container-fluid .anavbar ul li:nth-child(7) {
   border-right: none;
-  padding-left: 20px;
 }
 
 .content img {
