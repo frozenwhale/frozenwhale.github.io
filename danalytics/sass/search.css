@@ -10,10 +10,6 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#0032DE' , GradientType=1);
 }
 
-.anavbar {
-  background-color: white;
-}
-
 .b_b {
   border-bottom: 1px solid black;
 }
@@ -22,7 +18,7 @@ body {
   position: relative;
   width: 75%;
   margin-left: 15%;
-  margin-top: 115px;
+  margin-top: 3%;
 }
 
 .cont .title {
@@ -76,6 +72,7 @@ body {
 }
 
 .cont .allbox .box button {
+  letter-spacing: 1px;
   border-radius: 15px;
   width: 80%;
   height: 50px;
@@ -114,7 +111,6 @@ body {
 }
 
 .footer {
-  background-color: blue;
   position: static;
   bottom: 0px;
 }

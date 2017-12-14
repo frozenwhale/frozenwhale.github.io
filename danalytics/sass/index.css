@@ -15,9 +15,13 @@
 }
 
 .container-fluid .anavbar .logo {
+  height: 130px;
+  width: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
-  left: 5%;
-  top: 32px;
+  left: 4%;
+  top: 40%;
 }
 
 .container-fluid .anavbar ul {
@@ -33,7 +37,7 @@
   color: white;
   text-align: left;
   font-size: 18px;
-  padding: 0 3px;
+  padding: 0 10px;
   line-height: 21px;
 }
 
