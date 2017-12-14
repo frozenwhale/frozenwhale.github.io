@@ -43,6 +43,7 @@ body{
     .box{
         text-align: center;
         font-size:22px;
+        color:$main-font-color;
         input{
             border-radius: 11px;
             width:608px;
@@ -67,7 +68,23 @@ body{
         left:0;
        
     }
+    .face{
+        right:58px;
+        position: absolute;
+        top:47px;
+    }
+    .twitter{
+        left:0;
+        position: absolute;
+        bottom: 100px;
+    }
+    .wei{
+        right:58px;
+        position: absolute;
+        bottom: 165px;
+    }
 }
 .footer{
     background-color:blue;
+    position:static;
 }

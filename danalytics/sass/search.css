@@ -49,6 +49,7 @@ body {
 .cont .box {
   text-align: center;
   font-size: 22px;
+  color: white;
 }
 
 .cont .box input {
@@ -76,8 +77,27 @@ body {
   left: 0;
 }
 
+.cont .face {
+  right: 58px;
+  position: absolute;
+  top: 47px;
+}
+
+.cont .twitter {
+  left: 0;
+  position: absolute;
+  bottom: 100px;
+}
+
+.cont .wei {
+  right: 58px;
+  position: absolute;
+  bottom: 165px;
+}
+
 .footer {
   background-color: blue;
+  position: static;
 }
  
 
