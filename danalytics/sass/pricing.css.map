@@ -1,6 +1,10 @@
 {
     "version": 3,
+<<<<<<< HEAD
     "mappings": "AACA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAC,KAAK;CACZ",
+=======
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAC,KAAK;CACZ",
+>>>>>>> 0dd225136d6d147906275d0044181427bd915494
     "sources": [
         "pricing.scss"
     ],
