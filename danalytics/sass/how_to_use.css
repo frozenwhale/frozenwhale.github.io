@@ -1,10 +1,11 @@
-.content img {
+.cont img {
   width: 100%;
-  height: 83vh;
 }
 
 .footer {
- 
+  position: static;
+  height: 4vh;
+  width: 100%;
   background-color: blue;
 }
  
