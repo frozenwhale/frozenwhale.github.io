@@ -3,6 +3,16 @@ $subject-font-color:#7C7C7C;
 body{
     background:red;
 }
+.anavbar{
+	background : -moz-linear-gradient(0% 50% 0deg,rgba(26, 46, 145, 1) 0%,rgba(26, 52, 148, 1) 1.43%,rgba(28, 72, 158, 1) 7.67%,rgba(29, 86, 165, 1) 14.78%,rgba(30, 94, 169, 1) 23.41%,rgba(30, 97, 170, 1) 37.84%,rgba(33, 151, 195, 1) 84.79%,rgba(34, 169, 204, 1) 100%);
+	background : -webkit-linear-gradient(0deg, rgba(26, 46, 145, 1) 0%, rgba(26, 52, 148, 1) 1.43%, rgba(28, 72, 158, 1) 7.67%, rgba(29, 86, 165, 1) 14.78%, rgba(30, 94, 169, 1) 23.41%, rgba(30, 97, 170, 1) 37.84%, rgba(33, 151, 195, 1) 84.79%, rgba(34, 169, 204, 1) 100%);
+	background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(26, 46, 145, 1) ),color-stop(0.0143,rgba(26, 52, 148, 1) ),color-stop(0.0767,rgba(28, 72, 158, 1) ),color-stop(0.1478,rgba(29, 86, 165, 1) ),color-stop(0.2341,rgba(30, 94, 169, 1) ),color-stop(0.3784,rgba(30, 97, 170, 1) ),color-stop(0.8479,rgba(33, 151, 195, 1) ),color-stop(1,rgba(34, 169, 204, 1) ));
+	background : -o-linear-gradient(0deg, rgba(26, 46, 145, 1) 0%, rgba(26, 52, 148, 1) 1.43%, rgba(28, 72, 158, 1) 7.67%, rgba(29, 86, 165, 1) 14.78%, rgba(30, 94, 169, 1) 23.41%, rgba(30, 97, 170, 1) 37.84%, rgba(33, 151, 195, 1) 84.79%, rgba(34, 169, 204, 1) 100%);
+	background : -ms-linear-gradient(0deg, rgba(26, 46, 145, 1) 0%, rgba(26, 52, 148, 1) 1.43%, rgba(28, 72, 158, 1) 7.67%, rgba(29, 86, 165, 1) 14.78%, rgba(30, 94, 169, 1) 23.41%, rgba(30, 97, 170, 1) 37.84%, rgba(33, 151, 195, 1) 84.79%, rgba(34, 169, 204, 1) 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A2E91', endColorstr='#22A9CC' ,GradientType=0)";
+	background : linear-gradient(90deg, rgba(26, 46, 145, 1) 0%, rgba(26, 52, 148, 1) 1.43%, rgba(28, 72, 158, 1) 7.67%, rgba(29, 86, 165, 1) 14.78%, rgba(30, 94, 169, 1) 23.41%, rgba(30, 97, 170, 1) 37.84%, rgba(33, 151, 195, 1) 84.79%, rgba(34, 169, 204, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1A2E91',endColorstr='#22A9CC' , GradientType=1);
+}
 .b_b{
     border-bottom: 1px solid black;
 }
