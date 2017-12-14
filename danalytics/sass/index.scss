@@ -7,7 +7,7 @@ $main-font-color:white;
     padding:0;
     .anavbar{
         position: relative;
-        height:130px;
+        height:13vh;
         background-color: $main-color;
         width:100%;
         .logo{
@@ -15,17 +15,8 @@ $main-font-color:white;
            left:80px;
            top:32px;
         }
-        .anavbarlist{
+        ul{ 
             position: absolute;
-<<<<<<< HEAD
-            top:40%;
-            right: 100px;
-            margin: 0px;
-            padding: 0px;
-            width: 1300px;
-           
-           
-=======
             top:56px;
             left:510px;
             li{
@@ -52,7 +43,6 @@ $main-font-color:white;
                 border-right:none;
                 padding-left:20px;
             }
->>>>>>> 877960d275029aa610eea680bbf861dd9959a31a
         }
     }
 }
@@ -60,10 +50,11 @@ $main-font-color:white;
     
     img{
         width:100%;
-        height:87vh;
     }
 }
 .footer{
+    position: absolute;
+    bottom:0;
     color:$main-font-color;
     text-align:right;
     height: 4vh;
