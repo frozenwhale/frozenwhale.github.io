@@ -75,6 +75,12 @@ body {
   left: 0;
 }
 
+.cont .face {
+  right: 0;
+  position: absolute;
+  top: 47px;
+}
+
 .footer {
   background-color: blue;
 }
