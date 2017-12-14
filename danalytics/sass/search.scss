@@ -1,0 +1,51 @@
+$main-font-color:white;
+$subject-font-color:#7C7C7C;
+body{
+    background:red;
+}
+.b_b{
+    border-bottom: 1px solid black;
+}
+.cont{
+    width:75%;
+    margin-left:15%;
+    margin-top:147px;
+    
+    .title{
+        color:$main-font-color;
+        font-weight: bolder;
+        letter-spacing:10px;
+        font-size:18px;
+        img{
+            margin-right:10px;
+        }
+        span{
+            padding-left:10px;
+        }
+    }
+    .line{
+        height:3px;
+        background: white;
+        margin-top:18px;
+        box-shadow: 0px 1px 13px 3px white;
+    }
+    .box{
+        text-align: center;
+        font-size:22px;
+        input{
+            border-radius: 11px;
+            width:608px;
+        }
+        button{ 
+            width:608px;
+        }
+    }
+    .ptt{
+        position: absolute;
+        top:70px;
+        left:0;
+    }
+}
+.footer{
+    background-color:blue;
+}
