@@ -29,6 +29,9 @@ $main-font-color:white;
                 a:visited{
                     color:$main-font-color;
                 }
+                a:link{
+                    color:$main-font-color;
+                }
                 .row{
                     padding:0px;
                 }
@@ -53,6 +56,8 @@ $main-font-color:white;
 .footer{
     color:$main-font-color;
     text-align:right;
+    height: 4vh;
+    width: 100%;
     h6{
         font-size:14px;
         padding: 10px 26px 0 0;

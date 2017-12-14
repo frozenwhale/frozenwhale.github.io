@@ -39,6 +39,10 @@
   color: white;
 }
 
+.container-fluid .anavbar ul li a:link {
+  color: white;
+}
+
 .container-fluid .anavbar ul li .row {
   padding: 0px;
 }
@@ -60,6 +64,8 @@
 .footer {
   color: white;
   text-align: right;
+  height: 4vh;
+  width: 100%;
 }
 
 .footer h6 {

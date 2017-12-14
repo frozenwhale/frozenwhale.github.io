@@ -1,0 +1,33 @@
+.b_b {
+  border-bottom: 1px solid black;
+}
+
+.cont {
+  width: 75%;
+  height: 69vh;
+  margin-left: 15%;
+  margin-top: 7%;
+}
+
+.cont .title {
+  border-bottom: 2px solid red;
+  color: #1A78FF;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.cont .title img {
+  margin-right: 10px;
+}
+
+.cont .title span {
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: blue;
+}
+ 
+
+ /*# sourceMappingURL= service.css.map */
