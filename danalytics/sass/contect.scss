@@ -1,4 +1,4 @@
-$main-font-color:#1A78FF;
+$main-font-color:#0069FF;
 $subject-font-color:#7C7C7C;
 .b_b{
     border-bottom: 1px solid black;
@@ -28,6 +28,25 @@ $subject-font-color:#7C7C7C;
         }
         span{
             padding-left:10px;
+        }
+    }
+    .contect{
+        .map{
+            float:left;
+            margin-top:62px;
+            margin-left:72px;
+            margin-right:92px;
+        }
+        .text{
+            margin-top:220px;
+            float:left;
+            color:$main-font-color;
+            font-size:20px;
+            line-height:30px;
+            letter-spacing: 5px;
+            img{
+                margin-right:13px;
+            }
         }
     }
     
