@@ -9,7 +9,7 @@
 
 .container-fluid .anavbar {
   position: relative;
-  height: 13vh;
+  height: 130px;
   background-color: #003CE1;
   width: 100%;
 }
@@ -20,36 +20,13 @@
   top: 32px;
 }
 
-.container-fluid .anavbar ul {
+.container-fluid .anavbar .anavbarlist {
   position: absolute;
-  top: 56px;
-  left: 510px;
-}
-
-.container-fluid .anavbar ul li {
-  display: inline-block;
-  border-right: 2px solid white;
-  color: white;
-  text-align: left;
-  font-size: 18px;
-  padding: 0 10px;
-}
-
-.container-fluid .anavbar ul li a:visited {
-  color: white;
-}
-
-.container-fluid .anavbar ul li .row {
+  top: 40%;
+  right: 100px;
+  margin: 0px;
   padding: 0px;
-}
-
-.container-fluid .anavbar ul li:nth-child(6) {
-  border-right: none;
-}
-
-.container-fluid .anavbar ul li:nth-child(7) {
-  border-right: none;
-  padding-left: 20px;
+  width: 1300px;
 }
 
 .content img {
