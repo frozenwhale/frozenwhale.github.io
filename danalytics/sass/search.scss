@@ -11,9 +11,6 @@ body{
     background : linear-gradient(0deg, rgba(0, 50, 222, 1) 0%, rgba(0, 63, 225, 1) 0.78%, rgba(0, 94, 233, 1) 3%, rgba(0, 122, 240, 1) 5.52%, rgba(0, 144, 246, 1) 8.37%, rgba(0, 161, 250, 1) 11.69%, rgba(0, 172, 253, 1) 15.8%, rgba(0, 179, 255, 1) 21.56%, rgba(0, 181, 255, 1) 37.57%, rgba(0, 50, 222, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#0032DE' , GradientType=1);
 }
-.anavbar{
-	background-color: white;
-}
 .b_b{
     border-bottom: 1px solid black;
 }
@@ -64,6 +61,7 @@ body{
             font-size:16px;
         }
         button{ 
+            letter-spacing: 1px;
             border-radius: 15px;
             width:80%;
             height:50px;
@@ -100,7 +98,6 @@ body{
     }
 }
 .footer{
-    background-color:blue;
     position:static;
     bottom:0px;
 }
