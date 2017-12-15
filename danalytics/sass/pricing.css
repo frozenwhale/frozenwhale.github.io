@@ -88,8 +88,9 @@ body {
 .container-fluids .tag .tag_title, .container-fluids .tag2 .tag_title, .container-fluids .tag3 .tag_title, .container-fluids .tag4 .tag_title {
   font-size: 20px;
   color: #828282;
-  text-align: center;
-  margin-top: 12%;
+  left: 31%;
+  position: absolute;
+  top: 4%;
 }
 
 .container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
@@ -102,17 +103,19 @@ body {
   position: absolute;
   width: 150px;
   height: 30px;
-  left: 16%;
+  left: 23%;
   text-align: cneter;
   background-color: #0069FF;
   color: white;
   font-family: 標楷體;
   border-radius: 10px;
-  bottom: 25%;
+  bottom: 20%;
+  z-index: 99;
 }
 
 .container-fluids .tag .tag_line, .container-fluids .tag2 .tag_line, .container-fluids .tag3 .tag_line, .container-fluids .tag4 .tag_line {
-  margin-top: 10%;
+  position: absolute;
+  bottom: 22%;
   height: 2px;
   width: 100%;
   background-color: black;
@@ -121,8 +124,9 @@ body {
 .container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
   color: #FC4463;
   font-size: 15px;
-  text-align: center;
-  margin-top: 40px;
+  position: absolute;
+  left: 23%;
+  bottom: 10%;
 }
 
 .container-fluids .tag .tag_cont span, .container-fluids .tag2 .tag_cont span, .container-fluids .tag3 .tag_cont span, .container-fluids .tag4 .tag_cont span {
@@ -131,10 +135,6 @@ body {
 
 .container-fluids .tag2 {
   left: 36%;
-}
-
-.container-fluids .tag2 ul {
-  margin-top: 74%;
 }
 
 .container-fluids .tag3 {
