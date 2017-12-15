@@ -1,5 +1,5 @@
 body {
-  height: 170vh;
+  height: 130vh;
   background: -moz-linear-gradient(-267.69% -407.69% 0deg, #0032de 0%, #003fe1 0.78%, #005ee9 3%, #007af0 5.52%, #0090f6 8.37%, #00a1fa 11.69%, #00acfd 15.8%, #00b3ff 21.56%, #00b5ff 37.57%, #0032de 100%);
   background: -webkit-linear-gradient(0deg, #0032de 0%, #003fe1 0.78%, #005ee9 3%, #007af0 5.52%, #0090f6 8.37%, #00a1fa 11.69%, #00acfd 15.8%, #00b3ff 21.56%, #00b5ff 37.57%, #0032de 100%);
   background: -webkit-gradient(linear, -267.69% -407.69%, -207.4% -407.69%, color-stop(0, #0032de), color-stop(0.0078, #003fe1), color-stop(0.03, #005ee9), color-stop(0.0552, #007af0), color-stop(0.0837, #0090f6), color-stop(0.1169, #00a1fa), color-stop(0.158, #00acfd), color-stop(0.2156, #00b3ff), color-stop(0.3757, #00b5ff), color-stop(1, #0032de));
@@ -10,10 +10,6 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#0032DE' , GradientType=1);
 }
 
-.anavbar {
-  background-color: white;
-}
-
 .b_b {
   border-bottom: 1px solid black;
 }
@@ -22,14 +18,14 @@ body {
   position: relative;
   width: 75%;
   margin-left: 15%;
-  margin-top: 115px;
+  margin-top: 3%;
 }
 
 .cont .title {
   color: white;
   font-weight: bolder;
   letter-spacing: 10px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .cont .title img {
@@ -47,39 +43,57 @@ body {
   box-shadow: 0px 1px 13px 3px white;
 }
 
-.cont .box {
-  text-align: center;
-  font-size: 22px;
+.cont .allbox {
+  position: relative;
+  height: 840px;
+  width: 100%;
+}
+
+.cont .allbox .box {
+  width: 50%;
+  font-size: 16px;
+  font-weight: bolder;
   color: white;
 }
 
-.cont .box input {
-  border-radius: 11px;
-  width: 200%;
+.cont .allbox .box .boxtitle {
+  margin-left: 20%;
+}
+
+.cont .allbox .box input {
+  letter-spacing: 1px;
+  border-radius: 15px;
+  width: 80%;
   height: 50px;
   margin-bottom: 17px;
   box-shadow: 0px 1px 13px 3px white;
   text-align: center;
+  font-size: 16px;
 }
 
-.cont .box button {
-  border-radius: 11px;
-  width: 200%;
+.cont .allbox .box button {
+  letter-spacing: 1px;
+  border-radius: 15px;
+  width: 80%;
   height: 50px;
   background: #0069FF;
-  font-size: 22.8px;
+  font-size: 16px;
   color: white;
   box-shadow: 0px 1px 13px 3px white;
+}
+
+.cont .allbox .box img {
+  margin-left: 30px;
 }
 
 .cont .ptt {
   position: absolute;
   top: 70px;
-  left: 0;
+  left: 0px;
 }
 
 .cont .face {
-  right: 0px;
+  right: -10%;
   position: absolute;
   top: 47px;
 }
@@ -91,13 +105,12 @@ body {
 }
 
 .cont .wei {
-  right: 58px;
+  right: -10%;
   position: absolute;
   bottom: 165px;
 }
 
 .footer {
-  background-color: blue;
   position: static;
   bottom: 0px;
 }
