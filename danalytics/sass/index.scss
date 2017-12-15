@@ -3,8 +3,43 @@ $main-font-color:white;
 *{
     font-family:微軟正黑體;
 }
+.phone_menu{
+    position: absolute;
+    right:5%;
+    top:4%;
+    z-index: 99999;
+    text-align:right;
+    display: none;
+    cursor: pointer;
+    a:visited{
+        color:black;
+    }
+    a:link{
+        color:black;
+    }
+    img{       
+        width:15%;
+    }
+    .phone_option{
+        border-right: 2px solid white;
+        display: none;
+        ul{
+            list-style: none;
+            li{
+                border-bottom:2px solid white;
+            }
+        }
+        img{
+            width:100%;
+        }
+    }
+}
+.active{
+    display:block!important;
+}
 .container-fluid{
     padding:0;
+  
     .anavbar{
         position: relative;
         height:130px;
@@ -77,12 +112,19 @@ $main-font-color:white;
     }
     
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> cb62236ca3751d2f2c19349a42ebdf802efc7276
 @media screen and (max-width:1365px){
     .anavbar{
         ul{
             display:none;
         }
         
+    }
+    .phone_menu{
+        display:block
     }
 }
   

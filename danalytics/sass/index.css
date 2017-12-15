@@ -3,6 +3,49 @@
   font-family: 微軟正黑體;
 }
 
+.phone_menu {
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  z-index: 99999;
+  text-align: right;
+  display: none;
+  cursor: pointer;
+}
+
+.phone_menu a:visited {
+  color: black;
+}
+
+.phone_menu a:link {
+  color: black;
+}
+
+.phone_menu img {
+  width: 15%;
+}
+
+.phone_menu .phone_option {
+  border-right: 2px solid white;
+  display: none;
+}
+
+.phone_menu .phone_option ul {
+  list-style: none;
+}
+
+.phone_menu .phone_option ul li {
+  border-bottom: 2px solid white;
+}
+
+.phone_menu .phone_option img {
+  width: 100%;
+}
+
+.active {
+  display: block !important;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -87,6 +130,9 @@
 @media screen and (max-width: 1365px) {
   .anavbar ul {
     display: none;
+  }
+  .phone_menu {
+    display: block;
   }
 }
  
