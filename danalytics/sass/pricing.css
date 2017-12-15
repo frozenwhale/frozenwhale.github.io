@@ -103,29 +103,19 @@ body {
 .container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
   position: absolute;
   color: #828282;
-<<<<<<< HEAD
-  margin-top: 103%;
-  margin-left: 20%;
-=======
-<<<<<<< HEAD
   bottom: 29%;
   left: 15%;
-=======
-<<<<<<< HEAD
-  top: 60%;
-=======
-  margin-top: 103%;
-  margin-left: 20%;
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
->>>>>>> ff8f8d8a9d9446ba224c78309acc7afea2dd89a7
->>>>>>> 5681828d483995ed89804476512f62080d1c8a57
+  position: absolute;
+  color: #828282;
+  bottom: 28%;
+  left: 15%;
 }
 
 .container-fluids .tag button, .container-fluids .tag2 button, .container-fluids .tag3 button, .container-fluids .tag4 button {
   position: absolute;
   width: 150px;
   height: 30px;
-  left: 18%;
+  left: 15%;
   text-align: cneter;
   background-color: #0069FF;
   color: white;
@@ -168,7 +158,7 @@ body {
 }
 
 .container-fluids .tag2 .tag_title {
-  left: 22%;
+  left: 16%;
 }
 
 .container-fluids .tag2 .tag_cont {
@@ -188,7 +178,7 @@ body {
 }
 
 .container-fluids .tag3 .tag_title {
-  left: 33%;
+  left: 35%;
 }
 
 .container-fluids .tag4 {

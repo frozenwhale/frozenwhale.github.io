@@ -82,11 +82,6 @@ body{
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
-<<<<<<< HEAD
-        height: 50%;
-      position: absolute;
-      top:23%;
-=======
         height: 300px;
         position: absolute;
         top:27%;
@@ -97,30 +92,22 @@ body{
         left:25%;
         position: absolute;
         top:4%;
->>>>>>> 893158dd20a71edac72b6d915aa3cc4b70217d2f
     }
     ul{
-<<<<<<< HEAD
         position:absolute;
         color:$subject-font-color;
         bottom: 29%;
         left: 15%;
-=======
         position: absolute;
         color:$subject-font-color;
-        margin-top: 103%;
-        margin-left: 20%;    
-<<<<<<< HEAD
-=======
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
->>>>>>> ff8f8d8a9d9446ba224c78309acc7afea2dd89a7
->>>>>>> 5681828d483995ed89804476512f62080d1c8a57
+        bottom: 28%;
+        left: 15%;    
     }
     button{
         position: absolute;
         width: 150px;
         height: 30px;
-        left:18%;
+        left:15%;
         text-align: cneter;
         background-color: #0069FF;
         color:$main-font-color;
@@ -159,7 +146,7 @@ body{
     @extend .tag;
     left:36%;
     .tag_title{
-        left:22%;
+        left:16%;
     }
     .tag_cont{
         color:$tag-font-cont-color;
@@ -177,7 +164,7 @@ body{
       @extend .tag;
       left:52%;
       .tag_title{
-        left:33%;
+        left:35%;
     }
   }
   .tag4{
