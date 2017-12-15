@@ -15,6 +15,65 @@
 </head>
 <body>
     <div class="container-fluid">
+            <div class="phone_menu">
+                    <div class="navicon"></div>
+                        <div class="phone_option">
+                            <ul>
+                                <li>
+                                    <a href="service.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/service.png" alt=""></div>
+                                            <div class="col-9">服務介紹<br><p> SERVICE</p></div>
+                                        </div>
+                                    </a>
+                                </li>       
+                                <li>
+                                    <a href="how_to_use.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/how to use.png" alt=""></div>
+                                            <div class="col-9">使用說明<br><p>HOW TO USE</p></div>
+                                        </div>
+                                    </a>
+                                                
+                                </li>               
+                                <li>
+                                    <a href="pricing.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/pricing.png" alt=""></div>
+                                            <div class="col-9">方案與定價<br><p>PRICING</p></div>
+                                        </div> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="search.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/search.png" alt=""></div>
+                                            <div class="col-9">資訊查詢<br><p>SEARCH</p></div>
+                                        </div>
+                                    </a>              
+                                </li>
+                                <li>
+                                    <a href="analysis.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/result analysis.png" alt=""></div>      
+                                            <div class="col-9">結果分析<br><p>SEARCH ANALYSIS</p></div>  
+                                        </div>  
+                                    </a>                           
+                                </li>      
+                                <li>
+                                    <a href="contect.html">
+                                        <div class="row">
+                                            <div class="col-3"><img src="imgs/icon/contact us.png"alt=""></div>
+                                            <div class="col-9">聯絡我們<br><p>CONTECT US</p></div>
+                                        </div>
+                                    </a>     
+                                </li>
+                                <li>
+                                    <a href=""><img src="imgs/icon/facebook.png" alt="" ></a>        
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
             <div class="anavbar" >
                     <a href="index.html">
                 <div class="logo" style="background-image:url(imgs/logo/logo1.png)">   
@@ -145,5 +204,10 @@
  <script src="js/popper.min.js"></script> 
  <script src="js/bootstrap.min.js"></script>
  <script src="js/fontawesome-all.min.js"></script>
+ <script>
+        $(".phone_menu").click(function(){
+            $(".phone_option").toggleClass("active");
+        })
+    </script>
 </body>
 </html>
