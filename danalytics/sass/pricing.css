@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .footer {
   position: static;
   background-color: white;
@@ -15,80 +16,126 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#00B9FF' , GradientType=1);
 }
 
-<<<<<<< HEAD
-.cont {
-  width: 75%;
-  margin-left: 15%;
-  margin-top: 7%;
-  background-image: url("../imgs/bg/bg4.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 120vh;
-}
-
-.cont .title {
-  border-bottom: 2px solid red;
+.title {
+  position: absolute;
   color: #0044E3;
   font-weight: bolder;
   letter-spacing: 10px;
   font-size: 18px;
+  top: 9%;
+  left: 13%;
 }
 
-.cont .title img {
+.title img {
   margin-right: 10px;
 }
 
-.cont .title span {
+.title span {
   padding-left: 10px;
 }
 
-.cont .tag {
-  position: relative;
-  width: 210px;
-  height: 504px;
-  box-shadow: 0px 1px 13px 3px #0044E3;
-}
-
-.cont .tag img {
+.line {
   position: absolute;
+  height: 3px;
+  width: 1408px;
+  top: 14%;
+  left: 13%;
+  background: -moz-linear-gradient(0% 50% 0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
+  background: -webkit-linear-gradient(0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, #0069ff), color-stop(0.0882, rgba(0, 122, 255, 0.97)), color-stop(0.2813, rgba(0, 154, 255, 0.9)), color-stop(0.4435, rgba(0, 174, 255, 0.84)), color-stop(0.5541, rgba(0, 181, 255, 0.8)), color-stop(1, rgba(0, 181, 255, 0)));
+  background: -o-linear-gradient(0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
+  background: -ms-linear-gradient(0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069FF', endColorstr='#00B5FF' ,GradientType=0)";
+  background: linear-gradient(90deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069FF',endColorstr='#00B5FF' , GradientType=1);
+  box-shadow: 0px 1px 13px 3px white;
 }
 
-.cont .tag .up {
-  top: -59px;
-  left: 10px;
-}
-
-.cont .tag .cir {
-  top: 120px;
-}
-
-.cont .tag .title_1 {
-  position: absolute;
-  font-size: 20px;
-  color: #828282;
-  top: 26px;
-  left: 52px;
-=======
-.tag {
+.tag, .tag2, .tag3, .tag4 {
   position: absolute;
   width: 210px;
   height: 540px;
-  box-shadow: 0px 1px 13px 3px black;
+  box-shadow: 0px 1px 17px -1px #00B5FF;
+  border-radius: 10px;
   left: 20%;
   top: 27%;
+  background-color: white;
+  font-weight: bolder;
 }
 
-.tag .up {
+.tag .up, .tag2 .up, .tag3 .up, .tag4 .up {
   position: absolute;
   top: -11%;
   z-index: -1;
 }
 
-.tag .cir {
+.tag .cir, .tag2 .cir, .tag3 .cir, .tag4 .cir {
   position: absolute;
   top: 23%;
->>>>>>> feef289d599334c9b03ec37f20c45ae4584e63a6
+}
+
+.tag .tag_title, .tag2 .tag_title, .tag3 .tag_title, .tag4 .tag_title {
+  font-size: 20px;
+  color: #828282;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.tag ul, .tag2 ul, .tag3 ul, .tag4 ul {
+  color: #828282;
+  margin-top: 103%;
+  margin-left: 15%;
+}
+
+.tag button, .tag2 button, .tag3 button, .tag4 button {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 16%;
+  text-align: cneter;
+  background-color: #0069FF;
+  color: white;
+  font-family: 標楷體;
+  border-radius: 10px;
+  bottom: 25%;
+}
+
+.tag .tag_line, .tag2 .tag_line, .tag3 .tag_line, .tag4 .tag_line {
+  margin-top: 10%;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+
+.tag .tag_cont, .tag2 .tag_cont, .tag3 .tag_cont, .tag4 .tag_cont {
+  color: #FC4463;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tag .tag_cont span, .tag2 .tag_cont span, .tag3 .tag_cont span, .tag4 .tag_cont span {
+  font-size: 6.6px;
+}
+
+.tag2 {
+  left: 36%;
+}
+
+.tag2 ul {
+  margin-top: 74%;
+}
+
+.tag3 {
+  left: 52%;
+}
+
+.tag4 {
+  left: 68%;
+}
+
+.tag4 .tag_line {
+  margin-top: 45%;
 }
  
 
