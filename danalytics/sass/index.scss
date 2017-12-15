@@ -11,11 +11,14 @@ $main-font-color:white;
     text-align:right;
     display: none;
     cursor: pointer;
+    a{
+        color: white;
+    }
     a:visited{
-        color:black;
+        color:rgb(255, 255, 255);
     }
     a:link{
-        color:black;
+        color:rgb(255, 255, 255);
     }
     img{       
         width:15%;
