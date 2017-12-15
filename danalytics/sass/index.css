@@ -83,6 +83,12 @@
   font-size: 14px;
   padding: 10px 26px 0 0;
 }
+
+@media screen and (max-width: 1366px) {
+  .anavbar ul {
+    display: none;
+  }
+}
  
 
  /*# sourceMappingURL= index.css.map */
