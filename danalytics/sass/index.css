@@ -13,12 +13,26 @@
   cursor: pointer;
 }
 
+.phone_menu .navicon {
+  position: absolute;
+  right: 10px;
+  background-image: url(../imgs/icon/navicon.png);
+  height: 60px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.phone_menu a {
+  color: white;
+}
+
 .phone_menu a:visited {
-  color: black;
+  color: white;
 }
 
 .phone_menu a:link {
-  color: black;
+  color: white;
 }
 
 .phone_menu img {
@@ -26,20 +40,38 @@
 }
 
 .phone_menu .phone_option {
+  position: absolute;
+  right: 10px;
+  width: 300px;
+  top: 50px;
   border-right: 2px solid white;
   display: none;
 }
 
 .phone_menu .phone_option ul {
+  background-color: rgba(0, 68, 227, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#00B9FF' , GradientType=1);
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .phone_menu .phone_option ul li {
+  padding: 10px;
   border-bottom: 2px solid white;
 }
 
+.phone_menu .phone_option ul li p {
+  margin: 0;
+}
+
+.phone_menu .phone_option ul li:nth-last-child(1) {
+  border-bottom: none;
+}
+
 .phone_menu .phone_option img {
-  width: 100%;
+  height: 30px;
+  width: 30px;
 }
 
 .active {

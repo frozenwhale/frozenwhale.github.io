@@ -25,12 +25,13 @@ body{
     right:9%;
     font-size:36px;
     color:$main-font-color;
-    padding-top:10%;
+    padding-top:18vh;
     .title{
 
         margin-left:calc(50% - 118px)
     }
     .text{
+        margin-top:0;
         font-size:20px;
         margin-left:calc(50% - 161px);
         margin-bottom:1vh;
