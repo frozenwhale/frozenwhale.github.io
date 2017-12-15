@@ -14,6 +14,7 @@
 }
 
 .cont {
+  height: 800px;
   width: 75%;
   margin-left: 15%;
   margin-top: 3%;
@@ -70,7 +71,7 @@
 }
 
 .footer {
-  position: static;
+  position: fixed;
   bottom: 0px;
   background: -moz-linear-gradient(0% 50% 0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
   background: -webkit-linear-gradient(0deg, #0032de 0%, #003be3 2.09%, #004ff0 8.22%, #005df8 15.2%, #0065fd 23.67%, #0068ff 37.84%, #009eff 79.81%, #00b9ff 100%);
