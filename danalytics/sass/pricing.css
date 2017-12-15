@@ -1,8 +1,8 @@
 @charset "UTF-8";
-.footer {
-  position: static;
-  background-color: white;
-  color: black;
+body {
+  background-image: url(../imgs/bg/bg4.png);
+  height: 100%;
+  background-size: contain;
 }
 
 .anavbar {
@@ -16,29 +16,34 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#00B9FF' , GradientType=1);
 }
 
-.title {
+.container-fluids {
+  position: relative;
+  height: 100vh;
+}
+
+.container-fluids .title {
   position: absolute;
   color: #0044E3;
   font-weight: bolder;
   letter-spacing: 10px;
   font-size: 18px;
-  top: 9%;
+  top: 3%;
   left: 13%;
 }
 
-.title img {
+.container-fluids .title img {
   margin-right: 10px;
 }
 
-.title span {
+.container-fluids .title span {
   padding-left: 10px;
 }
 
-.line {
+.container-fluids .line {
   position: absolute;
   height: 3px;
-  width: 1408px;
-  top: 14%;
+  width: 1000px;
+  top: 10%;
   left: 13%;
   background: -moz-linear-gradient(0% 50% 0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
   background: -webkit-linear-gradient(0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
@@ -51,43 +56,49 @@
   box-shadow: 0px 1px 13px 3px white;
 }
 
-.tag, .tag2, .tag3, .tag4 {
+.container-fluids .tag, .container-fluids .tag2, .container-fluids .tag3, .container-fluids .tag4 {
   position: absolute;
-  width: 210px;
+  width: 15%;
   height: 540px;
   box-shadow: 0px 1px 17px -1px #00B5FF;
   border-radius: 10px;
   left: 20%;
-  top: 27%;
+  top: 22.5%;
   background-color: white;
   font-weight: bolder;
 }
 
-.tag .up, .tag2 .up, .tag3 .up, .tag4 .up {
+.container-fluids .tag .up, .container-fluids .tag2 .up, .container-fluids .tag3 .up, .container-fluids .tag4 .up {
   position: absolute;
   top: -11%;
   z-index: -1;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.tag .cir, .tag2 .cir, .tag3 .cir, .tag4 .cir {
+.container-fluids .tag .cir, .container-fluids .tag2 .cir, .container-fluids .tag3 .cir, .container-fluids .tag4 .cir {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
   position: absolute;
   top: 23%;
 }
 
-.tag .tag_title, .tag2 .tag_title, .tag3 .tag_title, .tag4 .tag_title {
+.container-fluids .tag .tag_title, .container-fluids .tag2 .tag_title, .container-fluids .tag3 .tag_title, .container-fluids .tag4 .tag_title {
   font-size: 20px;
   color: #828282;
   text-align: center;
   margin-top: 12%;
 }
 
-.tag ul, .tag2 ul, .tag3 ul, .tag4 ul {
+.container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
   color: #828282;
   margin-top: 103%;
   margin-left: 15%;
 }
 
-.tag button, .tag2 button, .tag3 button, .tag4 button {
+.container-fluids .tag button, .container-fluids .tag2 button, .container-fluids .tag3 button, .container-fluids .tag4 button {
   position: absolute;
   width: 150px;
   height: 30px;
@@ -100,42 +111,49 @@
   bottom: 25%;
 }
 
-.tag .tag_line, .tag2 .tag_line, .tag3 .tag_line, .tag4 .tag_line {
+.container-fluids .tag .tag_line, .container-fluids .tag2 .tag_line, .container-fluids .tag3 .tag_line, .container-fluids .tag4 .tag_line {
   margin-top: 10%;
   height: 2px;
   width: 100%;
   background-color: black;
 }
 
-.tag .tag_cont, .tag2 .tag_cont, .tag3 .tag_cont, .tag4 .tag_cont {
+.container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
   color: #FC4463;
   font-size: 15px;
   text-align: center;
   margin-top: 40px;
 }
 
-.tag .tag_cont span, .tag2 .tag_cont span, .tag3 .tag_cont span, .tag4 .tag_cont span {
+.container-fluids .tag .tag_cont span, .container-fluids .tag2 .tag_cont span, .container-fluids .tag3 .tag_cont span, .container-fluids .tag4 .tag_cont span {
   font-size: 6.6px;
 }
 
-.tag2 {
+.container-fluids .tag2 {
   left: 36%;
 }
 
-.tag2 ul {
+.container-fluids .tag2 ul {
   margin-top: 74%;
 }
 
-.tag3 {
+.container-fluids .tag3 {
   left: 52%;
 }
 
-.tag4 {
+.container-fluids .tag4 {
   left: 68%;
 }
 
-.tag4 .tag_line {
+.container-fluids .tag4 .tag_line {
   margin-top: 45%;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  color: black;
 }
  
 
