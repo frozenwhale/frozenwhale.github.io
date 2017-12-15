@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="sass/data.css">
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="bookmark" href="/favicon.ico"/>
     
@@ -76,13 +77,47 @@
             </ul>
         </div>
     </div>
-    <div class="container-fluids content">
-        <img src="imgs/bg/bg.png" alt="" style="width:100%">
+    <div class="container-fluids">
+        <div class="cont">
+            <div class="menu">
+                <div class="index">首頁</div>
+                <div class="option">使用者設定</div>
+                <div class="option_in">
+                <ul>
+                    <li>修改密碼</li>
+                    <li>最新公告</li>
+                    <li>系統到期時段查詢</li>
+                    <li>會員等級查詢</li>
+                    <li>服務使用須知</li>
+                    <li>服務加購須知</li>
+                </ul>
+                </div>
+                <div class="option_1">達文析選單</div>
+                <div class="option_1_in">
+                    <ul>
+                        <li>達文析-HERRY</li>
+                        <li>達文析-HERRY</li>
+                        <li>達文析-HERRY</li>
+                        <li>達文析-HERRY</li>
+                    </ul>
+                </div>
+                <div class="out">登出</div>
+            </div>
+        </div>
+        
     </div>
     
  <script src="js/jquery-3.2.1.min.js"></script>  
  <script src="js/popper.min.js"></script> 
  <script src="js/bootstrap.min.js"></script>
  <script src="js/fontawesome-all.min.js"></script>
+ <script>
+    $(".option").click(function(){
+        $(".option_in").toggleClass("active");
+    })
+    $(".option_1").click(function(){
+        $(".option_1_in").toggleClass("active");
+    })
+ </script>
 </body>
 </html>
