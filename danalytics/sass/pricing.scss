@@ -82,29 +82,54 @@ body{
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+<<<<<<< HEAD
         height: 50%;
       position: absolute;
       top:23%;
     }
+=======
+        height: 300px;
+        position: absolute;
+        top:23%;
+    }
+    .tag_title{
+        font-size:20px;
+        color:$subject-font-color;
+        left:31%;
+        position: absolute;
+        top:4%;
+    }
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     ul{
         position: absolute;
         color:$subject-font-color;
+<<<<<<< HEAD
         top: 60%
+=======
+        margin-top: 103%;
+        margin-left: 20%;    
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     }
     button{
         position: absolute;
         width: 150px;
         height: 30px;
-        left:16%;
+        left:23%;
         text-align: cneter;
         background-color: #0069FF;
         color:$main-font-color;
         font-family:標楷體;
         border-radius: 10px;
+<<<<<<< HEAD
         top:60%;
+=======
+        bottom:20%;
+        z-index: 99;
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     }
     .tag_line{
-        margin-top:10%;
+        position: absolute;
+        bottom:22%;
         height: 2px;
         width: 100%;
         background-color: black;
@@ -112,22 +137,42 @@ body{
     .tag_cont{
         color:$tag-font-cont-color;
         font-size:15px;
-        text-align: center;
-        margin-top:40px;
+        position: absolute;
         span{
             font-size:6.6px;
         }
+        left:23%;
+        bottom:10%;
     }
   }
   .tag2{
     @extend .tag;
     left:36%;
+<<<<<<< HEAD
    
+=======
+    .tag_title{
+        left:28%;
+    }
+    .tag_cont{
+        color:$tag-font-cont-color;
+        font-size:15px;
+        position: absolute;
+        span{
+            font-size:6.6px;
+        }
+        left:32%;
+        bottom:10%;
+    }
+  
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
   }
   .tag3{
       @extend .tag;
       left:52%;
-      
+      .tag_title{
+        left:38%;
+    }
   }
   .tag4{
       @extend .tag;

@@ -92,27 +92,49 @@ body {
   top: 23%;
 }
 
+<<<<<<< HEAD
+=======
+.container-fluids .tag .tag_title, .container-fluids .tag2 .tag_title, .container-fluids .tag3 .tag_title, .container-fluids .tag4 .tag_title {
+  font-size: 20px;
+  color: #828282;
+  left: 31%;
+  position: absolute;
+  top: 4%;
+}
+
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 .container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
   position: absolute;
   color: #828282;
+<<<<<<< HEAD
   top: 60%;
+=======
+  margin-top: 103%;
+  margin-left: 20%;
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 }
 
 .container-fluids .tag button, .container-fluids .tag2 button, .container-fluids .tag3 button, .container-fluids .tag4 button {
   position: absolute;
   width: 150px;
   height: 30px;
-  left: 16%;
+  left: 23%;
   text-align: cneter;
   background-color: #0069FF;
   color: white;
   font-family: 標楷體;
   border-radius: 10px;
+<<<<<<< HEAD
   top: 60%;
+=======
+  bottom: 20%;
+  z-index: 99;
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 }
 
 .container-fluids .tag .tag_line, .container-fluids .tag2 .tag_line, .container-fluids .tag3 .tag_line, .container-fluids .tag4 .tag_line {
-  margin-top: 10%;
+  position: absolute;
+  bottom: 22%;
   height: 2px;
   width: 100%;
   background-color: black;
@@ -121,8 +143,9 @@ body {
 .container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
   color: #FC4463;
   font-size: 15px;
-  text-align: center;
-  margin-top: 40px;
+  position: absolute;
+  left: 23%;
+  bottom: 10%;
 }
 
 .container-fluids .tag .tag_cont span, .container-fluids .tag2 .tag_cont span, .container-fluids .tag3 .tag_cont span, .container-fluids .tag4 .tag_cont span {
@@ -133,8 +156,31 @@ body {
   left: 36%;
 }
 
+<<<<<<< HEAD
+=======
+.container-fluids .tag2 .tag_title {
+  left: 28%;
+}
+
+.container-fluids .tag2 .tag_cont {
+  color: #FC4463;
+  font-size: 15px;
+  position: absolute;
+  left: 32%;
+  bottom: 10%;
+}
+
+.container-fluids .tag2 .tag_cont span {
+  font-size: 6.6px;
+}
+
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 .container-fluids .tag3 {
   left: 52%;
+}
+
+.container-fluids .tag3 .tag_title {
+  left: 38%;
 }
 
 .container-fluids .tag4 {
