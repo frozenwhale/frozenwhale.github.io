@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 90vh;
   background: -moz-linear-gradient(-267.69% -407.69% 0deg, #0032de 0%, #003fe1 0.78%, #005ee9 3%, #007af0 5.52%, #0090f6 8.37%, #00a1fa 11.69%, #00acfd 15.8%, #00b3ff 21.56%, #00b5ff 37.57%, #0032de 100%);
   background: -webkit-linear-gradient(0deg, #0032de 0%, #003fe1 0.78%, #005ee9 3%, #007af0 5.52%, #0090f6 8.37%, #00a1fa 11.69%, #00acfd 15.8%, #00b3ff 21.56%, #00b5ff 37.57%, #0032de 100%);
   background: -webkit-gradient(linear, -267.69% -407.69%, -207.4% -407.69%, color-stop(0, #0032de), color-stop(0.0078, #003fe1), color-stop(0.03, #005ee9), color-stop(0.0552, #007af0), color-stop(0.0837, #0090f6), color-stop(0.1169, #00a1fa), color-stop(0.158, #00acfd), color-stop(0.2156, #00b3ff), color-stop(0.3757, #00b5ff), color-stop(1, #0032de));
@@ -18,12 +18,12 @@ body {
   overflow: hidden;
   position: absolute;
   width: 27%;
-  height: 854px;
+  height: 95%;
   background-image: url(../imgs/bg/bg5.png);
   right: 9%;
   font-size: 36px;
   color: white;
-  padding-top: 180px;
+  padding-top: 10%;
 }
 
 .login .title {
@@ -120,7 +120,7 @@ body {
 }
 
 .cont .anaimg {
-  height: 615px;
+  height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
 }
