@@ -82,9 +82,22 @@ body{
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+<<<<<<< HEAD
         height: 50%;
       position: absolute;
       top:23%;
+=======
+        height: 300px;
+        position: absolute;
+        top:27%;
+    }
+    .tag_title{
+        font-size:20px;
+        color:$subject-font-color;
+        left:25%;
+        position: absolute;
+        top:4%;
+>>>>>>> 893158dd20a71edac72b6d915aa3cc4b70217d2f
     }
     ul{
 <<<<<<< HEAD
@@ -95,13 +108,13 @@ body{
 =======
         position: absolute;
         color:$subject-font-color;
-<<<<<<< HEAD
-        top: 60%
-=======
         margin-top: 103%;
         margin-left: 20%;    
+<<<<<<< HEAD
+=======
 >>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 >>>>>>> ff8f8d8a9d9446ba224c78309acc7afea2dd89a7
+>>>>>>> 5681828d483995ed89804476512f62080d1c8a57
     }
     button{
         position: absolute;
@@ -113,19 +126,23 @@ body{
         color:$main-font-color;
         font-family:標楷體;
         border-radius: 10px;
-<<<<<<< HEAD
-        top:60%;
-=======
         bottom:20%;
         z-index: 99;
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     }
     .tag_line{
         position: absolute;
         bottom:22%;
         height: 2px;
         width: 100%;
-        background-color: black;
+        background : -moz-linear-gradient(50% -7860.39% 90deg,rgba(255, 255, 255, 0) 0%,rgba(246, 250, 255, 0.01) 0.74%,rgba(200, 223, 255, 0.05) 4.77%,rgba(157, 197, 255, 0.09) 9.31%,rgba(119, 175, 255, 0.14) 14.19%,rgba(87, 156, 255, 0.2) 19.5%,rgba(59, 140, 255, 0.25) 25.37%,rgba(37, 127, 255, 0.32) 32%,rgba(20, 117, 255, 0.4) 39.74%,rgba(9, 110, 255, 0.49) 49.31%,rgba(2, 106, 255, 0.63) 62.74%,rgba(0, 105, 255, 1) 100%);
+        background : -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, rgba(0, 105, 255, 1) 100%);
+        background : -webkit-gradient(linear,50% -7860.39% ,50% -7897.3% ,color-stop(0,rgba(255, 255, 255, 0) ),color-stop(0.0074,rgba(246, 250, 255, 0.01) ),color-stop(0.0477,rgba(200, 223, 255, 0.05) ),color-stop(0.0931,rgba(157, 197, 255, 0.09) ),color-stop(0.1419,rgba(119, 175, 255, 0.14) ),color-stop(0.195,rgba(87, 156, 255, 0.2) ),color-stop(0.2537,rgba(59, 140, 255, 0.25) ),color-stop(0.32,rgba(37, 127, 255, 0.32) ),color-stop(0.3974,rgba(20, 117, 255, 0.4) ),color-stop(0.4931,rgba(9, 110, 255, 0.49) ),color-stop(0.6274,rgba(2, 106, 255, 0.63) ),color-stop(1,rgba(0, 105, 255, 1) ));
+        background : -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, rgba(0, 105, 255, 1) 100%);
+        background : -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, rgba(0, 105, 255, 1) 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#0069FF' ,GradientType=0)";
+        background : linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, rgba(0, 105, 255, 1) 100%);
+        opacity : 0.4;
+        filter: alpha(opacity=40) progid:DXImageTransform.Microsoft.Alpha(opacity=40) progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069FF',endColorstr='#FFFFFF' , GradientType=0);
     }
     .tag_cont{
         color:$tag-font-cont-color;
@@ -141,9 +158,6 @@ body{
   .tag2{
     @extend .tag;
     left:36%;
-<<<<<<< HEAD
-   
-=======
     .tag_title{
         left:22%;
     }
@@ -158,7 +172,6 @@ body{
         bottom:10%;
     }
   
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
   }
   .tag3{
       @extend .tag;

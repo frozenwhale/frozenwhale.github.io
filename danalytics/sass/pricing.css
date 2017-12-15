@@ -87,13 +87,11 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50%;
+  height: 300px;
   position: absolute;
   top: 27%;
 }
 
-<<<<<<< HEAD
-=======
 .container-fluids .tag .tag_title, .container-fluids .tag2 .tag_title, .container-fluids .tag3 .tag_title, .container-fluids .tag4 .tag_title {
   font-size: 20px;
   color: #828282;
@@ -102,10 +100,13 @@ body {
   top: 4%;
 }
 
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 .container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
   position: absolute;
   color: #828282;
+<<<<<<< HEAD
+  margin-top: 103%;
+  margin-left: 20%;
+=======
 <<<<<<< HEAD
   bottom: 29%;
   left: 15%;
@@ -117,6 +118,7 @@ body {
   margin-left: 20%;
 >>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 >>>>>>> ff8f8d8a9d9446ba224c78309acc7afea2dd89a7
+>>>>>>> 5681828d483995ed89804476512f62080d1c8a57
 }
 
 .container-fluids .tag button, .container-fluids .tag2 button, .container-fluids .tag3 button, .container-fluids .tag4 button {
@@ -129,12 +131,8 @@ body {
   color: white;
   font-family: 標楷體;
   border-radius: 10px;
-<<<<<<< HEAD
-  top: 60%;
-=======
   bottom: 20%;
   z-index: 99;
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 }
 
 .container-fluids .tag .tag_line, .container-fluids .tag2 .tag_line, .container-fluids .tag3 .tag_line, .container-fluids .tag4 .tag_line {
@@ -142,7 +140,15 @@ body {
   bottom: 22%;
   height: 2px;
   width: 100%;
-  background-color: black;
+  background: -moz-linear-gradient(50% -7860.39% 90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, #0069ff 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, #0069ff 100%);
+  background: -webkit-gradient(linear, 50% -7860.39%, 50% -7897.3%, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.0074, rgba(246, 250, 255, 0.01)), color-stop(0.0477, rgba(200, 223, 255, 0.05)), color-stop(0.0931, rgba(157, 197, 255, 0.09)), color-stop(0.1419, rgba(119, 175, 255, 0.14)), color-stop(0.195, rgba(87, 156, 255, 0.2)), color-stop(0.2537, rgba(59, 140, 255, 0.25)), color-stop(0.32, rgba(37, 127, 255, 0.32)), color-stop(0.3974, rgba(20, 117, 255, 0.4)), color-stop(0.4931, rgba(9, 110, 255, 0.49)), color-stop(0.6274, rgba(2, 106, 255, 0.63)), color-stop(1, #0069ff));
+  background: -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, #0069ff 100%);
+  background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, #0069ff 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#0069FF' ,GradientType=0)";
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(246, 250, 255, 0.01) 0.74%, rgba(200, 223, 255, 0.05) 4.77%, rgba(157, 197, 255, 0.09) 9.31%, rgba(119, 175, 255, 0.14) 14.19%, rgba(87, 156, 255, 0.2) 19.5%, rgba(59, 140, 255, 0.25) 25.37%, rgba(37, 127, 255, 0.32) 32%, rgba(20, 117, 255, 0.4) 39.74%, rgba(9, 110, 255, 0.49) 49.31%, rgba(2, 106, 255, 0.63) 62.74%, #0069ff 100%);
+  opacity: 0.4;
+  filter: alpha(opacity=40) progid:DXImageTransform.Microsoft.Alpha(opacity=40) progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069FF',endColorstr='#FFFFFF' , GradientType=0);
 }
 
 .container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
@@ -161,8 +167,6 @@ body {
   left: 36%;
 }
 
-<<<<<<< HEAD
-=======
 .container-fluids .tag2 .tag_title {
   left: 22%;
 }
@@ -179,7 +183,6 @@ body {
   font-size: 6.6px;
 }
 
->>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
 .container-fluids .tag3 {
   left: 52%;
 }
