@@ -137,8 +137,28 @@ body {
   left: 36%;
 }
 
+.container-fluids .tag2 .tag_title {
+  left: 28%;
+}
+
+.container-fluids .tag2 .tag_cont {
+  color: #FC4463;
+  font-size: 15px;
+  position: absolute;
+  left: 32%;
+  bottom: 10%;
+}
+
+.container-fluids .tag2 .tag_cont span {
+  font-size: 6.6px;
+}
+
 .container-fluids .tag3 {
   left: 52%;
+}
+
+.container-fluids .tag3 .tag_title {
+  left: 38%;
 }
 
 .container-fluids .tag4 {

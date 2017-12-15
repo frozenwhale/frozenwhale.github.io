@@ -125,12 +125,27 @@ body{
   .tag2{
     @extend .tag;
     left:36%;
+    .tag_title{
+        left:28%;
+    }
+    .tag_cont{
+        color:$tag-font-cont-color;
+        font-size:15px;
+        position: absolute;
+        span{
+            font-size:6.6px;
+        }
+        left:32%;
+        bottom:10%;
+    }
   
   }
   .tag3{
       @extend .tag;
       left:52%;
-      
+      .tag_title{
+        left:38%;
+    }
   }
   .tag4{
       @extend .tag;
