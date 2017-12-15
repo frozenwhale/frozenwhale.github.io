@@ -84,7 +84,7 @@
   padding: 10px 26px 0 0;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1365px) {
   .anavbar ul {
     display: none;
   }
