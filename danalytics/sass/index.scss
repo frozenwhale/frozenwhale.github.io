@@ -12,6 +12,7 @@ $main-font-color:white;
     display: none;
     cursor: pointer;
     .navicon{
+        top:30px;
         position: absolute;
         right: 10px;
         background-image:url(../imgs/icon/navicon.png);
@@ -34,10 +35,10 @@ $main-font-color:white;
     }
     .phone_option{
         position: absolute;
-        right: 10px;
+        right: 30px;
         width: 300px;
-        top: 50px;
-        border-right: 2px solid white;
+        top: 65px;
+        border-right: 7px solid white;
         display: none;
         ul{
             background-color:rgba(0,68,227,0.5);
