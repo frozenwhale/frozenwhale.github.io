@@ -74,7 +74,11 @@
   letter-spacing: 5px;
 }
 
-.cont .contect .text img {
+.cont .contect .text .list {
+  margin-bottom: 0.75rem;
+}
+
+.cont .contect .text .list img {
   margin-right: 13px;
 }
 

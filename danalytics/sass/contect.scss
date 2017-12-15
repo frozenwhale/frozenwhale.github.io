@@ -63,8 +63,11 @@ $subject-font-color:#7C7C7C;
             font-size:20px;
             line-height:30px;
             letter-spacing: 5px;
-            img{
-                margin-right:13px;
+            .list{
+                margin-bottom:0.75rem;
+                img{
+                    margin-right:13px;
+                }
             }
         }
     }
