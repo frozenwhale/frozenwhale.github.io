@@ -1,3 +1,6 @@
+
+$main-color:#0044E3;
+$main-font-color:white;
 .footer {
     position: static;
     background-color: white;
@@ -13,3 +16,70 @@
     background : linear-gradient(90deg, rgba(0, 50, 222, 1) 0%, rgba(0, 59, 227, 1) 2.09%, rgba(0, 79, 240, 1) 8.22%, rgba(0, 93, 248, 1) 15.2%, rgba(0, 101, 253, 1) 23.67%, rgba(0, 104, 255, 1) 37.84%, rgba(0, 158, 255, 1) 79.81%, rgba(0, 185, 255, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#00B9FF' , GradientType=1);
   }
+<<<<<<< HEAD
+  .cont{
+    width:75%;
+    margin-left:15%;
+    margin-top:7%;
+    background-image:url("../imgs/bg/bg4.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:120vh;
+    .title{
+        border-bottom:2px solid red;
+        color:$main-color;
+        font-weight: bolder;
+        letter-spacing:10px;
+        font-size:18px;
+        img{
+            margin-right:10px;
+        }
+        span{
+            padding-left:10px;
+        }
+    }
+    .tag{
+        position: relative;
+        width: 210px;
+        height: 504px;
+        box-shadow: 0px 1px 13px 3px $main-color;
+        img{
+            position: absolute;
+        }
+        .up{
+            top:-59px;
+            left:10px;
+        }
+        .cir{
+            top:120px;
+        }
+        .title_1{
+            position: absolute;
+            font-size:20px;
+            color:#828282;
+            top:26px;
+            left:52px;
+        }
+    }
+    
+}
+=======
+  .tag{
+    position: absolute;
+    width: 210px;
+    height: 540px;
+    box-shadow: 0px 1px 13px 3px black;
+    left:20%;
+    top:27%;
+    .up{
+      position: absolute;
+      top:-11%;
+      z-index: -1;
+    }
+    .cir{
+      position: absolute;
+      top:23%;
+    }
+  }
+>>>>>>> feef289d599334c9b03ec37f20c45ae4584e63a6
