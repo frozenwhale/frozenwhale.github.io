@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   position: absolute;
   width: 27%;
-  height: 95%;
+  height: 900px;
   background-image: url(../imgs/bg/bg5.png);
   right: 9%;
   font-size: 36px;
@@ -33,13 +33,13 @@ body {
 .login .text {
   font-size: 20px;
   margin-left: calc(50% - 161px);
-  margin-bottom: 13px;
+  margin-bottom: 1vh;
 }
 
 .login .text input {
   text-align: center;
   width: 90%;
-  height: 60px;
+  height: 6vh;
   border-radius: 10px;
   border: 2px solid white;
   background-color: transparent;
@@ -47,14 +47,14 @@ body {
 
 .login .btn1 {
   margin-left: calc(50% - 175px);
-  margin-bottom: 17px;
+  margin-bottom: 2vh;
 }
 
 .login .btn1 button {
   color: white;
   text-align: left;
   width: 90%;
-  height: 60px;
+  height: 6vh;
   border-radius: 10px;
   border: 2px solid white;
   background-color: transparent;
@@ -63,14 +63,14 @@ body {
 
 .login .btn2 {
   margin-left: calc(50% - 175px);
-  margin-bottom: 17px;
+  margin-bottom: 2vh;
 }
 
 .login .btn2 button {
   color: white;
   text-align: left;
   width: 90%;
-  height: 60px;
+  height: 6vh;
   border-radius: 10px;
   border: 2px solid white;
   background-color: transparent;
@@ -120,8 +120,9 @@ body {
 }
 
 .cont .anaimg {
-  height: 700px;
-  background-size: contain;
+  height: 60vh;
+  width: 75.5%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
