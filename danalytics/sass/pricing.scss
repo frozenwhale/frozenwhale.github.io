@@ -71,10 +71,23 @@ body{
       left: 50%;
       transform: translate(-50%)
     }
+   
+    .tag_title{
+        font-size:20px;
+        color:$subject-font-color;
+        text-align:center;
+        margin-top:12%;
+    }
     .cir{
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+<<<<<<< HEAD
+        height: 50%;
+      position: absolute;
+      top:23%;
+    }
+=======
         height: 300px;
         position: absolute;
         top:27%;
@@ -86,11 +99,23 @@ body{
         position: absolute;
         top:4%;
     }
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     ul{
+<<<<<<< HEAD
         position:absolute;
         color:$subject-font-color;
         bottom: 29%;
         left: 15%;
+=======
+        position: absolute;
+        color:$subject-font-color;
+<<<<<<< HEAD
+        top: 60%
+=======
+        margin-top: 103%;
+        margin-left: 20%;    
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
+>>>>>>> ff8f8d8a9d9446ba224c78309acc7afea2dd89a7
     }
     button{
         position: absolute;
@@ -102,8 +127,12 @@ body{
         color:$main-font-color;
         font-family:標楷體;
         border-radius: 10px;
+<<<<<<< HEAD
+        top:60%;
+=======
         bottom:20%;
         z-index: 99;
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
     }
     .tag_line{
         position: absolute;
@@ -126,6 +155,9 @@ body{
   .tag2{
     @extend .tag;
     left:36%;
+<<<<<<< HEAD
+   
+=======
     .tag_title{
         left:22%;
     }
@@ -140,6 +172,7 @@ body{
         bottom:10%;
     }
   
+>>>>>>> 6aca06e589ac4deb25a935f6ddaa54d1b0eb3cf2
   }
   .tag3{
       @extend .tag;
