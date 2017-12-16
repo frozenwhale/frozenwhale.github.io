@@ -229,6 +229,9 @@
   .content .content_bg img {
     height: 100vh;
   }
+  .content .content_img img {
+    width: 85%;
+  }
   .phone_menu {
     display: block;
   }
