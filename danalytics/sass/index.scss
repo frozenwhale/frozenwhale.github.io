@@ -83,40 +83,49 @@ $main-font-color:white;
             background-size: contain;
            position: absolute;
            left:4%;
-           top:40%;
+           top:30%;
         }
         
         ul{ 
             position: absolute;
             top:56px;
-            right:30px;
+            right:0;
             margin: 0px;
            
             li{
                 display: inline-block;
-                border-right:2px solid white;
+               
                 color:$main-font-color;
                 text-align:left;
                 font-size:18px; 
                 padding:0 10px;
                 line-height: 21px;
-                
                 a:visited{
                     color:$main-font-color;
                 }
                 a:link{
                     color:$main-font-color;
                 }
-                .row{
-                    height: 36px;
-                    padding:0px;
+                
+                .nav_img{
+                    float:left;
+                    margin-right:16px;
                 }
-                p{
+                .nav_text{
+                    float:left;
+                    border-right:2px solid white;
+                    padding-right:40px;
+                }
+                scan{
                     font-size:10px;
                 }
             }
             li:nth-child(6){
-                border-right:none;
+                .nav_text{
+                
+                    border-right:none;
+                 
+                }
             }
             li:nth-child(7){
                 border-right:none;
@@ -128,6 +137,7 @@ $main-font-color:white;
     
     img{
         width:100%;
+        
     }
 }
 .footer{
