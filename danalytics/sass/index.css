@@ -209,7 +209,7 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   color: white;
   text-align: right;
@@ -219,7 +219,7 @@
 
 .footer h6 {
   font-size: 14px;
-  padding: 10px 26px 0 0;
+  padding: 10px 10px;
 }
 
 @media screen and (max-width: 1638px) {
