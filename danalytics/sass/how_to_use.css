@@ -37,6 +37,45 @@
   box-shadow: 0px 1px 13px 3px white;
 }
 
+.cont .circle_box {
+  position: absolute;
+  top: 0;
+}
+
+.cont .circle_box .circle_facebook, .cont .circle_box .circle_news, .cont .circle_box .circle_wei, .cont .circle_box .circle_youtube, .cont .circle_box .circle_ptt {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #005EFF;
+}
+
+.cont .circle_box .circle_news {
+  background-color: #673CFF;
+  left: 150px;
+}
+
+.cont .circle_box .circle_wei {
+  background-color: #00B5FF;
+  top: 150px;
+  left: -100px;
+  opacity: 0.8;
+}
+
+.cont .circle_box .circle_youtube {
+  background-color: #FC4463;
+  top: 150px;
+  left: 150px;
+  opacity: 0.8;
+}
+
+.cont .circle_box .circle_ptt {
+  background-color: #989899;
+  top: 150px;
+  left: 300px;
+  opacity: 0.8;
+}
+
 .footer {
   position: fixed;
   height: 4vh;
