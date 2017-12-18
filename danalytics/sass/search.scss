@@ -56,9 +56,11 @@ body{
             width:80%;
             height:50px;
             margin-bottom: 17px;
-            box-shadow: 0px 1px 13px 3px white;
+            box-shadow: 0px 1px 5px 1px white;
             text-align:center;
             font-size:16px;
+            border-width: 0px;
+            outline:none;
         }
         button{ 
             letter-spacing: 1px;
@@ -68,7 +70,8 @@ body{
             background: #0069FF;
             font-size:16px;
             color:$main-font-color;
-            box-shadow: 0px 1px 13px 3px white;
+            box-shadow: 0px 1px 5px 1px white;
+            outline:none;
         }
         img{
            margin-left: 30px
