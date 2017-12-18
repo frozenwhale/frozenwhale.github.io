@@ -57,14 +57,15 @@ $subject-font-color:#7C7C7C;
         }
         .servicsimg_logo{
             @extend .servicsimg_sur ;
-            background-image: url("../imgs/logo/logo2.png")
+            background-image: url("../imgs/logo/logo2.png");
+
 
         }
         .serciveword{
             position:absolute;
             left:  10%;
             top:82px;
-            line-height: 40px;
+            
         }
     }
     
