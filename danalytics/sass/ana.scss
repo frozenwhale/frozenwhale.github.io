@@ -40,9 +40,10 @@ body{
             width: 90%;
             height: 6vh;
             border-radius: 10px;
-            border:2px solid white;
+            border:1px solid white;
             background-color: transparent;
-            box-shadow: 0px 1px 13px 3px white;
+            box-shadow: 0px 1px 5px 1px white;
+            outline:none;
         }   
     }
     .btn1{
@@ -57,7 +58,8 @@ body{
             border:2px solid white;
             background-color: transparent;
             font-size:20px;
-            box-shadow: 0px 1px 13px 3px white;
+            box-shadow: 0px 1px 5px 1px white;
+            outline:none;
         }
     }
     .btn2{
@@ -72,10 +74,13 @@ body{
             border:2px solid white;
             background-color: transparent;
             font-size:20px;
-            box-shadow: 0px 1px 13px 3px white;
+            box-shadow: 0px 1px 5px 1px white;
+            outline:none;
         }
         .arrow{
-            margin-left: 60%
+            margin-left: 60%;
+            height: 25px;
+            width: 15px;
         }
     }
 }
