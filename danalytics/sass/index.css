@@ -133,6 +133,7 @@
   float: left;
   border-right: 2px solid white;
   padding-right: 40px;
+  letter-spacing: 1px;
 }
 
 .container-fluid .anavbar ul li span {
@@ -167,11 +168,12 @@
 
 .container-fluid .anavbar ul li:nth-child(6) .nav_text {
   border-right: none;
-  padding-right: 54px;
+  padding-right: 30px;
 }
 
 .container-fluid .anavbar ul li:nth-child(7) {
   border-right: none;
+  padding-right: 27px;
 }
 
 .content {

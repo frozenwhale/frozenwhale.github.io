@@ -18,6 +18,7 @@ $subject-font-color:black;
         width:218px;
         top:80px;
         .index{
+            letter-spacing:1px;
             height:55px;
             width:218px;
             background-color:$main-color;
@@ -38,7 +39,12 @@ $subject-font-color:black;
             background-color:#F1F1F1;
             ul{
                 margin:0;
-                li{
+                padding-top:20px;
+                padding-bottom:20px;
+                
+                li{ 
+                   
+                    letter-spacing: 1px;
                     margin-bottom:18px;
                 }
                 li:nth-last-child(1){

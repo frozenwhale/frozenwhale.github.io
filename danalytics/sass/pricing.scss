@@ -76,7 +76,7 @@ body{
         font-size:20px;
         color:$subject-font-color;
         text-align:center;
-        margin-top:12%;
+        letter-spacing:4px;
     }
     .cir{
         background-size: contain;
@@ -90,7 +90,7 @@ body{
     .tag_title{
         font-size:20px;
         color:$subject-font-color;
-        left:25%;
+        left:18%;
         position: absolute;
         top:4%;
     }
@@ -112,17 +112,17 @@ body{
         letter-spacing: 8px;
         background-color: #0069FF;
         color:$main-font-color;
-        bottom:20%;
+        bottom:19%;
         z-index: 99;
        
         span{
             position: absolute;
-            top:4px;
-            left:31px;
+            top:2px;
+            left:29px;
         }
         img{
             position: absolute;
-            top:9px;
+            top:8px;
             right:11px;
            
         }
@@ -144,14 +144,14 @@ body{
     }
     .tag_cont{
         color:$tag-font-cont-color;
-        font-size:8.5px;
+        font-size:11px;
         position: absolute;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         font-weight: lighter;
         span{
             font-size:6.6px;
         }
-        left:0;
+        left:15%;
         bottom:10%;
     }
   }
@@ -159,7 +159,7 @@ body{
     @extend .tag;
     left:36%;
     .tag_title{
-        left:16%;
+        left:10%;
     }
     .tag_cont{
         color:$tag-font-cont-color;
@@ -168,7 +168,7 @@ body{
         span{
             font-size:6.6px;
         }
-        left:30%;
+        left:24%;
         bottom:10%;
     }
   
@@ -177,14 +177,18 @@ body{
       @extend .tag;
       left:52%;
       .tag_title{
-        left:35%;
+        left:34%;
     }
   }
   .tag4{
       @extend .tag;
       left:68%;
+      .tag_titile{
+          left:15%;
+      }
       ul{
           bottom:42%;
+          left:8%;
       }
   }
 }

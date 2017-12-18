@@ -17,6 +17,7 @@
 }
 
 .cont .menu .index, .cont .menu .option, .cont .menu .option_1, .cont .menu .out {
+  letter-spacing: 1px;
   height: 55px;
   width: 218px;
   background-color: #0044E3;
@@ -37,9 +38,12 @@
 
 .cont .menu .option_in ul, .cont .menu .option_1_in ul {
   margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .cont .menu .option_in ul li, .cont .menu .option_1_in ul li {
+  letter-spacing: 1px;
   margin-bottom: 18px;
 }
 
