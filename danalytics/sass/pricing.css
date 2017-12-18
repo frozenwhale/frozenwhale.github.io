@@ -24,18 +24,23 @@ body {
   position: absolute;
   color: #0044E3;
   font-weight: bolder;
-  letter-spacing: 10px;
-  font-size: 18px;
+  letter-spacing: 1px;
+  font-size: 28px;
   top: 5.5%;
   left: 15%;
 }
 
 .container-fluids .title img {
   margin-right: 10px;
+  margin-bottom: 8px;
 }
 
 .container-fluids .title span {
   padding-left: 10px;
+  font-size: 22px;
+  font-family: MicrosoftJhengHeiLight;
+  letter-spacing: 0px;
+  font-weight: lighter;
 }
 
 .container-fluids .line {

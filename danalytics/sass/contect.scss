@@ -20,13 +20,18 @@ $subject-font-color:#7C7C7C;
     .title{
         color:$main-font-color;
         font-weight: bolder;
-        letter-spacing:10px;
-        font-size:18px;
+        letter-spacing:1px;
+        font-size:28px;
         img{
             margin-right:10px;
+            margin-bottom:10px;
         }
         span{
             padding-left:10px;
+            font-size:22px;
+			font-family:MicrosoftJhengHeiLight;
+			letter-spacing:0px;
+			font-weight: lighter;
         }
     }
     .line{
