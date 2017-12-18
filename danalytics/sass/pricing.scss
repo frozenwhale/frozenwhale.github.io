@@ -109,13 +109,23 @@ body{
         width: 150px;
         height: 30px;
         left:15%;
-        text-align: cneter;
+        letter-spacing: 8px;
         background-color: #0069FF;
         color:$main-font-color;
-        
-        border-radius: 10px;
         bottom:20%;
         z-index: 99;
+       
+        span{
+            position: absolute;
+            top:4px;
+            left:31px;
+        }
+        img{
+            position: absolute;
+            top:9px;
+            right:11px;
+           
+        }
     }
     .tag_line{
         position: absolute;
@@ -134,12 +144,14 @@ body{
     }
     .tag_cont{
         color:$tag-font-cont-color;
-        font-size:15px;
+        font-size:8.5px;
         position: absolute;
+        letter-spacing: 3px;
+        font-weight: lighter;
         span{
             font-size:6.6px;
         }
-        left:21%;
+        left:0;
         bottom:10%;
     }
   }
