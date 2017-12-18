@@ -47,13 +47,18 @@ $subject-font-color:#7C7C7C;
     .cont_c{
         padding-left:42px;
         padding-right:42px;
-        .servicsimg{
+        .servicsimg_sur{
             margin-top: 87px;
-        
             height: 200px;
             width: 200px;
             background-repeat: no-repeat;
             background-size: contain;
+            background-image: url("../imgs/logo/logo3.png");
+        }
+        .servicsimg_logo{
+            @extend .servicsimg_sur ;
+            background-image: url("../imgs/logo/logo2.png")
+
         }
         .serciveword{
             position:absolute;

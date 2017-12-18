@@ -76,6 +76,11 @@
   opacity: 0.8;
 }
 
+.cont .circle_box .black {
+  background-color: black;
+  z-index: 2;
+}
+
 .footer {
   position: fixed;
   height: 4vh;
