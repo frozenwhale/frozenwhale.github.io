@@ -77,6 +77,9 @@ body{
         color:$subject-font-color;
         text-align:center;
         letter-spacing:4px;
+        width:100%;
+        position: absolute;
+        top:4%;
     }
     .cir{
         background-size: contain;
@@ -87,13 +90,7 @@ body{
         top:27%;
         
     }
-    .tag_title{
-        font-size:20px;
-        color:$subject-font-color;
-        left:18%;
-        position: absolute;
-        top:4%;
-    }
+
     ul{
         position:absolute;
         color:$subject-font-color;
@@ -158,9 +155,6 @@ body{
   .tag2{
     @extend .tag;
     left:36%;
-    .tag_title{
-        left:10%;
-    }
     .tag_cont{
         color:$tag-font-cont-color;
         font-size:15px;
@@ -176,9 +170,6 @@ body{
   .tag3{
       @extend .tag;
       left:52%;
-      .tag_title{
-        left:34%;
-    }
   }
   .tag4{
       @extend .tag;

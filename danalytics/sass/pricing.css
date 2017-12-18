@@ -80,6 +80,9 @@ body {
   color: #828282;
   text-align: center;
   letter-spacing: 4px;
+  width: 100%;
+  position: absolute;
+  top: 4%;
 }
 
 .container-fluids .tag .cir, .container-fluids .tag2 .cir, .container-fluids .tag3 .cir, .container-fluids .tag4 .cir {
@@ -89,14 +92,6 @@ body {
   height: 300px;
   position: absolute;
   top: 27%;
-}
-
-.container-fluids .tag .tag_title, .container-fluids .tag2 .tag_title, .container-fluids .tag3 .tag_title, .container-fluids .tag4 .tag_title {
-  font-size: 20px;
-  color: #828282;
-  left: 18%;
-  position: absolute;
-  top: 4%;
 }
 
 .container-fluids .tag ul, .container-fluids .tag2 ul, .container-fluids .tag3 ul, .container-fluids .tag4 ul {
@@ -168,10 +163,6 @@ body {
   left: 36%;
 }
 
-.container-fluids .tag2 .tag_title {
-  left: 10%;
-}
-
 .container-fluids .tag2 .tag_cont {
   color: #FC4463;
   font-size: 15px;
@@ -186,10 +177,6 @@ body {
 
 .container-fluids .tag3 {
   left: 52%;
-}
-
-.container-fluids .tag3 .tag_title {
-  left: 34%;
 }
 
 .container-fluids .tag4 {
