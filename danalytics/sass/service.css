@@ -55,12 +55,17 @@
   padding-right: 42px;
 }
 
-.cont .cont_c .servicsimg {
+.cont .cont_c .servicsimg_sur, .cont .cont_c .servicsimg_logo {
   margin-top: 87px;
   height: 200px;
   width: 200px;
   background-repeat: no-repeat;
   background-size: contain;
+  background-image: url("../imgs/logo/logo3.png");
+}
+
+.cont .cont_c .servicsimg_logo {
+  background-image: url("../imgs/logo/logo2.png");
 }
 
 .cont .cont_c .serciveword {

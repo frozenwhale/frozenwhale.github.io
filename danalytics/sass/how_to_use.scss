@@ -9,7 +9,12 @@ $tag-font-cont-color:#FC4463;
 			width:100%;
 		}
         
-    }
+	}
+	.cont_bg{
+		img{
+			
+		}
+	}
     .title{ 
 		position: absolute;
 		color:$main-color;
@@ -77,6 +82,11 @@ $tag-font-cont-color:#FC4463;
 			top:150px;
 			left:300px;
 			opacity: 0.8;
+		}
+		.black{
+			background-color: black;
+			
+			z-index:2;
 		}
 	}
 }
