@@ -10,11 +10,7 @@ $tag-font-cont-color:#FC4463;
 		}
         
 	}
-	.cont_bg{
-		img{
-			
-		}
-	}
+	
     .title{ 
 		position: absolute;
 		color:$main-color;
@@ -29,6 +25,12 @@ $tag-font-cont-color:#FC4463;
 		span{
 			padding-left:10px;
 		}
+	}
+	.cont_word{
+		@extend .title ;
+		color:#787878;
+		font-size:30px;
+		top:31%;
 	}
 	.line{
 		position: absolute;

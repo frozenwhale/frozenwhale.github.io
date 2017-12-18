@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.cont .title {
+.cont .title, .cont .cont_word {
   position: absolute;
   color: #0044E3;
   font-weight: bolder;
@@ -12,12 +12,18 @@
   left: 14%;
 }
 
-.cont .title img {
+.cont .title img, .cont .cont_word img {
   margin-right: 10px;
 }
 
-.cont .title span {
+.cont .title span, .cont .cont_word span {
   padding-left: 10px;
+}
+
+.cont .cont_word {
+  color: #787878;
+  font-size: 30px;
+  top: 31%;
 }
 
 .cont .line {
