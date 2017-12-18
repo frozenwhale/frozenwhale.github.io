@@ -51,13 +51,18 @@ body {
 
 .cont .allbox .box {
   width: 50%;
-  font-size: 16px;
-  font-weight: bolder;
+  font-size: 22px;
+  font-weight: normal;
   color: white;
 }
 
 .cont .allbox .box .boxtitle {
-  margin-left: 20%;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.cont .allbox .box .boxtitle span {
+  letter-spacing: 3px;
 }
 
 .cont .allbox .box input {
