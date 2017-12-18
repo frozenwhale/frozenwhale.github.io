@@ -45,7 +45,7 @@
 
 .cont .circle_img {
   position: absolute;
-  background-image: url("../imgs/img/circle.png");
+  background-image: url("../imgs/img/ball.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
