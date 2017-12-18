@@ -44,11 +44,16 @@ body{
         width:100%;
     .box{
         width: 50%;
-        font-size:16px;
-        font-weight: bolder;
+        font-size: 22px;
+        font-weight: normal;
         color:$main-font-color;
+        
         .boxtitle{
-            margin-left:20%; 
+            text-align: center;
+            margin-right: 10%;
+            span{
+                letter-spacing: 3px;
+            }
         }
         input{
             letter-spacing: 1px;
