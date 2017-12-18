@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.cont .title {
+.cont .title, .cont .cont_word {
   position: absolute;
   color: #0044E3;
   font-weight: bolder;
@@ -12,12 +12,18 @@
   left: 14%;
 }
 
-.cont .title img {
+.cont .title img, .cont .cont_word img {
   margin-right: 10px;
 }
 
-.cont .title span {
+.cont .title span, .cont .cont_word span {
   padding-left: 10px;
+}
+
+.cont .cont_word {
+  color: #787878;
+  font-size: 30px;
+  top: 31%;
 }
 
 .cont .line {
@@ -35,6 +41,18 @@
   background: linear-gradient(90deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0069FF',endColorstr='#00B5FF' , GradientType=1);
   box-shadow: 0px 1px 13px 3px white;
+}
+
+.cont .circle_img {
+  position: absolute;
+  background-image: url("../imgs/img/circle.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50%;
+  right: 11%;
+  width: 37%;
+  height: 40%;
 }
 
 .cont .circle_box {
