@@ -177,9 +177,6 @@ $main-font-color:white;
 }
 .content{
     position: relative;
-    width:100%;
-    
-    background-image: url("imgs");
     .content_bg{
         width:100%; 
         position: absolute;;
@@ -214,18 +211,16 @@ $main-font-color:white;
     
 }
 .footer{
-  
-    position: fixed;
     bottom:0;
     color:$main-font-color;
     text-align:right;
+    position:fixed;
     height:4vh;
     width:100%;
     h6{
         font-size:14px;
         padding: 10px 10px;
-    }
-    
+    }  
 }
 @media screen and (max-width:1638px){
     .anavbar{
@@ -246,6 +241,9 @@ $main-font-color:white;
                 width:85%;
             }
             
+        }
+        .content_line{
+            width:677px;
         }
     }
     .phone_menu{
