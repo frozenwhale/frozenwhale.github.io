@@ -115,12 +115,23 @@ body {
   width: 150px;
   height: 30px;
   left: 15%;
-  text-align: cneter;
+  letter-spacing: 8px;
   background-color: #0069FF;
   color: white;
-  border-radius: 10px;
   bottom: 20%;
   z-index: 99;
+}
+
+.container-fluids .tag button span, .container-fluids .tag2 button span, .container-fluids .tag3 button span, .container-fluids .tag4 button span {
+  position: absolute;
+  top: 4px;
+  left: 31px;
+}
+
+.container-fluids .tag button img, .container-fluids .tag2 button img, .container-fluids .tag3 button img, .container-fluids .tag4 button img {
+  position: absolute;
+  top: 9px;
+  right: 11px;
 }
 
 .container-fluids .tag .tag_line, .container-fluids .tag2 .tag_line, .container-fluids .tag3 .tag_line, .container-fluids .tag4 .tag_line {
@@ -141,9 +152,11 @@ body {
 
 .container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
   color: #FC4463;
-  font-size: 15px;
+  font-size: 8.5px;
   position: absolute;
-  left: 21%;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  left: 0;
   bottom: 10%;
 }
 
