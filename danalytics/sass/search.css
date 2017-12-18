@@ -90,6 +90,7 @@ body {
   outline: none;
   font-weight: bolder;
   letter-spacing: 5px;
+  border-width: 0px;
 }
 
 .cont .allbox .box img {
