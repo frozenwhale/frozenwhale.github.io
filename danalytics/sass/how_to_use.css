@@ -6,8 +6,8 @@
   position: absolute;
   color: #0044E3;
   font-weight: bolder;
-  letter-spacing: 5px;
-  font-size: 18px;
+  letter-spacing: 1px;
+  font-size: 28px;
   top: 19%;
   left: 15%;
 }
@@ -18,6 +18,8 @@
 
 .cont .title span, .cont .cont_word span {
   padding-left: 10px;
+  font-size: 22px;
+  font-family: MicrosoftJhengHeiLight;
 }
 
 .cont .cont_word {

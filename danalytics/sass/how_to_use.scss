@@ -15,8 +15,8 @@ $tag-font-cont-color:#FC4463;
 		position: absolute;
 		color:$main-color;
 		font-weight: bolder;
-		letter-spacing:5px;
-		font-size:18px;
+		letter-spacing:1px;
+		font-size:28px;
 		top: 19%;
 		left: 15%;	
 		img{
@@ -24,6 +24,8 @@ $tag-font-cont-color:#FC4463;
 		}
 		span{
 			padding-left:10px;
+			font-size:22px;
+			font-family:MicrosoftJhengHeiLight;
 		}
 	}
 	.cont_word{

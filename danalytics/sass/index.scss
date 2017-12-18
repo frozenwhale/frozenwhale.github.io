@@ -162,7 +162,7 @@ $main-font-color:white;
                 }
             }
             li:nth-child(6){
-                .nav_text{s
+                .nav_text{
                     border-right:none;
                     padding-right:30px;
                 }
@@ -195,6 +195,7 @@ $main-font-color:white;
         color:$main-font-color;
         top: 55vh;
         left: 55%;
+        letter-spacing: 5px;
     }
     .content_line{
         position: absolute;
