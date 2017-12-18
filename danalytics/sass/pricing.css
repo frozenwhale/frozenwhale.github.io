@@ -146,33 +146,14 @@ body {
 }
 
 .container-fluids .tag .tag_cont, .container-fluids .tag2 .tag_cont, .container-fluids .tag3 .tag_cont, .container-fluids .tag4 .tag_cont {
-  color: #FC4463;
-  font-size: 11px;
   position: absolute;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  left: 15%;
   bottom: 10%;
-}
-
-.container-fluids .tag .tag_cont span, .container-fluids .tag2 .tag_cont span, .container-fluids .tag3 .tag_cont span, .container-fluids .tag4 .tag_cont span {
-  font-size: 6.6px;
+  width: 100%;
+  text-align: center;
 }
 
 .container-fluids .tag2 {
   left: 36%;
-}
-
-.container-fluids .tag2 .tag_cont {
-  color: #FC4463;
-  font-size: 15px;
-  position: absolute;
-  left: 24%;
-  bottom: 10%;
-}
-
-.container-fluids .tag2 .tag_cont span {
-  font-size: 6.6px;
 }
 
 .container-fluids .tag3 {
