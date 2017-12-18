@@ -61,6 +61,7 @@ body{
             font-size:16px;
             border-width: 0px;
             outline:none;
+            
         }
         button{ 
             letter-spacing: 1px;
@@ -68,10 +69,12 @@ body{
             width:80%;
             height:50px;
             background: #0069FF;
-            font-size:16px;
+            font-size:20px;
             color:$main-font-color;
             box-shadow: 0px 1px 5px 1px white;
             outline:none;
+            font-weight: bolder;
+            letter-spacing: 5px;
         }
         img{
            margin-left: 30px
