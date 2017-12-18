@@ -8,8 +8,8 @@
   font-weight: bolder;
   letter-spacing: 5px;
   font-size: 18px;
-  top: 23%;
-  left: 14%;
+  top: 19%;
+  left: 15%;
 }
 
 .cont .title img, .cont .cont_word img {
@@ -30,8 +30,8 @@
   position: absolute;
   height: 3px;
   width: 76%;
-  top: 28%;
-  left: 14%;
+  top: 24%;
+  left: 15%;
   background: -moz-linear-gradient(0% 50% 0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
   background: -webkit-linear-gradient(0deg, #0069ff 0%, rgba(0, 122, 255, 0.97) 8.82%, rgba(0, 154, 255, 0.9) 28.13%, rgba(0, 174, 255, 0.84) 44.35%, rgba(0, 181, 255, 0.8) 55.41%, rgba(0, 181, 255, 0) 100%);
   background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, #0069ff), color-stop(0.0882, rgba(0, 122, 255, 0.97)), color-stop(0.2813, rgba(0, 154, 255, 0.9)), color-stop(0.4435, rgba(0, 174, 255, 0.84)), color-stop(0.5541, rgba(0, 181, 255, 0.8)), color-stop(1, rgba(0, 181, 255, 0)));
