@@ -175,18 +175,20 @@ $main-font-color:white;
         }
     }
 }
-.content{
+.cont_index{
+    
     position: relative;
-    .content_bg{
+ 
+    .cont_index_bg{
         width:100%; 
-        position: absolute;;
+        
     }
-    .content_img{
+    .cont_index_img{
         position: absolute;
         top: 51vh;
         left: 31%;
     }
-    .content_text{
+    .cont_index_text{
         position:absolute;
         font-size:35px;
         color:$main-font-color;
@@ -194,7 +196,7 @@ $main-font-color:white;
         left: 55%;
         letter-spacing: 5px;
     }
-    .content_line{
+    .cont_index_line{
         position: absolute;
         width:716px;
         height:6px;

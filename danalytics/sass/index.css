@@ -176,22 +176,21 @@
   padding-right: 27px;
 }
 
-.content {
+.cont_index {
   position: relative;
 }
 
-.content .content_bg {
+.cont_index .cont_index_bg {
   width: 100%;
-  position: absolute;
 }
 
-.content .content_img {
+.cont_index .cont_index_img {
   position: absolute;
   top: 51vh;
   left: 31%;
 }
 
-.content .content_text {
+.cont_index .cont_index_text {
   position: absolute;
   font-size: 35px;
   color: white;
@@ -200,7 +199,7 @@
   letter-spacing: 5px;
 }
 
-.content .content_line {
+.cont_index .cont_index_line {
   position: absolute;
   width: 716px;
   height: 6px;
