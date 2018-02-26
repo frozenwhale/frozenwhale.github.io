@@ -78,19 +78,19 @@
         text-align: center;
     }
     .block_1{
-        height:75px;
+        height:102px;
     }
     .block_2{
-        height:74px;
+        height:101px;
     }
     .block_3{
-        height:74px;
+        height:101px;
     }
     .block_4{
-        height:75px;
+        height:102px;
     }
     .block_5{
-        height:75px;
+        height:102px;
     }
     .img_p{
             width:100%;
@@ -98,7 +98,7 @@
     .img_w:hover{
         filter: grayscale(2);
         transform:scale(1.1,1.1);
-        transition: 0.2s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
     .img_bold{
         font-weight:800;
@@ -107,6 +107,27 @@
     .fal{
             width:20%;
         }
+    .menu{
+        display: none;
+    }
+    nav{
+        text-align: center;
+        background-color:rgba(0,0,0,0.8); 
+        border-top: 1px solid #fed;
+    
+    }
+    nav li{
+        display:inline-block;
+        color:#ccc ;
+        font-size:18px;
+        margin-left:50px;
+    }
+    nav li:hover{
+        color:#fed ;
+    }
+    .phonemenu{
+        display:none;
+    }
     @media screen and (max-width:1280px){
         .img_w{
             filter: grayscale(0);
@@ -115,9 +136,21 @@
         
          transform:scale(1,1);
          transition: 0.2s ease-in-out;
-    }
+        }
+        nav{
+            display:none;
+        }
+        .menu{
+            display: block;
+        }
  }
     @media screen and (max-width:576px){
+        nav{
+            display:none;
+        }
+        .menu{
+            display: block;
+        }
         .img_p{
             width:60%;
         }
@@ -132,6 +165,7 @@
             left:-500px;
             height:105vh;
             top:-10px;
+            display:block;
         }
         .phonemenu.active{
             left:0px;
@@ -171,19 +205,27 @@
     <div class="container bg"style="margin:0 auto">
         <div class="sticky-top">
             <div class="menu" id="menu"><img src="imgs/menu.svg" alt=""></div>
-            <div class="phonemenu ani">
-                <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt="" class="fal"></div>
-                <div class="logo mt-2" style="border-bottom:1px dashed black">Portfolio</div>
-                <div id="think"class="img_bold"  >日新戲院</div>
-                <div id="species" class="img_bold" >茉莉二手書店</div>
-                <div id="mess"class="img_bold"  >EPBOOKS</div>
-                <div id="gallery" class="img_bold" >名片</div>
-                <div id="map" class="img_bold" >其他</div>
-                
-            </div>
+                <div class="phonemenu ani">
+                    <div id="false" style="cursor: pointer"><img src="imgs/false.svg" alt="" class="fal"></div>
+                    <div class="logo mt-2" style="border-bottom:1px dashed black">Portfolio</div>
+                    <div id="think"class="img_bold think"  >日新戲院</div>
+                    <div id="species" class="img_bold species" >茉莉二手書店</div>
+                    <div id="mess"class="img_bold mess"  >EPBOOKS</div>
+                    <div id="gallery" class="img_bold gallery" >名片</div>
+                    <div id="map" class="img_bold map" >其他</div>
+                </div>
             <div class="text">
                 Portfolio
             </div>
+            <nav>
+                <ul>
+                    <li><div class="img_bold think"  >日新戲院</div></a></li>
+                    <li> <div  class="img_bold species" >茉莉二手書店</div></li>
+                    <li> <div class="img_bold mess"  >EPBOOKS</div></li>
+                    <li><div class="img_bold gallery" >名片</div></li>
+                    <li><div  class="img_bold map" >其他</div></li>
+                </ul>
+            </nav>
         </div>
         <div class="block_1"id="think_1"></div>
         <div style="font-size:30px"  class="sub text_center" >
@@ -413,7 +455,7 @@
                 $(".phonemenu").removeClass("active");
             }
         });  
-        $("#think").click(function (){  
+        $(".think").click(function (){  
             $('html, body').animate({  
                 scrollTop: $("#think_1").offset().top  
             }, 700);  
@@ -423,7 +465,7 @@
                 $(".phonemenu").removeClass("active");
             }
         });  
-        $("#species").click(function (){  
+        $(".species").click(function (){  
             $('html, body').animate({  
                 scrollTop: $("#species_1").offset().top  
             }, 700);  
@@ -433,7 +475,7 @@
                 $(".phonemenu").removeClass("active");
             }
         });  
-        $("#mess").click(function (){  
+        $(".mess").click(function (){  
             $('html, body').animate({  
                 scrollTop: $("#mess_1").offset().top  
             }, 700);  
@@ -443,7 +485,7 @@
                 $(".phonemenu").removeClass("active");
             }
         });  
-        $("#gallery").click(function (){  
+        $(".gallery").click(function (){  
             $('html, body').animate({  
                 scrollTop: $("#gallery_1").offset().top  
             }, 700);  
@@ -453,7 +495,7 @@
                 $(".phonemenu").removeClass("active");
             }
         });  
-        $("#map").click(function (){  
+        $(".map").click(function (){  
             $('html, body').animate({  
                 scrollTop: $("#map_1").offset().top  
             }, 700);  

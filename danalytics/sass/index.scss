@@ -1,0 +1,255 @@
+$main-color:#0044E3;
+$main-font-color:white;
+*{
+    font-family:微軟正黑體;
+}
+.phone_menu{
+    position: absolute;
+    right:5%;
+    top:4%;
+    z-index: 99999;
+    text-align:right;
+    display: none;
+    cursor: pointer;
+    .navicon{
+        top:30px;
+        position: absolute;
+        right: 10px;
+        background-image:url(../imgs/icon/navicon.png);
+        height: 60px;
+        width: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    a{
+        color: white;
+    }
+    a:visited{
+        color:rgb(255, 255, 255);
+    }
+    a:link{
+        color:rgb(255, 255, 255);
+    }
+    img{       
+        width:15%;
+    }
+    .phone_option{
+        position: absolute;
+        right: 10px;
+        width: 300px;
+        top: 68px;
+        border-right: 7px solid white;
+        display: none;
+        ul{
+            background: linear-gradient(270deg,rgba(0,179,255,1),rgba(0,179,255,0.5));
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0032DE',endColorstr='#00B9FF' , GradientType=1);
+            
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                padding: 10px;
+                border-bottom:2px solid white;
+                p{
+                    margin:0;
+                }
+            }
+            li:nth-last-child(1){
+                border-bottom:none;
+                
+            }
+        }
+        img{
+            height: 40px;
+            width:35px;
+        }
+    }
+}
+.active{
+    display:block!important;
+}
+.container-fluid{
+    padding:0;
+  
+    .anavbar{
+        position: relative;
+        height:130px;
+        background-color: $main-color;
+        width:100%;
+        .logo{
+            height: 130px;
+            width: 10%;
+            background-repeat: no-repeat;
+            background-size: contain;
+           position: absolute;
+           left:4%;
+           top:30%;
+        }
+        
+        ul{ 
+            position: absolute;
+            top:50px;
+            right:0;
+            margin: 0px;
+           
+            li{
+                display: inline-block;
+                
+                color:$main-font-color;
+                text-align:left;
+                font-size:20px; 
+                padding:0 10px;
+                line-height: 21px;
+                a:visited{
+                    color:$main-font-color;
+                }
+                a:link{
+                    color:$main-font-color;
+                }
+                
+                .nav_img{
+                    float:left;
+                    margin-right:16px;
+                }
+                .nav_text{
+                    float:left;
+                    border-right:2px solid white;
+                    padding-right:40px;
+                    letter-spacing:1px;
+                }
+                span{
+                    font-size:14px;
+                }
+                .fbicon{
+                    margin-bottom: 3px;
+                    width: 44px;
+                    height: 44px;
+                   
+                }
+            }
+            li:nth-child(1){
+                .nav_text{
+                   
+                    padding-right:40px;
+                }
+            }
+            li:nth-child(2){
+                .nav_text{
+                   
+                    padding-right:46px;
+                 
+                }
+            }
+            li:nth-child(3){
+                .nav_text{
+                    
+                    padding-right:30px;
+                 
+                }
+            }
+            li:nth-child(4){
+                .nav_text{
+                  
+                    padding-right:15px;
+                 
+                }
+            }
+            li:nth-child(5){
+                .nav_text{
+                
+                    padding-right:25px;
+                 
+                }
+            }
+            li:nth-child(6){
+                .nav_text{
+                    border-right:none;
+                    padding-right:30px;
+                }
+            }
+            li:nth-child(7){
+                border-right:none;
+                padding-right:27px;
+              
+            }
+        }
+    }
+}
+.cont_index{
+    
+    position: relative;
+ 
+    .cont_index_bg{
+        width:100%; 
+        
+    }
+    .cont_index_img{
+        position: absolute;
+        top: 51vh;
+        left: 31%;
+    }
+    .cont_index_text{
+        position:absolute;
+        font-size:35px;
+        color:$main-font-color;
+        top: 55vh;
+        left: 55%;
+        letter-spacing: 5px;
+    }
+    .cont_index_line{
+        position: absolute;
+        width:716px;
+        height:6px;
+        top: 62vh;
+        left: 50%;
+        background : -moz-linear-gradient(-132.29% -155724.17% 0deg,rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0.9) 50.54%,rgba(255, 255, 255, 0) 98.92%);
+        background : -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50.54%, rgba(255, 255, 255, 0) 98.92%);
+        background : -webkit-gradient(linear,-132.29% -155724.17% ,-32.29% -155724.17% ,color-stop(0,rgba(255, 255, 255, 0) ),color-stop(0.5054,rgba(255, 255, 255, 0.9) ),color-stop(0.9892,rgba(255, 255, 255, 0) ));
+        background : -o-linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50.54%, rgba(255, 255, 255, 0) 98.92%);
+        background : -ms-linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50.54%, rgba(255, 255, 255, 0) 98.92%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF' ,GradientType=0)";
+        background : linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50.54%, rgba(255, 255, 255, 0) 98.92%);
+    }
+    
+}
+.footer{
+    bottom:0;
+    color:$main-font-color;
+    text-align:right;
+    position:fixed;
+    height:4vh;
+    width:100%;
+    h6{
+        font-size:14px;
+        padding: 10px 10px;
+    }  
+}
+@media screen and (max-width:1638px){
+    .anavbar{
+        ul{
+            display:none;
+        }
+        
+    }
+    .content{
+        .content_bg{
+            img{
+            height:100vh;
+            }
+           
+        }
+        .content_img{
+            img{
+                width:85%;
+            }
+            
+        }
+        .content_line{
+            width:677px;
+        }
+    }
+    .phone_menu{
+        display:block
+    }
+}
+  
